@@ -12,6 +12,45 @@
 
 
 // custom layout
+
+/* HEADER */
+
+header {
+  display: flex;
+  color: #fff;
+  background: #222;
+  padding:0.5em 1em;
+  margin-bottom: 2em;
+
+  h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin: 0;
+    padding:0;
+  }
+  nav li {
+    float: left;
+    list-style-type: none;
+    line-height: 3rem;
+    padding-right: 1.5em;
+  }
+  nav ul {
+    list-style: none;
+    margin-left: 2em;
+  }
+  nav a {
+    color: #fff;
+
+    
+  }
+  nav a:hover {
+    color: tomato;
+  }
+}
+
+
+/* CENTRAL CONTENT AREA */
+
 .theMeat {
   display: flex;
   flex-direction: column;
@@ -23,15 +62,20 @@
     flex-direction: row;
   }
   .theMeat nav {
-    width: 25%;
+    width: 20%;
     order: 1;
     border-right: 1px solid #ccc;
 
+    li {
+      list-style: none;
+      margin-left: 0;
+      padding-left: 0;
+    }
     li strong {padding-top: 1em;}
   }
 
   .theMeat main {
-    width: 75%;
+    width: 80%;
     order: 2;
     padding-left: 1em;
   }
@@ -44,6 +88,16 @@
   font-weight: bold;
   margin: 1.5em 0 .4em;
   display: block;
+}
+
+// grid
+.theGrid {
+  .col {
+    background: tomato;
+    text-align: center;
+    padding: 1em 0;
+    color: #fff;
+  }
 }
 
 

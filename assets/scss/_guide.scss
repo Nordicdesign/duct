@@ -18,12 +18,13 @@
 
 /*BASIC TYPOGRAPHY*/
 
-html {font-size: 1em;}
+html {font-size: 62.5%;}
 body {
 	font-family: $font-stack;
 	line-height: 1.45;
 	color: $primary-color;
 	font-weight: 400;
+	font-size: 1.6rem;
 }
 
 p {
@@ -54,18 +55,18 @@ h1, h2, h3, h4 {
   line-height: 1.2;
 }
 
-h1 {
+h2 {
   margin-top: 0;
-  font-size: 3.157em;
+  font-size: 3.157rem;
 }
 
-h2 {font-size: 2.369em;}
+h3 {font-size: 2.369rem;}
 
-h3 {font-size: 1.777em;}
+h4 {font-size: 1.777rem;}
 
-h4 {font-size: 1.333em;}
+h5 {font-size: 1.333rem;}
 
-small, .font_small {font-size: 0.75em;}
+small, .font_small {font-size: 0.75rem;}
 
 
 /*QUOTES*/
@@ -80,7 +81,7 @@ blockquote {
 
 ul,
 ul > li {
-	list-style-type: disc!important;
+	list-style-type: disc;
 	list-style-position: outside;
 	margin-left: 20px;
 }

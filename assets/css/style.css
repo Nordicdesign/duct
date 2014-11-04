@@ -40,13 +40,14 @@
 /*IMAGES*/
 /*BASIC TYPOGRAPHY*/
 html {
-  font-size: 1em; }
+  font-size: 62.5%; }
 
 body {
   font-family: "Lato", Helvetica, arial, sans-serif;
   line-height: 1.45;
   color: #222;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 1.6rem; }
 
 p {
   margin-bottom: 1.3em; }
@@ -69,21 +70,21 @@ h1, h2, h3, h4 {
   font-weight: inherit;
   line-height: 1.2; }
 
-h1 {
-  margin-top: 0;
-  font-size: 3.157em; }
-
 h2 {
-  font-size: 2.369em; }
+  margin-top: 0;
+  font-size: 3.157rem; }
 
 h3 {
-  font-size: 1.777em; }
+  font-size: 2.369rem; }
 
 h4 {
-  font-size: 1.333em; }
+  font-size: 1.777rem; }
+
+h5 {
+  font-size: 1.333rem; }
 
 small, .font_small {
-  font-size: 0.75em; }
+  font-size: 0.75rem; }
 
 /*QUOTES*/
 blockquote {
@@ -94,7 +95,7 @@ blockquote {
 /*LISTS*/
 ul,
 ul > li {
-  list-style-type: disc !important;
+  list-style-type: disc;
   list-style-position: outside;
   margin-left: 20px; }
 
@@ -346,7 +347,7 @@ a:hover.tooltips span {
 
 .col {
   float: left;
-  padding-right: 10px; }
+  padding: 0 5px; }
 
 .right {
   display: inline;
@@ -442,6 +443,32 @@ a:hover.tooltips span {
     border-left: 5px solid #222;
     width: 70%; }
 
+/* HEADER */
+header {
+  display: flex;
+  color: #fff;
+  background: #222;
+  padding: 0.5em 1em;
+  margin-bottom: 2em; }
+  header h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin: 0;
+    padding: 0; }
+  header nav li {
+    float: left;
+    list-style-type: none;
+    line-height: 3rem;
+    padding-right: 1.5em; }
+  header nav ul {
+    list-style: none;
+    margin-left: 2em; }
+  header nav a {
+    color: #fff; }
+  header nav a:hover {
+    color: tomato; }
+
+/* CENTRAL CONTENT AREA */
 .theMeat {
   display: flex;
   flex-direction: column; }
@@ -451,17 +478,27 @@ a:hover.tooltips span {
     flex-direction: row; }
 
   .theMeat nav {
-    width: 25%;
+    width: 20%;
     order: 1;
     border-right: 1px solid #ccc; }
+    .theMeat nav li {
+      list-style: none;
+      margin-left: 0;
+      padding-left: 0; }
     .theMeat nav li strong {
       padding-top: 1em; }
 
   .theMeat main {
-    width: 75%;
+    width: 80%;
     order: 2;
     padding-left: 1em; } }
 .theMeat nav li.nav-category, nav span {
   font-weight: bold;
   margin: 1.5em 0 .4em;
   display: block; }
+
+.theGrid .col {
+  background: tomato;
+  text-align: center;
+  padding: 1em 0;
+  color: #fff; }
