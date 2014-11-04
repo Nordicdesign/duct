@@ -1,0 +1,139 @@
+{
+  "modules": {
+    "collection": {
+      "/modules/example-module": {
+        "title": "Example module",
+        "layout": "module",
+        "published": true,
+        "date": "2014-11-02 00:00:00 UTC",
+        "slug": "/modules/example-module",
+        "tags": [
+          "example",
+          "news",
+          "story"
+        ],
+        "body": "\n\n\n \n<h2>Example module</h2>\n\t<p>Lorem ipsum non sociosqu fusce. Morbi nibh nibh lorem. Sed amet vehicula suscipit feugiat ad velit elit. Laoreet viverra condimentum est velit in ligula vel malesuada eros enim quis. Massa mollis tortor vulputate scelerisque massa quisque commodo nibh ornare et. Imperdiet ullamcorper vel scelerisque eget quam phasellus quam nibh mollis. Duis ullamcorper. \n\n</p><p>Suspendisse scelerisque dolor nibh arcu vivamus mi at ligula. Donec erat cursus turpis mi. Sed in velit a ut ante. Aliquam in lectus et justo. Gravida suscipit sed viverra. Integer inceptos suscipit ut velit a nunc aenean. Orci a commodo elementum quisque libero sed lacinia interdum. Netus quisque consequat commodo. \n\n</p>\n\t\n\n\n\n \n\t<p>Lorem ipsum et sem inceptos. Morbi feugiat diam aliquam conubia orci ultrices eros curabitur. Sed lacinia morbi quam per suspendisse. Velit ante duis sapien. Sit curabitur aliquam dapibus aptent morbi dictum curabitur posuere malesuada pulvinar. Elementum non nec nullam tellus morbi sed donec felis augue. Iaculis eget integer sed class a tempor. \n\n</p>\n\t\n\n\n\n<h1>Some code goes here</h1>\n<p>Hola!</p>\n\n\n\n",
+        "month": "11",
+        "year": "2014",
+        "ticks": 1414886400.0,
+        "mixture_month_year": "11/2014",
+        "mixture_date": "2014-11-02T00:00:00Z"
+      },
+      "/modules/corporate-training": {
+        "title": "Corporate training",
+        "layout": "layout",
+        "published": true,
+        "date": "2014-11-02 00:00:00 UTC",
+        "slug": "/modules/corporate-training",
+        "body": "\n\n\n <div class=\"row\">\n    <div class=\"small4 large8 col\">\n    \t<h2>Corporate training</h2>\n\t\t<h3>Module</h3>\n\t\tLorem ipsum vitae accumsan cursus suspendisse nascetur magna vestibulum id. Inceptos erat mollis sociosqu. Accumsan justo nam nunc. Vulputate massa scelerisque vestibulum. In justo class dui. Arcu iaculis lectus facilisis vitae metus turpis massa nec donec id. Suspendisse in sem velit sagittis ridiculus duis inceptos imperdiet ridiculus elit. Senectus per massa elementum. \n\n\n\t\t<h4>How it looks like</h4>\n    \t<img src=\"/assets/img/corporate-training.png\" alt=\"\" />\n\n    </div>\n</div>\n\n<div class=\"row\">\n\t<div class=\"small4 large4 col\">\n\t<h4>HTML</h4>\n    \t<pre>\n        \t<code class=\"html\">\n<!-- code starts here, use this to encode it http://www.htmlescape.net/htmlescape_tool.html -->\n&lt;div id=&quot;privateheader&quot;&gt;\n\t&lt;h2&gt;Corporate training&lt;/h2&gt;\n&lt;/div&gt;       \t\t\n&lt;div id=&quot;privatecourses&quot;&gt;\n&lt;h3&gt;Digital skills development&lt;/h3&gt;\n&lt;p&gt;We work within your organisation to guide your team's skill development, providing benefits above and beyond our regular training services&lt;/p&gt;\n&lt;p class=&quot;more&quot;&gt;&lt;a href=&quot;/training/corporate-training.shtml&quot;&gt;about corporate training&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;\n<!-- code ends here -->\n        \t</code>\n        </pre>\t\n    </div>\n    <div class=\"small4 large4 col\">\n    \t<h4>CSS</h4>\n    \t<pre>\n        \t<code class=\"css\">\n<!-- code starts here -->\n#privateheader h2 {\n\tfont:3.1em gil,\"trebuchet MS\",helvetica,sans-serif;\n\tline-height:.9em;\n\tbackground: url(../i-2012/private.gif) no-repeat 0 0;\n\tmin-height:95px;\n\tpadding-left:115px;\n\tpadding-bottom:25px;\n\ttext-transform: lowercase;\n\tpadding-top:20px;\n\tmargin-bottom:0;\n\tmargin-top:0\n}\n#privatecourses {\n\tpadding-bottom:5px;\n\tbackground: url(../i-2012/stars-high.gif) no-repeat 50% 100%;\n\tmargin-bottom:10px\n}\n<!-- code ends here -->\n        \t</code>\n        </pre>\n                            \n    </div>\n</div>\n\n\n",
+        "month": "11",
+        "year": "2014",
+        "ticks": 1414886400.0,
+        "mixture_month_year": "11/2014",
+        "mixture_date": "2014-11-02T00:00:00Z"
+      }
+    },
+    "index": {
+      "title": {
+        "example module": [
+          "/modules/example-module"
+        ],
+        "corporate training": [
+          "/modules/corporate-training"
+        ]
+      },
+      "transliterated-title": {
+        "example-module": [
+          "/modules/example-module"
+        ],
+        "corporate-training": [
+          "/modules/corporate-training"
+        ]
+      },
+      "layout": {
+        "module": [
+          "/modules/example-module"
+        ],
+        "layout": [
+          "/modules/corporate-training"
+        ]
+      },
+      "transliterated-layout": {
+        "module": [
+          "/modules/example-module"
+        ],
+        "layout": [
+          "/modules/corporate-training"
+        ]
+      },
+      "slug": {
+        "/modules/example-module": [
+          "/modules/example-module"
+        ],
+        "/modules/corporate-training": [
+          "/modules/corporate-training"
+        ]
+      },
+      "transliterated-slug": {
+        "/modules/example-module": [
+          "/modules/example-module"
+        ],
+        "/modules/corporate-training": [
+          "/modules/corporate-training"
+        ]
+      },
+      "tags": {
+        "example": [
+          "/modules/example-module"
+        ],
+        "news": [
+          "/modules/example-module"
+        ],
+        "story": [
+          "/modules/example-module"
+        ]
+      },
+      "transliterated-tags": {
+        "example": [
+          "/modules/example-module"
+        ],
+        "news": [
+          "/modules/example-module"
+        ],
+        "story": [
+          "/modules/example-module"
+        ]
+      },
+      "month": {
+        "11": [
+          "/modules/example-module",
+          "/modules/corporate-training"
+        ]
+      },
+      "year": {
+        "2014": [
+          "/modules/example-module",
+          "/modules/corporate-training"
+        ]
+      },
+      "ticks": {
+        "1414886400.0": [
+          "/modules/example-module",
+          "/modules/corporate-training"
+        ]
+      },
+      "mixture_month_year": {
+        "11/2014": [
+          "/modules/example-module",
+          "/modules/corporate-training"
+        ]
+      },
+      "mixture_date": {
+        "2014-11-02t00:00:00z": [
+          "/modules/example-module",
+          "/modules/corporate-training"
+        ]
+      }
+    }
+  }
+}

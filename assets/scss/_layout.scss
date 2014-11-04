@@ -1,0 +1,78 @@
+/*grid setup*/
+
+.container {
+  width: 96%;
+    max-width: $max-width;
+    margin: 0 auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+  float: left;
+  padding-right: 10px;
+}
+
+.col:last-of-type {
+  //padding-right: 0;
+
+}
+
+.right {
+  display: inline;
+  float:right;
+  padding-right: 0;
+}
+
+.gutter {
+  padding: 10px;
+}
+
+.gutter > [class*='col']:last-of-type {
+  padding-right: 10px;
+}
+
+.filler {
+  padding: 10px;
+}
+
+// generates X number of LARGE classes for the grid //
+@for $i from 1 through $large-column-number {
+  .large#{$i} { width: 100% / $large-column-number * $i; }
+}
+
+
+// MEDIA QUERIES
+
+/*800px and below*/
+
+@media (max-width:800px) {
+
+
+// generates X number of SMALL classes for the grid //
+@for $i from 1 through $small-column-number {
+  .small#{$i} { width: 100% / $small-column-number * $i; }
+}
+
+
+}
+
+/*480px and below*/
+
+@media (max-width:480px) {
+
+.col {
+  padding-right: 0;
+}
+
+// generates X number of SMALL classes, each one with 100% width //
+@for $i from 1 through $small-column-number {
+  .small#{$i} { width: 100% }
+}
+
+
+}

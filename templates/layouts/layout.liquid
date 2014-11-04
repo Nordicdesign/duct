@@ -1,0 +1,20 @@
+{% include "head" %}
+    <body>
+        {% include "header" %}
+        <div class="container">
+            <!-- Include -->
+            
+            <!-- Content block, child page inject content -->
+            <div class="theMeat">
+                <main>
+                {% block content %}{% endblock %}
+                </main>
+                {% include "navigation" %}
+            </div>
+            {% include "footer" %}
+        </div>
+        <!-- Script block allowing child pages to inject their own scripts -->
+        {% block scripts %}{% endblock %}
+        {{ "app.js" | asset_url | script_tag }}
+    </body>
+</html>

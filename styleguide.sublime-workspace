@@ -1,0 +1,352 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"co",
+				"code	Tag"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"font-s",
+				"font-stack"
+			],
+			[
+				"prima",
+				"primary-color"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/user/Documents/Design/styleguide-boilerplate"
+	],
+	"file_history":
+	[
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/templates/layouts/layout.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/templates/components/typography.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/assets/scss/style.scss",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/assets/scss/_guide.scss",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/templates/layouts/module.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/assets/scss/_client.scss",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/mixture.json",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/templates/components/navigation.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/assets/scss/_client.css",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/templates/includes/navigation.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/templates/components/responsive-grid.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/templates/typography.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/collections/modules/corporate-training.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/templates/corporate-training.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/templates/module.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/templates/index.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/templates/includes/footer.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/collections/modules/example-module.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/templates/includes/header.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/assets/scss/_config.scss",
+		"/Users/user/Documents/Work/Webcredible/Internal/code/webbyc-front-end-style-guide/assets/scss/_reset.scss",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/assets/sass/_layout.scss",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/assets/sass/_reset.scss",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/assets/sass/_guide.scss",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/assets/sass/style.scss",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/templates/case-studies/dulux-visualiser.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/templates/work.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/templates/index.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/templates/contact.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/templates/training.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/mixture.json",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/templates/blog.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/models/_sitemap.json",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/templates/includes/header.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/templates/what-we-do.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/templates/layouts/layout.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/templates/layouts/index.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/assets/sass/_config.scss",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/templates/includes/head.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/assets/sass/layout.scss",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/templates/includes/grid.liquid",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/assets/sass/_settings.scss",
+		"/Users/user/Documents/Work/Webcredible/Internal/electric/webcredible-mixture/assets/sass/app.scss",
+		"/Users/user/Documents/Work/Webcredible/jekyll-checklists/_includes/header.html",
+		"/Users/user/Documents/Work/Webcredible/jekyll-checklists/_layouts/default.html",
+		"/Users/user/Documents/Work/Webcredible/jekyll-checklists/_sass/_base.scss",
+		"/Users/user/Documents/Work/Webcredible/jekyll-checklists/_sass/_layout.scss",
+		"/Users/user/Documents/Work/Webcredible/New Biz/Euromoney/09 Code/easyjet/scss/style.scss",
+		"/Users/user/Documents/Work/Webcredible/New Biz/Euromoney/09 Code/easyjet/css/style.css",
+		"/Users/user/Documents/Work/Webcredible/jekyll-checklists/css/main.scss",
+		"/Users/user/Documents/Work/Webcredible/jekyll-checklists/_config.yml",
+		"/Users/user/Documents/Work/Webcredible/test-library/_sass/_layout.scss",
+		"/Users/user/Documents/Work/Webcredible/test-library/_layouts/post.html",
+		"/Users/user/Documents/Work/Webcredible/test-library/_posts/2014-09-20-sending-files.markdown",
+		"/Users/user/Documents/Work/Webcredible/test-library/css/main.scss",
+		"/Users/user/Documents/Work/Webcredible/test-library/_sass/_base.scss",
+		"/Users/user/Documents/Work/Webcredible/test-library/index.html",
+		"/Users/user/Documents/Work/Webcredible/test-library/_includes/footer.html",
+		"/Users/user/Documents/Work/Webcredible/test-library/js/magic.js",
+		"/Users/user/Documents/Work/Webcredible/test-library/_layouts/default.html",
+		"/Users/user/Documents/Work/Webcredible/test-library/_includes/header.html",
+		"/Users/user/Documents/Work/Webcredible/test-library/_posts/2014-09-14-stakeholder-workshops.markdown",
+		"/Users/user/Documents/Work/Webcredible/test-library/_includes/head.html",
+		"/Users/user/Documents/Work/Webcredible/test-library/_posts/2014-09-20-welcome-to-jekyll.markdown",
+		"/Users/user/Documents/Work/Webcredible/test-library/_config.yml",
+		"/Users/user/Documents/Work/Webcredible/test-library/_layouts/page.html",
+		"/Users/user/Downloads/initializr/index.html",
+		"/Users/user/Documents/Design/Nordic Design/WP Theme/nordicv5/single.php",
+		"/Users/user/Documents/Design/Nordic Design/WP Theme/nordicv5/p.txt",
+		"/Users/user/Documents/Design/Nordic Design/WP Theme/nordicv5/style.css",
+		"/Users/user/Documents/Design/Nordic Design/WP Theme/nordicv5/page.php",
+		"/Users/user/Documents/Work/Webcredible/easyJet/FAQs/09 Code/p_homepage.html",
+		"/Users/user/Documents/Work/Webcredible/easyJet/FAQs/09 Code/css/scss/grid.scss",
+		"/Users/user/Documents/Work/Webcredible/easyJet/FAQs/09 Code/css/scss/style.scss",
+		"/Users/user/Documents/Work/Webcredible/easyJet/FAQs/09 Code/css/scss/_reset.scss",
+		"/Users/user/Documents/Work/Webcredible/easyJet/FAQs/09 Code/css/scss/guide.scss",
+		"/Users/user/Documents/Work/Webcredible/easyJet/FAQs/09 Code/css/style.css",
+		"/Users/user/Documents/Work/Webcredible/webcredible-boilerplate/grid/css/grid.css",
+		"/Users/user/Documents/Work/Webcredible/codeTest/index.html",
+		"/Users/user/Documents/Work/Webcredible/codeTest/css/scss/_reset.scss",
+		"/Users/user/Documents/Work/Webcredible/codeTest/css/scss/grid.scss",
+		"/Users/user/Documents/Work/Webcredible/codeTest/css/grid.css",
+		"/Users/user/Documents/Work/Webcredible/codeTest/scss/grid.scss",
+		"/Users/user/Documents/Work/Webcredible/codeTest/scss/_reset.scss",
+		"/Users/user/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".row",
+			"post-me",
+			"home",
+			"wrap",
+			"page-con",
+			"images",
+			"..search",
+			"<div class=\"two col\"><p>Two</p></div>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "styleguide.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

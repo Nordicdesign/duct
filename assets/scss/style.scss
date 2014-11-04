@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+// start with all the variables and CSS reset
+
+@import 'config';
+@import 'reset';
+@import 'guide';
+@import 'layout';
+
+//the client's style guide
+@import 'client-guide';
+
+
+// custom layout
+.theMeat {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media all and (min-width: 55em) {
+  .theMeat {
+    flex-direction: row;
+  }
+  .theMeat nav {
+    width: 25%;
+    order: 1;
+    border-right: 1px solid #ccc;
+
+    li strong {padding-top: 1em;}
+  }
+
+  .theMeat main {
+    width: 75%;
+    order: 2;
+    padding-left: 1em;
+  }
+
+}
+
+// MAIN NAVIGATION
+
+.theMeat nav li.nav-category, nav span {
+  font-weight: bold;
+  margin: 1.5em 0 .4em;
+  display: block;
+}
+
+
+// FOOTER

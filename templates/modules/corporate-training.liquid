@@ -1,0 +1,51 @@
+{% layout "module" %}
+
+
+{% block content %} 
+<h2>Corporate training</h2>
+<h3>Module</h3>
+<p>You may have a description on how this module is used here...</p>
+	
+{% endblock %}
+
+
+{% block visuals %} 
+{{ "corporate-training.png" | asset_url | image_tag }}	
+{% endblock %}
+
+
+{% block html %}
+<!-- code starts here, use this to encode it http://www.htmlescape.net/htmlescape_tool.html -->
+&lt;div id=&quot;privateheader&quot;&gt;
+	&lt;h2&gt;Corporate training&lt;/h2&gt;
+&lt;/div&gt;       		
+&lt;div id=&quot;privatecourses&quot;&gt;
+&lt;h3&gt;Digital skills development&lt;/h3&gt;
+&lt;p&gt;We work within your organisation to guide your team's skill development, providing benefits above and beyond our regular training services&lt;/p&gt;
+&lt;p class=&quot;more&quot;&gt;&lt;a href=&quot;/training/corporate-training.shtml&quot;&gt;about corporate training&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+<!-- code ends here -->
+{% endblock %}
+
+
+{% block css %}
+<!-- code starts here -->
+#privateheader h2 {
+	font:3.1em gil,"trebuchet MS",helvetica,sans-serif;
+	line-height:.9em;
+	background: url(../i-2012/private.gif) no-repeat 0 0;
+	min-height:95px;
+	padding-left:115px;
+	padding-bottom:25px;
+	text-transform: lowercase;
+	padding-top:20px;
+	margin-bottom:0;
+	margin-top:0
+}
+#privatecourses {
+	padding-bottom:5px;
+	background: url(../i-2012/stars-high.gif) no-repeat 50% 100%;
+	margin-bottom:10px
+}
+<!-- code ends here -->
+{% endblock %}
