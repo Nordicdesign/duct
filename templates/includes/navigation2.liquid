@@ -1,0 +1,11 @@
+<nav id="navigation">
+
+{% collection "modules" %}
+  <ul>
+  {% for post in collection.items %}
+    <li><a href="{{ post.slug }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+{% endcollection %}
+
+</nav>

@@ -40,7 +40,7 @@
         "url": "/modules/corporate-training"
       }
     ],
-    "directory": true,
+    "directory": false,
     "key": "modules",
     "name": "Modules",
     "url": "/modules"
