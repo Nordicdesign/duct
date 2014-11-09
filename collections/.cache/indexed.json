@@ -183,10 +183,11 @@
     "collection": {
       "/elements/navigation": {
         "title": "Navigation",
+        "layout": "blocks",
         "published": true,
         "date": "2014-11-09 00:00:00 UTC",
         "slug": "/elements/navigation",
-        "body": "\n \n\t\n<h1>Navigation</h1>\n\t<p>Lorem ipsum magna sem lacus eros augue commodo amet facilisis velit pretium torquent. Hendrerit libero ac hymenaeos pellentesque mollis ornare accumsan mauris id. Tempor ipsum et sodales dolor mi aptent amet massa sed accumsan ut. Lorem ullamcorper nibh sit et nulla pretium sapien semper. Amet vivamus praesent a massa est integer morbi. \n\n</p><p>Nibh vitae velit amet iaculis pretium mauris mattis vivamus donec. Id sollicitudin gravida auctor fames pellentesque orci libero praesent mi congue donec. Nulla molestie dictumst dapibus libero turpis. Pede sagittis nascetur massa lacinia leo lectus mi aliquet. Duis et lacus scelerisque amet nonummy tempor taciti massa torquent sapien quam. Aenean. \n\n</p><p>Adipiscing duis interdum vel non duis tellus sed accumsan libero ut. Ut cursus nunc scelerisque elit ac scelerisque interdum ultrices luctus molestie accumsan. Mi nulla ac laoreet cubilia arcu lectus in. Integer orci mi metus in ornare inceptos. Porttitor fusce tincidunt. Ullamcorper eu morbi accumsan non. Nulla in ipsum justo. \n\n</p><p>Aliquam etiam justo commodo netus nisi turpis purus erat pellentesque vel. Imperdiet condimentum lacus magna malesuada massa ut sed a aenean ut in. Nisi luctus vitae viverra hac. Vulputate at quam. Ac duis diam adipiscing nunc et neque sem sapien orci cras dignissim. Lacus orci quis pellentesque scelerisque interdum et. \n\n</p><p>Elit eu elit enim suspendisse neque metus laoreet nullam ut. Habitasse ligula at in nibh. Sociosqu vel cras et turpis amet tristique. Lorem vulputate dictum. Commodo sodales commodo orci sed nunc ultrices congue sapien. Ornare nec duis. Integer leo aliquam ligula. Eu hymenaeos non bibendum elit tortor donec in nisi. \n\n</p>\n\t\n",
+        "body": "\n \n\t\n<h1>Navigation</h1>\n\t<p>Lorem ipsum pellentesque duis nullam sed. Massa a sapien vestibulum nibh primis orci luctus fusce. Quisque vel scelerisque nunc suscipit quis suspendisse fames justo porttitor fames. Quis non sodales tincidunt et suscipit at metus aenean sed ante. Enim mattis tristique pretium et massa semper libero molestie hymenaeos fusce mattis. Mauris bibendum nunc. \n\n</p><p>Non consectetuer neque scelerisque netus. Laoreet duis nunc lobortis congue. Egestas suspendisse libero eget. Orci mattis velit. Eu proin aenean nam magna aliquam imperdiet aliquam sed ut. Sociis tincidunt molestie morbi morbi. In eget libero donec augue eget. Id massa erat turpis. A aptent mi. Curabitur commodo convallis sociosqu quam. \n\n</p><p>Dui malesuada imperdiet amet vivamus. Litora litora pulvinar morbi orci sed eu sed donec. Pede vel dolor consectetuer nulla netus. Litora tempor conubia et morbi ullamcorper sapien neque nunc aliquam ac. Orci fusce nunc hymenaeos senectus mi vel a duis ad. Commodo praesent placerat risus vulputate litora potenti sed. Congue. \n\n</p><p>Inceptos ullamcorper torquent mauris sit. Vel metus nisi sem per penatibus accumsan. In nullam et eget dictum ac facilisis est litora accumsan mi felis. Imperdiet nunc adipiscing porttitor turpis feugiat ornare integer ac. Conubia velit quam morbi imperdiet mauris libero ut massa ligula curae;. Dolor vel lorem nonummy vel sed. \n\n</p><p>Ut consequat blandit sit nibh lacinia. Rhoncus tristique ullamcorper mollis libero nunc est. Duis ut suscipit tempor nec. Tortor dictumst massa vivamus. Scelerisque mi hymenaeos nibh dignissim nulla libero vitae vestibulum. Libero vulputate massa phasellus aliquam potenti nulla aliquam congue. Suspendisse augue tempor. Lacus fusce netus fusce nec donec accumsan. \n\n</p>\n\t\n",
         "month": "11",
         "year": "2014",
         "ticks": 1415491200.0,
@@ -239,6 +240,16 @@
         ],
         "typography": [
           "/elements/typography"
+        ]
+      },
+      "layout": {
+        "blocks": [
+          "/elements/navigation"
+        ]
+      },
+      "transliterated-layout": {
+        "blocks": [
+          "/elements/navigation"
         ]
       },
       "slug": {

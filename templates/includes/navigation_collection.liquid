@@ -1,7 +1,6 @@
-{{ "navigation" }}
-
 <nav id="navigation">
 
+{% if type == "blocks" %}
 {% collection "blocks" %}
   <ul>
   {% for post in collection.items %}
@@ -9,5 +8,17 @@
   {% endfor %}
   </ul>
 {% endcollection %}
+{% endif %}
+
+
+{% if type == "elements" %}
+{% collection "elements" %}
+  <ul>
+  {% for post in collection.items %}
+    <li><a href="{{ post.slug }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+{% endcollection %}
+{% endif %}
 
 </nav>

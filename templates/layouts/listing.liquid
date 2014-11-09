@@ -1,3 +1,19 @@
+{% case mixture.url %}
+
+{% when 'blocks' %}
+{% assign type = "blocks" %}
+
+{% when contains 'elements' %}
+{% assign type = "elements" %}
+
+{% when 'layouts' %}
+{% assign type = "layouts" %}
+
+{% when 'strategy' %}
+{% assign type = "strategy" %}
+
+{% endcase %}
+
 {% include "head" %}
     <body>
         {% include "header" %}
@@ -9,7 +25,7 @@
                 <main>
                 {% block content %}{% endblock %}
                 </main>
-                {% include "navigation_collection" with "blocks" %}
+                {% include "navigation_collection" %}
             </div>
             {% include "footer" %}
         </div>
