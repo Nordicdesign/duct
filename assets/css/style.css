@@ -467,6 +467,10 @@ header {
     color: #fff; }
   header nav a:hover {
     color: tomato; }
+  header .selected {
+    color: tomato;
+    border: none;
+    font-weight: bold; }
 
 /* CENTRAL CONTENT AREA */
 .theMeat {
@@ -502,3 +506,15 @@ header {
   text-align: center;
   padding: 1em 0;
   color: #fff; }
+
+.modulesList {
+  display: flex; }
+
+.modulesList div {
+  padding: 1em;
+  border: 1px solid #f2f3f4;
+  border-radius: 2px;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16);
+  margin: 1%; }
+  .modulesList div h3 {
+    margin-top: 0; }

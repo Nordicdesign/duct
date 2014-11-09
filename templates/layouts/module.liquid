@@ -7,35 +7,11 @@
             <!-- Content block, child page inject content -->
             <div class="theMeat">
                 <main>
-                    <div class="row">
-                        <div class="small4 large8 col module-visuals">
-                            {% block content %}{% endblock %}
-                            <h4>How it looks like</h4>
-                            {% block visuals %}Images go here{% endblock %} 
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="small4 large4 col">
-                          <h4>HTML</h4>
-                          <pre>
-                                <code>{% block html %}Default code{% endblock %}</code>
-                            </pre>
-                           
-                        </div>
-                        <div class="small4 large4 col">
-                            <h4>CSS</h4>
-                            <pre>
-                                <code>{% block css %}Default code{% endblock %}</code>
-                            </pre>
-                            
-                        </div>
-                    </div>
-                
-
-
+                    {% block content %}{% endblock %}
                 </main>
-                {% include "navigation" %}
+
+                {% include "navigation_module" %}
+
             </div>
             {% include "footer" %}
         </div>

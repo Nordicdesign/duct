@@ -1,14 +1,16 @@
 {% layout "listing" %}
 {% block content %} 
-	
-	<p>Here should go a grid of all the different modules</p>
 
+<h2>Modules</h2>
+<p>Here should go a grid of all the different modules</p>
+<div class="modulesList">
 	{% collection "modules" %}
-	  <ul>
 	  {% for post in collection.items %}
-	    <li>{{ post.title }}</li>
+	  <div>
+	  	<h3><a href="{{ post.slug }}">{{ post.title }}</a></h3>
+	  	<p>I need a description here</p>
+	  </div>
 	  {% endfor %}
-	  </ul>
 	{% endcollection %}
-		
+</div>
 {% endblock %}

@@ -2,10 +2,10 @@
 	<h1>Style guide</h1>
 	<nav>
 		<ul>
-			<li><a href="/">Home</a></li>
+			<li><a href="/" {% if mixture.url == "index" %}class="selected"{% endif %}>Home</a></li>
 			<li><a href="#">Grid</a></li>
-			<li><a href="/components">Components</a></li>
-			<li><a href="/modules">Modules</a></li>
+			<li><a href="/components" {% if mixture.url == "components" %}class="selected"{% endif %}>Components</a></li>
+			<li><a href="/modules" {% if mixture.url == "modules" %}class="selected"{% endif %}>Modules</a></li>
 			<li><a href="#">Strategy</a></li>
 			<li><a href="#">Layouts</a></li>
 		</ul>

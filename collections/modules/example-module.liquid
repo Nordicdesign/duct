@@ -10,19 +10,13 @@ tags: [example,news,story]
 
 {% block content %} 
 <h2>Example module</h2>
-	{{ 2 | lorem_ipsum:'p' }}
+<p>Last modified: {{ post.date }}</p>
+<p>This is a description of what it is and how it should be used.</p>
+{{ 1 | lorem_ipsum:'p' }}
+
+{% include "modules/example_code" %}
+{% include "modules/example_example" %}
+{% include "modules/example_css" %}
+{% include "modules/example_related" %}
 	
 {% endblock %}
-
-
-{% block visuals %} 
-	{{ 1 | lorem_ipsum:'p' }}
-	
-{% endblock %}
-
-{% block code %}
-<h1>Some code goes here</h1>
-<p>Hola!</p>
-
-{% endblock %}
-
