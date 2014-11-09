@@ -22,7 +22,7 @@ header {
   padding:0.5em 1em;
   margin-bottom: 2em;
 
-  h1 {
+  .title {
     font-size: 2rem;
     line-height: 3rem;
     margin: 0;
@@ -72,10 +72,15 @@ header {
     order: 1;
     border-right: 1px solid #ccc;
 
+    ul {
+      margin: 0 1em 0 0;
+    }
+
     li {
       list-style: none;
       margin-left: 0;
-      padding-left: 0;
+      padding: 0 0 .5em 0;
+
     }
     li strong {padding-top: 1em;}
   }

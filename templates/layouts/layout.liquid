@@ -3,14 +3,8 @@
         {% include "header" %}
         <div class="container">
             <!-- Include -->
+            {% block content %}{% endblock %}
             
-            <!-- Content block, child page inject content -->
-            <div class="theMeat">
-                <main>
-                {% block content %}{% endblock %}
-                </main>
-                {% include "navigation" %}
-            </div>
             {% include "footer" %}
         </div>
         <!-- Script block allowing child pages to inject their own scripts -->

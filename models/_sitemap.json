@@ -6,30 +6,16 @@
     "url": "/index"
   },
   {
-    "children": [
-      {
-        "directory": false,
-        "key": "navigation",
-        "name": "Navigation",
-        "url": "/components/navigation"
-      },
-      {
-        "directory": false,
-        "key": "responsive-grid",
-        "name": "Responsive Grid",
-        "url": "/components/responsive-grid"
-      },
-      {
-        "directory": false,
-        "key": "typography",
-        "name": "Typography",
-        "url": "/components/typography"
-      }
-    ],
     "directory": false,
-    "key": "components",
-    "name": "Components",
-    "url": "/components"
+    "key": "blocks",
+    "name": "Blocks",
+    "url": "/blocks"
+  },
+  {
+    "directory": false,
+    "key": "elements",
+    "name": "Elements",
+    "url": "/elements"
   },
   {
     "children": [
@@ -40,7 +26,7 @@
         "url": "/modules/corporate-training"
       }
     ],
-    "directory": false,
+    "directory": true,
     "key": "modules",
     "name": "Modules",
     "url": "/modules"
