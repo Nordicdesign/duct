@@ -7,9 +7,16 @@
         <!-- Styles -->
         {{ "style.css" | asset_url | stylesheet_tag }}
         {{ "default.min.css" | asset_url | stylesheet_tag }}
+        {{ "jquery-1.11.1.min.js" | asset_url | script_tag }}
         {{ "highlight.pack.min.js" | asset_url | script_tag }}
+        {{ "jquery.sticky-kit.min.js" | asset_url | script_tag }}
         <!-- Style block allowing child pages to inject their own styles -->
         {% block styles %}{% endblock %}
         <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
         <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            $( document ).ready(function() {
+               $("#top, #navigation").stick_in_parent();
+            });
+        </script>
     </head>

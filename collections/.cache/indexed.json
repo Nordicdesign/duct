@@ -7,7 +7,7 @@
         "published": true,
         "date": "2014-11-02 00:00:00 UTC",
         "slug": "/blocks/corporate-training",
-        "body": "\n\n\n <div class=\"row\">\n    <div class=\"small4 large8 col\">\n    \t<h2>Corporate training</h2>\n\t\t<h3>Module</h3>\n\t\tLorem ipsum nibh nulla mattis sit sapien a lobortis curabitur aliquam. Libero vestibulum scelerisque turpis a aliquet. Tortor ipsum donec morbi lectus fusce in egestas est cras. Quis in vivamus sapien. Tortor suspendisse per est pellentesque commodo a. Eu sit ac. Vestibulum tristique integer hymenaeos sodales. Felis orci ac est. Pretium nec. \n\n\n\t\t<h4>How it looks like</h4>\n    \t<img src=\"/assets/img/corporate-training.png\" alt=\"\" />\n\n    </div>\n</div>\n\n<div class=\"row\">\n\t<div class=\"small4 large4 col\">\n\t<h4>HTML</h4>\n    \t<pre>\n        \t<code class=\"html\">\n<!-- code starts here, use this to encode it http://www.htmlescape.net/htmlescape_tool.html -->\n&lt;div id=&quot;privateheader&quot;&gt;\n\t&lt;h2&gt;Corporate training&lt;/h2&gt;\n&lt;/div&gt;       \t\t\n&lt;div id=&quot;privatecourses&quot;&gt;\n&lt;h3&gt;Digital skills development&lt;/h3&gt;\n&lt;p&gt;We work within your organisation to guide your team's skill development, providing benefits above and beyond our regular training services&lt;/p&gt;\n&lt;p class=&quot;more&quot;&gt;&lt;a href=&quot;/training/corporate-training.shtml&quot;&gt;about corporate training&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;\n<!-- code ends here -->\n        \t</code>\n        </pre>\t\n    </div>\n    <div class=\"small4 large4 col\">\n    \t<h4>CSS</h4>\n    \t<pre>\n        \t<code class=\"css\">\n<!-- code starts here -->\n#privateheader h2 {\n\tfont:3.1em gil,\"trebuchet MS\",helvetica,sans-serif;\n\tline-height:.9em;\n\tbackground: url(../i-2012/private.gif) no-repeat 0 0;\n\tmin-height:95px;\n\tpadding-left:115px;\n\tpadding-bottom:25px;\n\ttext-transform: lowercase;\n\tpadding-top:20px;\n\tmargin-bottom:0;\n\tmargin-top:0\n}\n#privatecourses {\n\tpadding-bottom:5px;\n\tbackground: url(../i-2012/stars-high.gif) no-repeat 50% 100%;\n\tmargin-bottom:10px\n}\n<!-- code ends here -->\n        \t</code>\n        </pre>\n                            \n    </div>\n</div>\n\n\n",
+        "body": "\n\n\n <div class=\"row\">\n    <div class=\"small4 large8 col\">\n    \t<h2>Corporate training</h2>\n    \t\n\n\t\t<h3>Module</h3>\n\t\tLorem ipsum velit vestibulum sollicitudin mattis ante cursus at tempus sem sollicitudin nunc id. Posuere sodales diam venenatis ultrices condimentum praesent. Praesent turpis eu duis lorem dapibus feugiat in cras nisi dolor ullamcorper. Ligula lorem molestie neque congue sed ipsum mauris conubia in. Aenean ultricies mus sagittis suscipit magna purus rhoncus at. \n\n\n\t\t<h4>How it looks like</h4>\n    \t<img src=\"/assets/img/corporate-training.png\" alt=\"\" />\n\n    </div>\n</div>\n\n<div class=\"row\">\n\t<div class=\"small4 large4 col\">\n\t<h4>HTML</h4>\n    \t<pre>\n        \t<code class=\"html\">\n<!-- code starts here, use this to encode it http://www.htmlescape.net/htmlescape_tool.html -->\n&lt;div id=&quot;privateheader&quot;&gt;\n\t&lt;h2&gt;Corporate training&lt;/h2&gt;\n&lt;/div&gt;       \t\t\n&lt;div id=&quot;privatecourses&quot;&gt;\n&lt;h3&gt;Digital skills development&lt;/h3&gt;\n&lt;p&gt;We work within your organisation to guide your team's skill development, providing benefits above and beyond our regular training services&lt;/p&gt;\n&lt;p class=&quot;more&quot;&gt;&lt;a href=&quot;/training/corporate-training.shtml&quot;&gt;about corporate training&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;\n<!-- code ends here -->\n        \t</code>\n        </pre>\t\n    </div>\n    <div class=\"small4 large4 col\">\n    \t<h4>CSS</h4>\n    \t<pre>\n        \t<code class=\"css\">\n<!-- code starts here -->\n#privateheader h2 {\n\tfont:3.1em gil,\"trebuchet MS\",helvetica,sans-serif;\n\tline-height:.9em;\n\tbackground: url(../i-2012/private.gif) no-repeat 0 0;\n\tmin-height:95px;\n\tpadding-left:115px;\n\tpadding-bottom:25px;\n\ttext-transform: lowercase;\n\tpadding-top:20px;\n\tmargin-bottom:0;\n\tmargin-top:0\n}\n#privatecourses {\n\tpadding-bottom:5px;\n\tbackground: url(../i-2012/stars-high.gif) no-repeat 50% 100%;\n\tmargin-bottom:10px\n}\n<!-- code ends here -->\n        \t</code>\n        </pre>\n                            \n    </div>\n</div>\n\n\n",
         "month": "11",
         "year": "2014",
         "ticks": 1414886400.0,
@@ -207,13 +207,26 @@
         "mixture_month_year": "11/2014",
         "mixture_date": "2014-11-09T00:00:00Z"
       },
+      "/elements/forms": {
+        "title": "Forms",
+        "layout": "blocks",
+        "published": true,
+        "date": "2014-11-10 00:00:00 UTC",
+        "slug": "/elements/forms",
+        "body": "\n \n<h1>Forms</h1>\n<p>Every element must be part of a <span>fieldset</span>, otherwise the styles won't be rendered appropriately (accessiblity considerations aside).</p>\n<pre>\n\t<code>\n&lt;form&gt;<br/>  &lt;fieldset&gt;<br/>    &lt;p&gt;<br/>      &lt;label&gt;This is the label&lt;/label&gt;<br/>      &lt;input type=&quot;text&quot; value=&quot;Some predefined text here&quot;&gt;<br/>    &lt;/p&gt;<br/>  &lt;/fieldset&gt;<br/>&lt;/form&gt;\n\t</code>\n</pre>\n\n<h2>Buttons</h2>\n<div class=\"row\">\n\t<div class=\"large5 client col\">\n\t\t<p><input class=\"button\" value=\"Normal Button\"></p>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;input class=&quot;button&quot; value=&quot;Normal Button&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n<div class=\"row\">\n\t<div class=\"large5 client col\">\n\t\t<p><input class=\"button primary\" value=\"Primary action\"></p>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;input class=&quot;button primary&quot; value=&quot;Primary action&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n<div class=\"row\">\n\t<div class=\"large5 client col\">\n\t\t<p><input class=\"button disabled\" disabled value=\"Disabled\"></p>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;input class=&quot;button disabled&quot; disabled value=&quot;Disabled&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n<div class=\"row\">\n\t<div class=\"large5 client col\">\n\t\t\t<fieldset>\n\t\t\t\t<p><input type=\"submit\" value=\"Submit button\"></p>\n\t\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;input type=&quot;submit&quot; value=&quot;Submit button&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n<h2>Elements</h2>\n<div class=\"row\">\n\t<div class=\"large5 client col\">\n\t\t<fieldset>\n\t\t\t\t<p>\n\t\t\t\t\t<label>Normal text input field</label>\n\t\t\t\t\t<input type=\"text\" placeholder=\"Some predefined text here\">\n\t\t\t\t\t<p class=\"form-help\">This is help text under the form field.</p>\n\t\t\t\t</p>\n\t\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;label&gt;Normal text input field&lt;/label&gt;<br/>&lt;input type=&quot;text&quot; placeholder=&quot;Some predefined text here&quot;&gt;<br/>&lt;p class=&quot;form-help&quot;&gt;This is help text under the form field.&lt;/p&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n<div class=\"row\">\n\t<div class=\"large5 client col\">\n\t\t\t<fieldset>\n\t\t\t\t<label for=\"url\">URL</label>\n\t\t\t\t<input type=\"url\" class=\"form-text\" placeholder=\"http://yourdomain.com\" />\n\t\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;label for=&quot;url&quot;&gt;URL&lt;/label&gt;<br/>&lt;input type=&quot;url&quot; id=&quot;url&quot; class=&quot;form-text&quot; placeholder=&quot;http://yourdomain.com&quot; /&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n\n<div class=\"row\">\n\t<div class=\"large5 client col\">\n\t\t\t<fieldset class=\"radio\">\n\t\t\t\t<label for=\"notifications\">Radio buttons</label>\n\t\t\t\t<ul>\n\t\t\t\t\t<li><label><input type=\"radio\" name=\"notifications\"> Send me email</label></li>\n\t\t\t\t\t<li><label><input type=\"radio\" name=\"notifications\"> Don't send me email</label></li>\n\t\t\t\t\t<li><label><input type=\"radio\" name=\"notifications\"> Send me flowers</label></li>\n\t\t\t\t</ul>\n\t\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;label&gt;Normal text input field&lt;/label&gt;<br/>&lt;input type=&quot;text&quot; value=&quot;Some predefined text here&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n\n<div class=\"row\">\n\t<div class=\"large5 client col\">\n\t\t<fieldset>\n\t\t\t<label for=\"bio\">Bio</label>\n\t\t\t<textarea id=\"bio\"></textarea>\n\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;fieldset&gt;<br/>  &lt;label for=&quot;bio&quot;&gt;Bio&lt;/label&gt;<br/>  &lt;textarea id=&quot;bio&quot;&gt;&lt;/textarea&gt;<br/>&lt;/fieldset&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n<div class=\"row\">\n\t<div class=\"large5 client col\">\n\t\t<fieldset class=\"check\">\n\t\t\t<label><input type=\"checkbox\" /> I accept the terms of service and lorem ipsum.</label>\n\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;fieldset class=&quot;check&quot;&gt;<br/>  &lt;label&gt;&lt;input type=&quot;checkbox&quot; /&gt; I accept the terms of service and lorem ipsum.&lt;/label&gt;<br/>&lt;/fieldset&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\t\t\t\t\t\n\t\t<fieldset class=\"check\">\n\t\t\t<label><input type=\"checkbox\" /> I accept the terms of service and lorem ipsum.</label>\n\t\t</fieldset>\t\t\t\t\n\n\n<h2>Form errors</h2>\n\n<h2>Search form</h2>\n\n\n\n\n\n",
+        "month": "11",
+        "year": "2014",
+        "ticks": 1415577600.0,
+        "mixture_month_year": "11/2014",
+        "mixture_date": "2014-11-10T00:00:00Z"
+      },
       "/elements/typography": {
         "title": "Typography",
         "layout": "blocks",
         "published": true,
         "date": "2014-11-09 00:00:00 UTC",
         "slug": "/elements/typography",
-        "body": "\n \n<h2>Typography</h2>\n\n<h3>Headings</h3>\n<div class=\"client\">\n\t<h1>Level 1 heading</h1>\n\t<h2>Level 2 heading</h2>\n\t<h3>Level 3 heading</h3>\n\t<h4>Level 4 heading</h4>\n\t<h5>Level 5 heading</h5>\t\n</div>\n\n<h3>Lists</h3>\n<div class=\"client\">\n\t<ul class=\"list\">\n\t\t<li>This is an unordered list</li>\n\t\t<li>With some elements</li>\n\t\t<li class=\"selected\">This is selected</li>\n\t\t<li><a href=\"#\">And this is a link in a list</a></li>\n\t</ul>\n\t<br><br>\n\t<ol class=\"list\">\n\t\t<li>This is an ordered list</li>\n\t\t<li>With some elements</li>\n\t\t<li class=\"selected\">This is selected</li>\n\t\t<li><a href=\"#\">And this is a link in a list</a></li>\n\t</ol>\n</div>\n\n<h3>Paragraphs</h3>\n<div class=\"client\">\n<p>Lorem ipsum at aliquam per sed feugiat. Montes accumsan amet interdum duis justo viverra. Vel ut pulvinar nunc turpis ullamcorper aliquam erat in. Eget pellentesque iaculis dignissim nunc velit eu tellus adipiscing. Fusce nec et amet erat sapien consectetuer vel facilisis fames. Vulputate sem magna laoreet nam. Morbi est adipiscing fusce libero. \n\n</p><p>Mauris consectetuer quam aliquam luctus mauris et commodo ultricies libero volutpat egestas. Sed non accumsan suspendisse. Consectetuer non leo dolor sed phasellus sodales est aliquam libero. Ac montes quis auctor suscipit magna nibh aenean gravida. Mauris eros ut metus id aliquam. Pede amet inceptos pretium sagittis ridiculus morbi purus luctus. \n\n</p>\n</div>\n\n<h3>A quote</h3>\n<div class=\"client\">\n\t<blockquote><p>Lorem ipsum eleifend ut at quam. Velit curabitur arcu ac quis dictumst eget et. Id feugiat proin nunc cubilia iaculis viverra vitae potenti. Aliquam sociosqu sapien non ante orci. A pulvinar phasellus vitae torquent aliquet ut nec lacus. Phasellus nulla erat habitasse nec libero. Nostra purus elit turpis ridiculus mollis vestibulum semper. \n\n</p></blockquote>\n</div>\n\n\n",
+        "body": "\n \n<h2>Typography</h2>\n\n<h3>Headings</h3>\n<div class=\"client\">\n\t<h1>Level 1 heading</h1>\n\t<h2>Level 2 heading</h2>\n\t<h3>Level 3 heading</h3>\n\t<h4>Level 4 heading</h4>\n\t<h5>Level 5 heading</h5>\t\n</div>\n\n<h3>Lists</h3>\n<div class=\"client\">\n\t<ul class=\"list\">\n\t\t<li>This is an unordered list</li>\n\t\t<li>With some elements</li>\n\t\t<li class=\"selected\">This is selected</li>\n\t\t<li><a href=\"#\">And this is a link in a list</a></li>\n\t</ul>\n\t<br><br>\n\t<ol class=\"list\">\n\t\t<li>This is an ordered list</li>\n\t\t<li>With some elements</li>\n\t\t<li class=\"selected\">This is selected</li>\n\t\t<li><a href=\"#\">And this is a link in a list</a></li>\n\t</ol>\n</div>\n\n<h3>Paragraphs</h3>\n<div class=\"client\">\n<p>Lorem ipsum eget justo eros vivamus mollis. Nulla suspendisse a accumsan nunc. Suscipit aliquam sit sed. Sed augue elit id. Velit arcu nibh metus suscipit at magna placerat cras. Quis scelerisque sodales porttitor non ullamcorper amet praesent eros amet. Feugiat nonummy nam. Accumsan lacus phasellus vel donec suspendisse dapibus ac mauris. Vestibulum. \n\n</p><p>Nunc nunc imperdiet consectetuer tristique. Luctus tempor eget aliquam at mollis. Eu ultrices nulla mi vestibulum vivamus aliquam quis ac. At commodo aliquam. At posuere blandit porta. Consequat habitasse suspendisse id lacinia. Pretium consectetuer conubia. Et pellentesque fermentum tempor. Dolor dolor mollis. Et phasellus donec ac est pretium leo lacinia. \n\n</p>\n</div>\n\n<h3>A quote</h3>\n<div class=\"client\">\n\t<blockquote><p>Lorem ipsum ac vel leo suspendisse duis elit. Mauris potenti sollicitudin quisque nisl egestas adipiscing velit in elit. Vulputate congue class varius sit. Ac ut id eget ut felis litora orci mauris a. Mauris ad sed quisque ante volutpat convallis dui mi. In aenean sodales consectetuer lacus. Nunc nascetur erat nibh lacus. \n\n</p></blockquote>\n</div>\n\n\n",
         "month": "11",
         "year": "2014",
         "ticks": 1415491200.0,
@@ -229,6 +242,9 @@
         "responsive grid": [
           "/elements/grid"
         ],
+        "forms": [
+          "/elements/forms"
+        ],
         "typography": [
           "/elements/typography"
         ]
@@ -240,6 +256,9 @@
         "responsive-grid": [
           "/elements/grid"
         ],
+        "forms": [
+          "/elements/forms"
+        ],
         "typography": [
           "/elements/typography"
         ]
@@ -248,6 +267,7 @@
         "blocks": [
           "/elements/navigation",
           "/elements/grid",
+          "/elements/forms",
           "/elements/typography"
         ]
       },
@@ -255,6 +275,7 @@
         "blocks": [
           "/elements/navigation",
           "/elements/grid",
+          "/elements/forms",
           "/elements/typography"
         ]
       },
@@ -264,6 +285,9 @@
         ],
         "/elements/grid": [
           "/elements/grid"
+        ],
+        "/elements/forms": [
+          "/elements/forms"
         ],
         "/elements/typography": [
           "/elements/typography"
@@ -276,6 +300,9 @@
         "/elements/grid": [
           "/elements/grid"
         ],
+        "/elements/forms": [
+          "/elements/forms"
+        ],
         "/elements/typography": [
           "/elements/typography"
         ]
@@ -284,6 +311,7 @@
         "11": [
           "/elements/navigation",
           "/elements/grid",
+          "/elements/forms",
           "/elements/typography"
         ]
       },
@@ -291,6 +319,7 @@
         "2014": [
           "/elements/navigation",
           "/elements/grid",
+          "/elements/forms",
           "/elements/typography"
         ]
       },
@@ -299,12 +328,16 @@
           "/elements/navigation",
           "/elements/grid",
           "/elements/typography"
+        ],
+        "1415577600.0": [
+          "/elements/forms"
         ]
       },
       "mixture_month_year": {
         "11/2014": [
           "/elements/navigation",
           "/elements/grid",
+          "/elements/forms",
           "/elements/typography"
         ]
       },
@@ -313,6 +346,9 @@
           "/elements/navigation",
           "/elements/grid",
           "/elements/typography"
+        ],
+        "2014-11-10t00:00:00z": [
+          "/elements/forms"
         ]
       }
     }
