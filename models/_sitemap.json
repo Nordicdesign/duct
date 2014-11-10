@@ -16,19 +16,5 @@
     "key": "elements",
     "name": "Elements",
     "url": "/elements"
-  },
-  {
-    "children": [
-      {
-        "directory": false,
-        "key": "corporate-training",
-        "name": "Corporate Training",
-        "url": "/modules/corporate-training"
-      }
-    ],
-    "directory": true,
-    "key": "modules",
-    "name": "Modules",
-    "url": "/modules"
   }
 ]

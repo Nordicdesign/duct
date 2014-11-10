@@ -1,6 +1,6 @@
 <nav id="navigation">
 
-{% if type == "blocks" %}
+{% if mixture.url contains "blocks" %}
 {% collection "blocks" %}
   <ul>
   {% for post in collection.items %}
@@ -10,8 +10,7 @@
 {% endcollection %}
 {% endif %}
 
-
-{% if type == "elements" %}
+{% if mixture.url contains "elements" %}
 {% collection "elements" %}
   <ul>
   {% for post in collection.items %}
@@ -19,6 +18,6 @@
   {% endfor %}
   </ul>
 {% endcollection %}
-{% endif %}
 
+{% endif %}
 </nav>

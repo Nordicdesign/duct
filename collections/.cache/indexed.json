@@ -3,29 +3,29 @@
     "collection": {
       "/blocks/corporate-training": {
         "title": "Corporate training",
-        "layout": "module",
+        "layout": "blocks",
         "published": true,
         "date": "2014-11-02 00:00:00 UTC",
         "slug": "/blocks/corporate-training",
-        "body": "\n\n\n <div class=\"row\">\n    <div class=\"small4 large8 col\">\n    \t<h2>Corporate training</h2>\n\t\t<h3>Module</h3>\n\t\tLorem ipsum libero sed massa cursus ullamcorper molestie ligula pellentesque tincidunt. At tincidunt nibh ornare iaculis est iaculis morbi est. Mi justo neque imperdiet quis inceptos sit. Dui mauris magna tincidunt iaculis lorem montes velit sed ultricies. Lorem et massa vitae. Magna adipiscing tempor adipiscing elit dapibus velit. Aliquam per lorem et. \n\n\n\t\t<h4>How it looks like</h4>\n    \t<img src=\"/assets/img/corporate-training.png\" alt=\"\" />\n\n    </div>\n</div>\n\n<div class=\"row\">\n\t<div class=\"small4 large4 col\">\n\t<h4>HTML</h4>\n    \t<pre>\n        \t<code class=\"html\">\n<!-- code starts here, use this to encode it http://www.htmlescape.net/htmlescape_tool.html -->\n&lt;div id=&quot;privateheader&quot;&gt;\n\t&lt;h2&gt;Corporate training&lt;/h2&gt;\n&lt;/div&gt;       \t\t\n&lt;div id=&quot;privatecourses&quot;&gt;\n&lt;h3&gt;Digital skills development&lt;/h3&gt;\n&lt;p&gt;We work within your organisation to guide your team's skill development, providing benefits above and beyond our regular training services&lt;/p&gt;\n&lt;p class=&quot;more&quot;&gt;&lt;a href=&quot;/training/corporate-training.shtml&quot;&gt;about corporate training&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;\n<!-- code ends here -->\n        \t</code>\n        </pre>\t\n    </div>\n    <div class=\"small4 large4 col\">\n    \t<h4>CSS</h4>\n    \t<pre>\n        \t<code class=\"css\">\n<!-- code starts here -->\n#privateheader h2 {\n\tfont:3.1em gil,\"trebuchet MS\",helvetica,sans-serif;\n\tline-height:.9em;\n\tbackground: url(../i-2012/private.gif) no-repeat 0 0;\n\tmin-height:95px;\n\tpadding-left:115px;\n\tpadding-bottom:25px;\n\ttext-transform: lowercase;\n\tpadding-top:20px;\n\tmargin-bottom:0;\n\tmargin-top:0\n}\n#privatecourses {\n\tpadding-bottom:5px;\n\tbackground: url(../i-2012/stars-high.gif) no-repeat 50% 100%;\n\tmargin-bottom:10px\n}\n<!-- code ends here -->\n        \t</code>\n        </pre>\n                            \n    </div>\n</div>\n\n\n",
+        "body": "\n\n\n <div class=\"row\">\n    <div class=\"small4 large8 col\">\n    \t<h2>Corporate training</h2>\n\t\t<h3>Module</h3>\n\t\tLorem ipsum nibh nulla mattis sit sapien a lobortis curabitur aliquam. Libero vestibulum scelerisque turpis a aliquet. Tortor ipsum donec morbi lectus fusce in egestas est cras. Quis in vivamus sapien. Tortor suspendisse per est pellentesque commodo a. Eu sit ac. Vestibulum tristique integer hymenaeos sodales. Felis orci ac est. Pretium nec. \n\n\n\t\t<h4>How it looks like</h4>\n    \t<img src=\"/assets/img/corporate-training.png\" alt=\"\" />\n\n    </div>\n</div>\n\n<div class=\"row\">\n\t<div class=\"small4 large4 col\">\n\t<h4>HTML</h4>\n    \t<pre>\n        \t<code class=\"html\">\n<!-- code starts here, use this to encode it http://www.htmlescape.net/htmlescape_tool.html -->\n&lt;div id=&quot;privateheader&quot;&gt;\n\t&lt;h2&gt;Corporate training&lt;/h2&gt;\n&lt;/div&gt;       \t\t\n&lt;div id=&quot;privatecourses&quot;&gt;\n&lt;h3&gt;Digital skills development&lt;/h3&gt;\n&lt;p&gt;We work within your organisation to guide your team's skill development, providing benefits above and beyond our regular training services&lt;/p&gt;\n&lt;p class=&quot;more&quot;&gt;&lt;a href=&quot;/training/corporate-training.shtml&quot;&gt;about corporate training&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;\n<!-- code ends here -->\n        \t</code>\n        </pre>\t\n    </div>\n    <div class=\"small4 large4 col\">\n    \t<h4>CSS</h4>\n    \t<pre>\n        \t<code class=\"css\">\n<!-- code starts here -->\n#privateheader h2 {\n\tfont:3.1em gil,\"trebuchet MS\",helvetica,sans-serif;\n\tline-height:.9em;\n\tbackground: url(../i-2012/private.gif) no-repeat 0 0;\n\tmin-height:95px;\n\tpadding-left:115px;\n\tpadding-bottom:25px;\n\ttext-transform: lowercase;\n\tpadding-top:20px;\n\tmargin-bottom:0;\n\tmargin-top:0\n}\n#privatecourses {\n\tpadding-bottom:5px;\n\tbackground: url(../i-2012/stars-high.gif) no-repeat 50% 100%;\n\tmargin-bottom:10px\n}\n<!-- code ends here -->\n        \t</code>\n        </pre>\n                            \n    </div>\n</div>\n\n\n",
         "month": "11",
         "year": "2014",
         "ticks": 1414886400.0,
         "mixture_month_year": "11/2014",
         "mixture_date": "2014-11-02T00:00:00Z"
       },
-      "/blocks/example-block": {
+      "/blocks/block-example": {
         "title": "Example block",
-        "layout": "module",
+        "layout": "blocks",
         "published": true,
         "date": "2014-11-09 00:00:00 UTC",
-        "slug": "/blocks/example-block",
+        "slug": "/blocks/block-example",
         "tags": [
           "example",
           "news",
           "story"
         ],
-        "body": "\n\n\n \n<h1>Example block</h1>\n<p>Last modified: </p>\n<p>This is a description of what it is and how it should be used.</p>\n<p>Lorem ipsum rutrum ac rutrum nunc molestie leo. Adipiscing lorem molestie et potenti. Nostra ac ullamcorper volutpat felis lobortis in mollis. Vestibulum duis massa elit elit eu gravida in ipsum et. Id a volutpat duis laoreet pharetra fermentum a sollicitudin. Inceptos mattis consectetuer lorem leo ad per a consectetuer lacus nulla sit. \n\n</p>\n\n<h2>HTML</h2>\n<pre>\n    <code class=\"html\">\n<!-- code starts here, use this to encode it http://www.htmlescape.net/htmlescape_tool.html -->\n&lt;div id=&quot;privateheader&quot;&gt;\n\t&lt;h2&gt;Corporate training&lt;/h2&gt;\n&lt;/div&gt;       \t\t\n&lt;div id=&quot;privatecourses&quot;&gt;\n&lt;h3&gt;Digital skills development&lt;/h3&gt;\n&lt;p&gt;We work within your organisation to guide your team's skill development, providing benefits above and beyond our regular training services&lt;/p&gt;\n&lt;p class=&quot;more&quot;&gt;&lt;a href=&quot;/training/corporate-training.shtml&quot;&gt;about corporate training&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;\n<!-- code ends here -->\n    </code>\n</pre>\t\n<h2>How it looks like</h2>\n<img src=\"/assets/img/corporate-training.png\" alt=\"\" />\n  \t<h2>CSS used in the module</h2>\n    \t<pre>\n        \t<code class=\"css\">\n<!-- code starts here -->\n#privateheader h2 {\n\tfont:3.1em gil,\"trebuchet MS\",helvetica,sans-serif;\n\tline-height:.9em;\n\tbackground: url(../i-2012/private.gif) no-repeat 0 0;\n\tmin-height:95px;\n\tpadding-left:115px;\n\tpadding-bottom:25px;\n\ttext-transform: lowercase;\n\tpadding-top:20px;\n\tmargin-bottom:0;\n\tmargin-top:0\n}\n#privatecourses {\n\tpadding-bottom:5px;\n\tbackground: url(../i-2012/stars-high.gif) no-repeat 50% 100%;\n\tmargin-bottom:10px\n}\n<!-- code ends here -->\n        \t</code>\n        </pre>\n<h2>Where has been used</h2>\n<p>[Optional] List of sections or layouts where this element is used.</p>\n\t\n",
+        "body": "\n\n\n \n<h1>Example block</h1>\n<p>Last modified: </p>\n<p>This is a description of what it is and how it should be used.</p>\n<p>Lorem ipsum cursus venenatis lacus in a phasellus lobortis morbi eget. Pretium quisque mauris sed integer cras viverra metus libero massa eu. Sapien accumsan sapien ante ac pretium ut aptent in. Vestibulum gravida tristique proin nibh taciti id. Sem nulla sapien mi turpis justo augue sollicitudin aliquam. Vestibulum litora semper molestie et. \n\n</p>\n\n<h2>HTML</h2>\n<pre>\n    <code class=\"html\">\n<!-- code starts here, use this to encode it http://www.htmlescape.net/htmlescape_tool.html -->\n&lt;div id=&quot;privateheader&quot;&gt;\n\t&lt;h2&gt;Corporate training&lt;/h2&gt;\n&lt;/div&gt;       \t\t\n&lt;div id=&quot;privatecourses&quot;&gt;\n&lt;h3&gt;Digital skills development&lt;/h3&gt;\n&lt;p&gt;We work within your organisation to guide your team's skill development, providing benefits above and beyond our regular training services&lt;/p&gt;\n&lt;p class=&quot;more&quot;&gt;&lt;a href=&quot;/training/corporate-training.shtml&quot;&gt;about corporate training&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;\n<!-- code ends here -->\n    </code>\n</pre>\t\n<h2>How it looks like</h2>\n<img src=\"/assets/img/corporate-training.png\" alt=\"\" />\n  \t<h2>CSS used in the module</h2>\n    \t<pre>\n        \t<code class=\"css\">\n<!-- code starts here -->\n#privateheader h2 {\n\tfont:3.1em gil,\"trebuchet MS\",helvetica,sans-serif;\n\tline-height:.9em;\n\tbackground: url(../i-2012/private.gif) no-repeat 0 0;\n\tmin-height:95px;\n\tpadding-left:115px;\n\tpadding-bottom:25px;\n\ttext-transform: lowercase;\n\tpadding-top:20px;\n\tmargin-bottom:0;\n\tmargin-top:0\n}\n#privatecourses {\n\tpadding-bottom:5px;\n\tbackground: url(../i-2012/stars-high.gif) no-repeat 50% 100%;\n\tmargin-bottom:10px\n}\n<!-- code ends here -->\n        \t</code>\n        </pre>\n<h2>Where has been used</h2>\n<p>[Optional] List of sections or layouts where this element is used.</p>\n\t\n",
         "month": "11",
         "year": "2014",
         "ticks": 1415491200.0,
@@ -34,7 +34,7 @@
       },
       "/blocks/example-module-withblocks": {
         "title": "Example module with blocks",
-        "layout": "module",
+        "layout": "blocks",
         "published": true,
         "date": "2014-11-02 00:00:00 UTC",
         "slug": "/blocks/example-module-withblocks",
@@ -43,7 +43,7 @@
           "news",
           "story"
         ],
-        "body": "\n\n\n \n<h2>Example module</h2>\n\t<p>Lorem ipsum augue posuere magnis odio mi ultrices nec ac. Magna vel curabitur nec convallis mauris eget fusce. Scelerisque quis dis. Vitae libero aliquam congue quam platea velit. Orci condimentum massa commodo vestibulum lorem dignissim. Tempus ad egestas. Mauris dolor donec nibh. Pellentesque tempor vel eget turpis ut aliquam. Conubia vel risus. \n\n</p><p>Sapien quis potenti condimentum egestas ac consequat vestibulum magna hac nisi. Dapibus aliquam vivamus proin tellus mauris justo orci erat interdum. Ullamcorper placerat elit cursus orci orci felis commodo non nostra a. Donec quis in eget mauris taciti. Gravida sapien fusce libero eu amet. Ornare felis pretium accumsan. Lorem id. \n\n</p>\n\t\n\n\n\n \n\t<p>Lorem ipsum nonummy vivamus dictum netus imperdiet et posuere arcu tempus. Nunc vulputate a amet pellentesque ut turpis nibh a purus tortor aliquam. Aliquam aenean magna ad lacinia mattis libero feugiat. Amet interdum vel consectetuer donec ultrices consequat mi. Magna augue commodo class tellus velit convallis. Imperdiet placerat sed fusce nullam. Suspendisse. \n\n</p>\n\t\n\n\n\n<h1>Some code goes here</h1>\n<p>Hola!</p>\n\n\n\n",
+        "body": "\n\n\n \n<h2>Example module</h2>\n\t<p>Lorem ipsum porta aliquam imperdiet vitae. Massa vivamus id nibh aliquam sed ac aptent congue at. Amet vel dapibus vel. Mauris erat turpis lorem gravida. Donec tortor libero netus enim quis turpis nunc ac duis dolor elit. Dui eu suscipit diam amet massa. Odio rhoncus ut ipsum amet. Nibh et augue imperdiet. \n\n</p><p>Eu sed donec velit tristique rutrum nunc. Quam felis elit. Molestie gravida et sagittis in netus lacus non accumsan accumsan integer sodales. Dapibus diam quam. Sem suscipit ut. Mauris eget mauris ullamcorper id. Nostra sed donec mi. At mi orci molestie pede ut libero magna. Purus imperdiet purus quam accumsan. \n\n</p>\n\t\n\n\n\n \n\t<p>Lorem ipsum inceptos turpis mauris hac accumsan augue lacus vestibulum vitae enim tristique. Leo amet purus integer mi dapibus duis. Amet nulla donec velit. Nisi vivamus orci blandit duis hendrerit nisi. In urna eu quis at ultrices. Duis gravida velit nibh vel cursus tempus enim massa. Eleifend et aenean ut potenti sit. \n\n</p>\n\t\n\n\n\n<h1>Some code goes here</h1>\n<p>Hola!</p>\n\n\n\n",
         "month": "11",
         "year": "2014",
         "ticks": 1414886400.0,
@@ -57,7 +57,7 @@
           "/blocks/corporate-training"
         ],
         "example block": [
-          "/blocks/example-block"
+          "/blocks/block-example"
         ],
         "example module with blocks": [
           "/blocks/example-module-withblocks"
@@ -68,23 +68,23 @@
           "/blocks/corporate-training"
         ],
         "example-block": [
-          "/blocks/example-block"
+          "/blocks/block-example"
         ],
         "example-module-with-blocks": [
           "/blocks/example-module-withblocks"
         ]
       },
       "layout": {
-        "module": [
+        "blocks": [
           "/blocks/corporate-training",
-          "/blocks/example-block",
+          "/blocks/block-example",
           "/blocks/example-module-withblocks"
         ]
       },
       "transliterated-layout": {
-        "module": [
+        "blocks": [
           "/blocks/corporate-training",
-          "/blocks/example-block",
+          "/blocks/block-example",
           "/blocks/example-module-withblocks"
         ]
       },
@@ -92,8 +92,8 @@
         "/blocks/corporate-training": [
           "/blocks/corporate-training"
         ],
-        "/blocks/example-block": [
-          "/blocks/example-block"
+        "/blocks/block-example": [
+          "/blocks/block-example"
         ],
         "/blocks/example-module-withblocks": [
           "/blocks/example-module-withblocks"
@@ -103,8 +103,8 @@
         "/blocks/corporate-training": [
           "/blocks/corporate-training"
         ],
-        "/blocks/example-block": [
-          "/blocks/example-block"
+        "/blocks/block-example": [
+          "/blocks/block-example"
         ],
         "/blocks/example-module-withblocks": [
           "/blocks/example-module-withblocks"
@@ -113,14 +113,14 @@
       "month": {
         "11": [
           "/blocks/corporate-training",
-          "/blocks/example-block",
+          "/blocks/block-example",
           "/blocks/example-module-withblocks"
         ]
       },
       "year": {
         "2014": [
           "/blocks/corporate-training",
-          "/blocks/example-block",
+          "/blocks/block-example",
           "/blocks/example-module-withblocks"
         ]
       },
@@ -130,13 +130,13 @@
           "/blocks/example-module-withblocks"
         ],
         "1415491200.0": [
-          "/blocks/example-block"
+          "/blocks/block-example"
         ]
       },
       "mixture_month_year": {
         "11/2014": [
           "/blocks/corporate-training",
-          "/blocks/example-block",
+          "/blocks/block-example",
           "/blocks/example-module-withblocks"
         ]
       },
@@ -146,34 +146,34 @@
           "/blocks/example-module-withblocks"
         ],
         "2014-11-09t00:00:00z": [
-          "/blocks/example-block"
+          "/blocks/block-example"
         ]
       },
       "tags": {
         "example": [
-          "/blocks/example-block",
+          "/blocks/block-example",
           "/blocks/example-module-withblocks"
         ],
         "news": [
-          "/blocks/example-block",
+          "/blocks/block-example",
           "/blocks/example-module-withblocks"
         ],
         "story": [
-          "/blocks/example-block",
+          "/blocks/block-example",
           "/blocks/example-module-withblocks"
         ]
       },
       "transliterated-tags": {
         "example": [
-          "/blocks/example-block",
+          "/blocks/block-example",
           "/blocks/example-module-withblocks"
         ],
         "news": [
-          "/blocks/example-block",
+          "/blocks/block-example",
           "/blocks/example-module-withblocks"
         ],
         "story": [
-          "/blocks/example-block",
+          "/blocks/block-example",
           "/blocks/example-module-withblocks"
         ]
       }
@@ -196,10 +196,11 @@
       },
       "/elements/grid": {
         "title": "Responsive grid",
+        "layout": "blocks",
         "published": true,
         "date": "2014-11-09 00:00:00 UTC",
         "slug": "/elements/grid",
-        "body": "\n \n\t\n<h2>Responsive grid</h2>\n\t<p>Lorem ipsum congue litora vivamus velit purus est turpis. Nunc morbi lorem quisque lacus et turpis libero. Nulla egestas interdum nunc mauris massa. Ultrices ac hac eget vel nibh. Quam ut ante. Cubilia justo lacinia conubia ornare. Litora libero orci magna orci curabitur semper mi. Phasellus duis quisque scelerisque a. Blandit et. \n\n</p>\n\n<div class=\"theGrid\">\n\n<p>HTML</p>\n\t<pre>\n\t\t<code>\n&lt;div class=&quot;row&quot;&gt;<br/>\t&lt;div class=&quot;large8 col&quot;&gt;8&lt;/div&gt;<br/>&lt;/div&gt;<br/>&lt;div class=&quot;row&quot;&gt;<br/>\t&lt;div class=&quot;large1 col&quot;&gt;1&lt;/div&gt;<br/>\t&lt;div class=&quot;large7 col&quot;&gt;7&lt;/div&gt;<br/>&lt;/div&gt;<br/>&lt;div class=&quot;row&quot;&gt;<br/>\t&lt;div class=&quot;large2 col&quot;&gt;2&lt;/div&gt;<br/>\t&lt;div class=&quot;large5 col&quot;&gt;5&lt;/div&gt;<br/>\t&lt;div class=&quot;large1 col&quot;&gt;1&lt;/div&gt;<br/>&lt;/div&gt;<br/>\n\t\t</code>\n\t</pre>\n\n<p>How this looks like</p>\n\t<div class=\"row\">\n\t\t<div class=\"large8 col\">8</div>\n\t</div>\n\t<br>\n\n\t<div class=\"row\">\n\t\t<div class=\"large1 col\">1</div>\n\t\t<div class=\"large7 col\">7</div>\n\t</div>\n\t<br>\n\t<div class=\"row\">\n\t\t<div class=\"large2 col\">2</div>\n\t\t<div class=\"large5 col\">5</div>\n\t\t<div class=\"large1 col\">1</div>\n\t</div>\n\t<br>\n\n</div>\n",
+        "body": "\n \n\t\n<h2>Responsive grid</h2>\n\t<p>Lorem ipsum velit varius elit arcu nunc pharetra nibh. Sed quis massa sed adipiscing id ligula mollis mus massa nibh vestibulum. Taciti magna consectetuer purus. Ut dignissim tempor elit velit convallis metus faucibus platea purus. In natoque non habitant. Libero sed at posuere turpis in eros dictum. Consectetuer id ullamcorper. Magna tortor. \n\n</p>\n\n<div class=\"theGrid\">\n\n<p>HTML</p>\n\t<pre>\n\t\t<code>\n&lt;div class=&quot;row&quot;&gt;<br/>\t&lt;div class=&quot;large8 col&quot;&gt;8&lt;/div&gt;<br/>&lt;/div&gt;<br/>&lt;div class=&quot;row&quot;&gt;<br/>\t&lt;div class=&quot;large1 col&quot;&gt;1&lt;/div&gt;<br/>\t&lt;div class=&quot;large7 col&quot;&gt;7&lt;/div&gt;<br/>&lt;/div&gt;<br/>&lt;div class=&quot;row&quot;&gt;<br/>\t&lt;div class=&quot;large2 col&quot;&gt;2&lt;/div&gt;<br/>\t&lt;div class=&quot;large5 col&quot;&gt;5&lt;/div&gt;<br/>\t&lt;div class=&quot;large1 col&quot;&gt;1&lt;/div&gt;<br/>&lt;/div&gt;<br/>\n\t\t</code>\n\t</pre>\n\n<p>How this looks like</p>\n\t<div class=\"row\">\n\t\t<div class=\"large8 col\">8</div>\n\t</div>\n\t<br>\n\n\t<div class=\"row\">\n\t\t<div class=\"large1 col\">1</div>\n\t\t<div class=\"large7 col\">7</div>\n\t</div>\n\t<br>\n\t<div class=\"row\">\n\t\t<div class=\"large2 col\">2</div>\n\t\t<div class=\"large5 col\">5</div>\n\t\t<div class=\"large1 col\">1</div>\n\t</div>\n\t<br>\n\n</div>\n",
         "month": "11",
         "year": "2014",
         "ticks": 1415491200.0,
@@ -208,10 +209,11 @@
       },
       "/elements/typography": {
         "title": "Typography",
+        "layout": "blocks",
         "published": true,
         "date": "2014-11-09 00:00:00 UTC",
         "slug": "/elements/typography",
-        "body": "\n \n<h2>Typography</h2>\n\n<h3>Headings</h3>\n<div class=\"client\">\n\t<h1>Level 1 heading</h1>\n\t<h2>Level 2 heading</h2>\n\t<h3>Level 3 heading</h3>\n\t<h4>Level 4 heading</h4>\n\t<h5>Level 5 heading</h5>\t\n</div>\n\n<h3>Lists</h3>\n<div class=\"client\">\n\t<ul class=\"list\">\n\t\t<li>This is an unordered list</li>\n\t\t<li>With some elements</li>\n\t\t<li class=\"selected\">This is selected</li>\n\t\t<li><a href=\"#\">And this is a link in a list</a></li>\n\t</ul>\n\t<br><br>\n\t<ol class=\"list\">\n\t\t<li>This is an ordered list</li>\n\t\t<li>With some elements</li>\n\t\t<li class=\"selected\">This is selected</li>\n\t\t<li><a href=\"#\">And this is a link in a list</a></li>\n\t</ol>\n</div>\n\n<h3>Paragraphs</h3>\n<div class=\"client\">\n<p>Lorem ipsum hymenaeos sed id purus consectetuer. Ac nec nec sapien est sit pretium. At nibh ultrices mi fames. Nunc egestas tincidunt sit consectetuer pede odio duis in nulla vestibulum. Suspendisse sit mauris rutrum tincidunt. Lorem in accumsan. Mauris eu amet nonummy consectetuer imperdiet torquent at in aliquam et quis. In nunc. \n\n</p><p>Magna facilisis mollis nulla amet netus sociis tellus pulvinar morbi amet ut. Tincidunt aliquam mauris ac mollis pellentesque sapien sapien morbi lectus sociosqu adipiscing. Ligula habitasse litora phasellus et congue quam interdum aliquam nam magna. Scelerisque lacus et orci orci ut aptent purus imperdiet libero. Augue donec praesent purus posuere. \n\n</p>\n</div>\n\n<h3>A quote</h3>\n<div class=\"client\">\n\t<blockquote><p>Lorem ipsum ante dictum conubia libero felis vulputate porta ligula gravida non sociosqu massa. Morbi et non accumsan id nibh et platea sed massa vestibulum. Mauris sed vitae aliquam. Mauris nibh sagittis morbi vivamus sed libero. Vel est senectus fusce dui litora ad. Eros molestie viverra imperdiet accumsan erat fusce in. At. \n\n</p></blockquote>\n</div>\n\n\n",
+        "body": "\n \n<h2>Typography</h2>\n\n<h3>Headings</h3>\n<div class=\"client\">\n\t<h1>Level 1 heading</h1>\n\t<h2>Level 2 heading</h2>\n\t<h3>Level 3 heading</h3>\n\t<h4>Level 4 heading</h4>\n\t<h5>Level 5 heading</h5>\t\n</div>\n\n<h3>Lists</h3>\n<div class=\"client\">\n\t<ul class=\"list\">\n\t\t<li>This is an unordered list</li>\n\t\t<li>With some elements</li>\n\t\t<li class=\"selected\">This is selected</li>\n\t\t<li><a href=\"#\">And this is a link in a list</a></li>\n\t</ul>\n\t<br><br>\n\t<ol class=\"list\">\n\t\t<li>This is an ordered list</li>\n\t\t<li>With some elements</li>\n\t\t<li class=\"selected\">This is selected</li>\n\t\t<li><a href=\"#\">And this is a link in a list</a></li>\n\t</ol>\n</div>\n\n<h3>Paragraphs</h3>\n<div class=\"client\">\n<p>Lorem ipsum at aliquam per sed feugiat. Montes accumsan amet interdum duis justo viverra. Vel ut pulvinar nunc turpis ullamcorper aliquam erat in. Eget pellentesque iaculis dignissim nunc velit eu tellus adipiscing. Fusce nec et amet erat sapien consectetuer vel facilisis fames. Vulputate sem magna laoreet nam. Morbi est adipiscing fusce libero. \n\n</p><p>Mauris consectetuer quam aliquam luctus mauris et commodo ultricies libero volutpat egestas. Sed non accumsan suspendisse. Consectetuer non leo dolor sed phasellus sodales est aliquam libero. Ac montes quis auctor suscipit magna nibh aenean gravida. Mauris eros ut metus id aliquam. Pede amet inceptos pretium sagittis ridiculus morbi purus luctus. \n\n</p>\n</div>\n\n<h3>A quote</h3>\n<div class=\"client\">\n\t<blockquote><p>Lorem ipsum eleifend ut at quam. Velit curabitur arcu ac quis dictumst eget et. Id feugiat proin nunc cubilia iaculis viverra vitae potenti. Aliquam sociosqu sapien non ante orci. A pulvinar phasellus vitae torquent aliquet ut nec lacus. Phasellus nulla erat habitasse nec libero. Nostra purus elit turpis ridiculus mollis vestibulum semper. \n\n</p></blockquote>\n</div>\n\n\n",
         "month": "11",
         "year": "2014",
         "ticks": 1415491200.0,
@@ -244,12 +246,16 @@
       },
       "layout": {
         "blocks": [
-          "/elements/navigation"
+          "/elements/navigation",
+          "/elements/grid",
+          "/elements/typography"
         ]
       },
       "transliterated-layout": {
         "blocks": [
-          "/elements/navigation"
+          "/elements/navigation",
+          "/elements/grid",
+          "/elements/typography"
         ]
       },
       "slug": {
