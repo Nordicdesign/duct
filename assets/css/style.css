@@ -1,3 +1,4 @@
+/* change all SASS files as you wish, but the last one 'boilerplate' */
 /*reset*/
 *,
 *:after,
@@ -490,3 +491,5 @@ pre code {
   box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 3px inset; }
 pre code.hljs {
   padding: 0 1em; }
+
+/* don't change this one */

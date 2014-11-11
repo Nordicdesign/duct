@@ -2,10 +2,11 @@
 
 // start with all the variables and CSS reset
 
+/* change all SASS files as you wish, but the last one 'boilerplate' */
 @import 'config';
 @import 'reset';
 @import 'guide';
 @import 'layout';
-@import 'boilerplate';
+@import 'boilerplate'; /* don't change this one */
 
-// custom layout
+// custom layout code goes here
