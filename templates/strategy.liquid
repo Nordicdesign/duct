@@ -1,0 +1,15 @@
+{% layout "listing" %}
+{% block content %} 
+
+<h1>Strategy</h1>
+<div class="modulesList">
+	{% collection "strategy" %}
+	  {% for post in collection.items %}
+	  <div>
+	  	<h2><a href="{{ post.slug }}">{{ post.title }}</a></h2>
+	  	<p>I need a description here</p>
+	  </div>
+	  {% endfor %}
+	{% endcollection %}
+</div>
+{% endblock %}

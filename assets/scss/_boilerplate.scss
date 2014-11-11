@@ -18,7 +18,9 @@
 .space2 {padding: 4em 0;}
 .space3 {padding: 2em 0;}
 
-
+.right {
+  float:right;
+}
 
 
 
@@ -36,6 +38,11 @@ header {
     line-height: 3rem;
     margin: 0;
     padding:0;
+
+    a {
+      color: #fff;
+      border:none;
+    }
   }
   nav li {
     float: left;
@@ -153,3 +160,9 @@ pre {
 
 
 // FOOTER
+
+footer {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid #ccc;
+}

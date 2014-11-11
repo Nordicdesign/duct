@@ -2,9 +2,9 @@
 <html lang="en">
     <head>
         <!-- Title block allowing child pages to override -->
-        <title>{% block title %}Nordic style guide{% endblock %}</title>
+        <title>{% block title %}Your cool style guide{% endblock %}</title>
         <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
-        <!-- Styles -->
+        <!-- you should need the following style guides and javascript files -->
         {{ "style.css" | asset_url | stylesheet_tag }}
         {{ "default.min.css" | asset_url | stylesheet_tag }}
         {{ "jquery-1.11.1.min.js" | asset_url | script_tag }}
@@ -12,7 +12,10 @@
         {{ "jquery.sticky-kit.min.js" | asset_url | script_tag }}
         <!-- Style block allowing child pages to inject their own styles -->
         {% block styles %}{% endblock %}
+
+        <!-- insert your required javascript files and web fonts here -->
         <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+
         <script>hljs.initHighlightingOnLoad();</script>
         <script>
             $( document ).ready(function() {

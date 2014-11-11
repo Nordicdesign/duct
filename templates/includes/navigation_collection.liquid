@@ -18,6 +18,26 @@
   {% endfor %}
   </ul>
 {% endcollection %}
-
 {% endif %}
+
+{% if mixture.url contains "strategy" %}
+{% collection "strategy" %}
+  <ul>
+  {% for post in collection.items %}
+    <li><a href="{{ post.slug }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+{% endcollection %}
+{% endif %}
+
+{% if mixture.url contains "layouts" %}
+{% collection "layouts" %}
+  <ul>
+  {% for post in collection.items %}
+    <li><a href="{{ post.slug }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+{% endcollection %}
+{% endif %}
+
 </nav>

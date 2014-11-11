@@ -176,7 +176,7 @@
         "published": true,
         "date": "2014-11-09 00:00:00 UTC",
         "slug": "/elements/navigation",
-        "body": "\n \n\t\n<h1>Navigation</h1>\n\t<p>Lorem ipsum pellentesque duis nullam sed. Massa a sapien vestibulum nibh primis orci luctus fusce. Quisque vel scelerisque nunc suscipit quis suspendisse fames justo porttitor fames. Quis non sodales tincidunt et suscipit at metus aenean sed ante. Enim mattis tristique pretium et massa semper libero molestie hymenaeos fusce mattis. Mauris bibendum nunc. \n\n</p><p>Non consectetuer neque scelerisque netus. Laoreet duis nunc lobortis congue. Egestas suspendisse libero eget. Orci mattis velit. Eu proin aenean nam magna aliquam imperdiet aliquam sed ut. Sociis tincidunt molestie morbi morbi. In eget libero donec augue eget. Id massa erat turpis. A aptent mi. Curabitur commodo convallis sociosqu quam. \n\n</p><p>Dui malesuada imperdiet amet vivamus. Litora litora pulvinar morbi orci sed eu sed donec. Pede vel dolor consectetuer nulla netus. Litora tempor conubia et morbi ullamcorper sapien neque nunc aliquam ac. Orci fusce nunc hymenaeos senectus mi vel a duis ad. Commodo praesent placerat risus vulputate litora potenti sed. Congue. \n\n</p><p>Inceptos ullamcorper torquent mauris sit. Vel metus nisi sem per penatibus accumsan. In nullam et eget dictum ac facilisis est litora accumsan mi felis. Imperdiet nunc adipiscing porttitor turpis feugiat ornare integer ac. Conubia velit quam morbi imperdiet mauris libero ut massa ligula curae;. Dolor vel lorem nonummy vel sed. \n\n</p><p>Ut consequat blandit sit nibh lacinia. Rhoncus tristique ullamcorper mollis libero nunc est. Duis ut suscipit tempor nec. Tortor dictumst massa vivamus. Scelerisque mi hymenaeos nibh dignissim nulla libero vitae vestibulum. Libero vulputate massa phasellus aliquam potenti nulla aliquam congue. Suspendisse augue tempor. Lacus fusce netus fusce nec donec accumsan. \n\n</p>\n\t\n",
+        "body": "\n \n\t\n<h1>Navigation</h1>\n<p>Document how your navigation works here.</p>\n",
         "month": "11",
         "year": "2014",
         "ticks": 1415491200.0,
@@ -197,12 +197,12 @@
         "mixture_date": "2014-11-09T00:00:00Z"
       },
       "/elements/forms": {
-        "title": "Forms",
+        "title": "Form elements",
         "layout": "blocks",
         "published": true,
         "date": "2014-11-10 00:00:00 UTC",
         "slug": "/elements/forms",
-        "body": "\n \n<h1>Forms</h1>\n<p>Every element must be part of a <span>fieldset</span>, otherwise the styles won't be rendered appropriately (accessiblity considerations aside).</p>\n<pre>\n\t<code>\n&lt;form&gt;<br/>  &lt;fieldset&gt;<br/>    &lt;p&gt;<br/>      &lt;label&gt;This is the label&lt;/label&gt;<br/>      &lt;input type=&quot;text&quot; value=&quot;Some predefined text here&quot;&gt;<br/>    &lt;/p&gt;<br/>  &lt;/fieldset&gt;<br/>&lt;/form&gt;\n\t</code>\n</pre>\n\n<h2>Buttons</h2>\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t<p><input class=\"button\" value=\"Normal Button\"></p>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;input class=&quot;button&quot; value=&quot;Normal Button&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t<p><input class=\"button primary\" value=\"Primary action\"></p>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;input class=&quot;button primary&quot; value=&quot;Primary action&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t<p><input class=\"button disabled\" disabled value=\"Disabled\"></p>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;input class=&quot;button disabled&quot; disabled value=&quot;Disabled&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t\t<fieldset>\n\t\t\t\t<p><input type=\"submit\" value=\"Submit button\"></p>\n\t\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;input type=&quot;submit&quot; value=&quot;Submit button&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n<h2>Elements</h2>\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t<fieldset>\n\t\t\t\t<p>\n\t\t\t\t\t<label>Normal text input field</label>\n\t\t\t\t\t<input type=\"text\" placeholder=\"Some predefined text here\">\n\t\t\t\t\t<p class=\"form-help\">This is help text under the form field.</p>\n\t\t\t\t</p>\n\t\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;label&gt;Normal text input field&lt;/label&gt;<br/>&lt;input type=&quot;text&quot; placeholder=&quot;Some predefined text here&quot;&gt;<br/>&lt;p class=&quot;form-help&quot;&gt;This is help text under the form field.&lt;/p&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t\t<fieldset>\n\t\t\t\t<label for=\"url\">URL</label>\n\t\t\t\t<input type=\"url\" class=\"form-text\" placeholder=\"http://yourdomain.com\" />\n\t\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;label for=&quot;url&quot;&gt;URL&lt;/label&gt;<br/>&lt;input type=&quot;url&quot; id=&quot;url&quot; class=&quot;form-text&quot; placeholder=&quot;http://yourdomain.com&quot; /&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t\t<fieldset class=\"radio\">\n\t\t\t\t<label for=\"notifications\">Radio buttons</label>\n\t\t\t\t<ul>\n\t\t\t\t\t<li><label><input type=\"radio\" name=\"notifications\"> Send me email</label></li>\n\t\t\t\t\t<li><label><input type=\"radio\" name=\"notifications\"> Don't send me email</label></li>\n\t\t\t\t\t<li><label><input type=\"radio\" name=\"notifications\"> Send me flowers</label></li>\n\t\t\t\t</ul>\n\t\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;label&gt;Normal text input field&lt;/label&gt;<br/>&lt;input type=&quot;text&quot; value=&quot;Some predefined text here&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t<fieldset>\n\t\t\t<label for=\"bio\">Bio</label>\n\t\t\t<textarea id=\"bio\"></textarea>\n\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;fieldset&gt;<br/>  &lt;label for=&quot;bio&quot;&gt;Bio&lt;/label&gt;<br/>  &lt;textarea id=&quot;bio&quot;&gt;&lt;/textarea&gt;<br/>&lt;/fieldset&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t<fieldset class=\"check\">\n\t\t\t<label><input type=\"checkbox\" /> I accept the terms of service and lorem ipsum.</label>\n\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;fieldset class=&quot;check&quot;&gt;<br/>  &lt;label&gt;&lt;input type=&quot;checkbox&quot; /&gt; I accept the terms of service and lorem ipsum.&lt;/label&gt;<br/>&lt;/fieldset&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\t\t\t\t\t\n\t\t<fieldset class=\"check\">\n\t\t\t<label><input type=\"checkbox\" /> I accept the terms of service and lorem ipsum.</label>\n\t\t</fieldset>\t\t\t\t\n\n\n<h2>Form errors</h2>\n\n<h2>Search form</h2>\n\n\n\n\n\n",
+        "body": "\n \n<h1>Form elements</h1>\n<p>Every element must be part of a <span>fieldset</span>, otherwise the styles won't be rendered appropriately (accessiblity considerations aside).</p>\n<pre>\n\t<code>\n&lt;form&gt;<br/>  &lt;fieldset&gt;<br/>    &lt;p&gt;<br/>      &lt;label&gt;This is the label&lt;/label&gt;<br/>      &lt;input type=&quot;text&quot; value=&quot;Some predefined text here&quot;&gt;<br/>    &lt;/p&gt;<br/>  &lt;/fieldset&gt;<br/>&lt;/form&gt;\n\t</code>\n</pre>\n\n<h2>Buttons</h2>\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t<p><input class=\"button\" value=\"Normal Button\"></p>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;input class=&quot;button&quot; value=&quot;Normal Button&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t<p><input class=\"button primary\" value=\"Primary action\"></p>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;input class=&quot;button primary&quot; value=&quot;Primary action&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t<p><input class=\"button disabled\" disabled value=\"Disabled\"></p>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;input class=&quot;button disabled&quot; disabled value=&quot;Disabled&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t\t<fieldset>\n\t\t\t\t<p><input type=\"submit\" value=\"Submit button\"></p>\n\t\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;input type=&quot;submit&quot; value=&quot;Submit button&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n<h2>Elements</h2>\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t<fieldset>\n\t\t\t\t<p>\n\t\t\t\t\t<label>Normal text input field</label>\n\t\t\t\t\t<input type=\"text\" placeholder=\"Some predefined text here\">\n\t\t\t\t\t<p class=\"form-help\">This is help text under the form field.</p>\n\t\t\t\t</p>\n\t\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;label&gt;Normal text input field&lt;/label&gt;<br/>&lt;input type=&quot;text&quot; placeholder=&quot;Some predefined text here&quot;&gt;<br/>&lt;p class=&quot;form-help&quot;&gt;This is help text under the form field.&lt;/p&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t\t<fieldset>\n\t\t\t\t<label for=\"url\">URL</label>\n\t\t\t\t<input type=\"url\" class=\"form-text\" placeholder=\"http://yourdomain.com\" />\n\t\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;label for=&quot;url&quot;&gt;URL&lt;/label&gt;<br/>&lt;input type=&quot;url&quot; id=&quot;url&quot; class=&quot;form-text&quot; placeholder=&quot;http://yourdomain.com&quot; /&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t\t<fieldset class=\"radio\">\n\t\t\t\t<label for=\"notifications\">Radio buttons</label>\n\t\t\t\t<ul>\n\t\t\t\t\t<li><label><input type=\"radio\" name=\"notifications\"> Send me email</label></li>\n\t\t\t\t\t<li><label><input type=\"radio\" name=\"notifications\"> Don't send me email</label></li>\n\t\t\t\t\t<li><label><input type=\"radio\" name=\"notifications\"> Send me flowers</label></li>\n\t\t\t\t</ul>\n\t\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;label&gt;Normal text input field&lt;/label&gt;<br/>&lt;input type=&quot;text&quot; value=&quot;Some predefined text here&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t<fieldset>\n\t\t\t<label for=\"bio\">Bio</label>\n\t\t\t<textarea id=\"bio\"></textarea>\n\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;fieldset&gt;<br/>  &lt;label for=&quot;bio&quot;&gt;Bio&lt;/label&gt;<br/>  &lt;textarea id=&quot;bio&quot;&gt;&lt;/textarea&gt;<br/>&lt;/fieldset&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n<div class=\"row\">\n\t<div class=\"large5 col\">\n\t\t<fieldset class=\"check\">\n\t\t\t<label><input type=\"checkbox\" /> I accept the terms of service and lorem ipsum.</label>\n\t\t</fieldset>\n\t</div>\n\t<div class=\"large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;fieldset class=&quot;check&quot;&gt;<br/>  &lt;label&gt;&lt;input type=&quot;checkbox&quot; /&gt; I accept the terms of service and lorem ipsum.&lt;/label&gt;<br/>&lt;/fieldset&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\t\t\t\t\t\n\t\t<fieldset class=\"check\">\n\t\t\t<label><input type=\"checkbox\" /> I accept the terms of service and lorem ipsum.</label>\n\t\t</fieldset>\t\t\t\t\n\n\n<h2>Form errors</h2>\n\n<h2>Search form</h2>\n\n\n\n\n\n",
         "month": "11",
         "year": "2014",
         "ticks": 1415577600.0,
@@ -221,6 +221,45 @@
         "ticks": 1415491200.0,
         "mixture_month_year": "11/2014",
         "mixture_date": "2014-11-09T00:00:00Z"
+      },
+      "/elements/tables": {
+        "title": "Tables",
+        "layout": "blocks",
+        "published": true,
+        "date": "2014-11-09 00:00:00 UTC",
+        "slug": "/elements/tables",
+        "body": "\n \n\t\n<h1>Tables</h1>\n<p>Document how your tables work here.</p>\n",
+        "month": "11",
+        "year": "2014",
+        "ticks": 1415491200.0,
+        "mixture_month_year": "11/2014",
+        "mixture_date": "2014-11-09T00:00:00Z"
+      },
+      "/elements/pagination": {
+        "title": "Pagination",
+        "layout": "blocks",
+        "published": true,
+        "date": "2014-11-10 00:00:00 UTC",
+        "slug": "/elements/pagination",
+        "body": "\n \n\t\n<h1>Pagination</h1>\n<p>Document how your pagination works here.</p>\n",
+        "month": "11",
+        "year": "2014",
+        "ticks": 1415577600.0,
+        "mixture_month_year": "11/2014",
+        "mixture_date": "2014-11-10T00:00:00Z"
+      },
+      "/elements/icon-fonts": {
+        "title": "Icon fonts",
+        "layout": "blocks",
+        "published": true,
+        "date": "2014-11-09 00:00:00 UTC",
+        "slug": "/elements/icon-fonts",
+        "body": "\n \n\t\n<h1>Icon fonts</h1>\n<p>Document how your icon fonts work here.</p>\n",
+        "month": "11",
+        "year": "2014",
+        "ticks": 1415491200.0,
+        "mixture_month_year": "11/2014",
+        "mixture_date": "2014-11-09T00:00:00Z"
       }
     },
     "index": {
@@ -231,11 +270,20 @@
         "responsive grid": [
           "/elements/grid"
         ],
-        "forms": [
+        "form elements": [
           "/elements/forms"
         ],
         "typography": [
           "/elements/typography"
+        ],
+        "tables": [
+          "/elements/tables"
+        ],
+        "pagination": [
+          "/elements/pagination"
+        ],
+        "icon fonts": [
+          "/elements/icon-fonts"
         ]
       },
       "transliterated-title": {
@@ -245,11 +293,20 @@
         "responsive-grid": [
           "/elements/grid"
         ],
-        "forms": [
+        "form-elements": [
           "/elements/forms"
         ],
         "typography": [
           "/elements/typography"
+        ],
+        "tables": [
+          "/elements/tables"
+        ],
+        "pagination": [
+          "/elements/pagination"
+        ],
+        "icon-fonts": [
+          "/elements/icon-fonts"
         ]
       },
       "layout": {
@@ -257,7 +314,10 @@
           "/elements/navigation",
           "/elements/grid",
           "/elements/forms",
-          "/elements/typography"
+          "/elements/typography",
+          "/elements/tables",
+          "/elements/pagination",
+          "/elements/icon-fonts"
         ]
       },
       "transliterated-layout": {
@@ -265,7 +325,10 @@
           "/elements/navigation",
           "/elements/grid",
           "/elements/forms",
-          "/elements/typography"
+          "/elements/typography",
+          "/elements/tables",
+          "/elements/pagination",
+          "/elements/icon-fonts"
         ]
       },
       "slug": {
@@ -280,6 +343,15 @@
         ],
         "/elements/typography": [
           "/elements/typography"
+        ],
+        "/elements/tables": [
+          "/elements/tables"
+        ],
+        "/elements/pagination": [
+          "/elements/pagination"
+        ],
+        "/elements/icon-fonts": [
+          "/elements/icon-fonts"
         ]
       },
       "transliterated-slug": {
@@ -294,6 +366,15 @@
         ],
         "/elements/typography": [
           "/elements/typography"
+        ],
+        "/elements/tables": [
+          "/elements/tables"
+        ],
+        "/elements/pagination": [
+          "/elements/pagination"
+        ],
+        "/elements/icon-fonts": [
+          "/elements/icon-fonts"
         ]
       },
       "month": {
@@ -301,7 +382,10 @@
           "/elements/navigation",
           "/elements/grid",
           "/elements/forms",
-          "/elements/typography"
+          "/elements/typography",
+          "/elements/tables",
+          "/elements/pagination",
+          "/elements/icon-fonts"
         ]
       },
       "year": {
@@ -309,17 +393,23 @@
           "/elements/navigation",
           "/elements/grid",
           "/elements/forms",
-          "/elements/typography"
+          "/elements/typography",
+          "/elements/tables",
+          "/elements/pagination",
+          "/elements/icon-fonts"
         ]
       },
       "ticks": {
         "1415491200.0": [
           "/elements/navigation",
           "/elements/grid",
-          "/elements/typography"
+          "/elements/typography",
+          "/elements/tables",
+          "/elements/icon-fonts"
         ],
         "1415577600.0": [
-          "/elements/forms"
+          "/elements/forms",
+          "/elements/pagination"
         ]
       },
       "mixture_month_year": {
@@ -327,17 +417,165 @@
           "/elements/navigation",
           "/elements/grid",
           "/elements/forms",
-          "/elements/typography"
+          "/elements/typography",
+          "/elements/tables",
+          "/elements/pagination",
+          "/elements/icon-fonts"
         ]
       },
       "mixture_date": {
         "2014-11-09t00:00:00z": [
           "/elements/navigation",
           "/elements/grid",
-          "/elements/typography"
+          "/elements/typography",
+          "/elements/tables",
+          "/elements/icon-fonts"
         ],
         "2014-11-10t00:00:00z": [
-          "/elements/forms"
+          "/elements/forms",
+          "/elements/pagination"
+        ]
+      }
+    }
+  },
+  "strategy": {
+    "collection": {
+      "/strategy/device-browser-support": {
+        "title": "Device and browser support",
+        "layout": "blocks",
+        "published": true,
+        "date": "2014-11-10 00:00:00 UTC",
+        "slug": "/strategy/device-browser-support",
+        "body": "\n \n\t\n<h1>Device and browser support</h1>\n<p>Document what devices and browsers do you support.</p>\n",
+        "month": "11",
+        "year": "2014",
+        "ticks": 1415577600.0,
+        "mixture_month_year": "11/2014",
+        "mixture_date": "2014-11-10T00:00:00Z"
+      },
+      "/strategy/responsive-typography": {
+        "title": "Responsive typography",
+        "layout": "blocks",
+        "published": true,
+        "date": "2014-11-11 00:00:00 UTC",
+        "slug": "/strategy/responsive-typography",
+        "body": "\n \n\t\n<h1>Responsive typography</h1>\n<p>Document how are you going to manage your responsive typoegraphy here.</p>\n",
+        "month": "11",
+        "year": "2014",
+        "ticks": 1415664000.0,
+        "mixture_month_year": "11/2014",
+        "mixture_date": "2014-11-11T00:00:00Z"
+      },
+      "/strategy/responsive-budget": {
+        "title": "Responsive budget",
+        "layout": "blocks",
+        "published": true,
+        "date": "2014-11-11 00:00:00 UTC",
+        "slug": "/strategy/responsive-budget",
+        "body": "\n \n\t\n<h1>Responsive budget</h1>\n<p>If you have one (lucky you!), document your performance budget here.</p>\n",
+        "month": "11",
+        "year": "2014",
+        "ticks": 1415664000.0,
+        "mixture_month_year": "11/2014",
+        "mixture_date": "2014-11-11T00:00:00Z"
+      }
+    },
+    "index": {
+      "title": {
+        "device and browser support": [
+          "/strategy/device-browser-support"
+        ],
+        "responsive typography": [
+          "/strategy/responsive-typography"
+        ],
+        "responsive budget": [
+          "/strategy/responsive-budget"
+        ]
+      },
+      "transliterated-title": {
+        "device-and-browser-support": [
+          "/strategy/device-browser-support"
+        ],
+        "responsive-typography": [
+          "/strategy/responsive-typography"
+        ],
+        "responsive-budget": [
+          "/strategy/responsive-budget"
+        ]
+      },
+      "layout": {
+        "blocks": [
+          "/strategy/device-browser-support",
+          "/strategy/responsive-typography",
+          "/strategy/responsive-budget"
+        ]
+      },
+      "transliterated-layout": {
+        "blocks": [
+          "/strategy/device-browser-support",
+          "/strategy/responsive-typography",
+          "/strategy/responsive-budget"
+        ]
+      },
+      "slug": {
+        "/strategy/device-browser-support": [
+          "/strategy/device-browser-support"
+        ],
+        "/strategy/responsive-typography": [
+          "/strategy/responsive-typography"
+        ],
+        "/strategy/responsive-budget": [
+          "/strategy/responsive-budget"
+        ]
+      },
+      "transliterated-slug": {
+        "/strategy/device-browser-support": [
+          "/strategy/device-browser-support"
+        ],
+        "/strategy/responsive-typography": [
+          "/strategy/responsive-typography"
+        ],
+        "/strategy/responsive-budget": [
+          "/strategy/responsive-budget"
+        ]
+      },
+      "month": {
+        "11": [
+          "/strategy/device-browser-support",
+          "/strategy/responsive-typography",
+          "/strategy/responsive-budget"
+        ]
+      },
+      "year": {
+        "2014": [
+          "/strategy/device-browser-support",
+          "/strategy/responsive-typography",
+          "/strategy/responsive-budget"
+        ]
+      },
+      "ticks": {
+        "1415577600.0": [
+          "/strategy/device-browser-support"
+        ],
+        "1415664000.0": [
+          "/strategy/responsive-typography",
+          "/strategy/responsive-budget"
+        ]
+      },
+      "mixture_month_year": {
+        "11/2014": [
+          "/strategy/device-browser-support",
+          "/strategy/responsive-typography",
+          "/strategy/responsive-budget"
+        ]
+      },
+      "mixture_date": {
+        "2014-11-10t00:00:00z": [
+          "/strategy/device-browser-support"
+        ],
+        "2014-11-11t00:00:00z": [
+          "/strategy/responsive-typography",
+          "/strategy/responsive-budget"
         ]
       }
     }

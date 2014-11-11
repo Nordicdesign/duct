@@ -10,3 +10,17 @@
 @import 'boilerplate'; /* don't change this one */
 
 // custom layout code goes here
+
+// homepage styles
+.intro {
+	padding: 5em;
+	text-align: center;
+
+	h1 {
+		font-size: 7rem;
+		color: tomato;
+	}
+	p {
+		font-size: 2.5rem;
+	}
+}

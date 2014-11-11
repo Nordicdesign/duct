@@ -33,7 +33,7 @@ p {
   margin-bottom: 1.3em; }
 
 a {
-  color: #333;
+  color: darkred;
   text-decoration: none;
   border-bottom: 1px solid; }
 
@@ -322,11 +322,6 @@ a:hover.tooltips span {
   float: left;
   padding: 0 5px; }
 
-.right {
-  display: inline;
-  float: right;
-  padding-right: 0; }
-
 .gutter {
   padding: 10px; }
 
@@ -408,6 +403,9 @@ a:hover.tooltips span {
 .space3 {
   padding: 2em 0; }
 
+.right {
+  float: right; }
+
 /* HEADER */
 header {
   display: flex;
@@ -420,6 +418,9 @@ header {
     line-height: 3rem;
     margin: 0;
     padding: 0; }
+    header .title a {
+      color: #fff;
+      border: none; }
   header nav li {
     float: left;
     list-style-type: none;
@@ -492,4 +493,17 @@ pre code {
 pre code.hljs {
   padding: 0 1em; }
 
+footer {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid #ccc; }
+
 /* don't change this one */
+.intro {
+  padding: 5em;
+  text-align: center; }
+  .intro h1 {
+    font-size: 7rem;
+    color: tomato; }
+  .intro p {
+    font-size: 2.5rem; }

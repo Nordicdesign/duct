@@ -16,5 +16,11 @@
     "key": "elements",
     "name": "Elements",
     "url": "/elements"
+  },
+  {
+    "directory": false,
+    "key": "strategy",
+    "name": "Strategy",
+    "url": "/strategy"
   }
 ]
