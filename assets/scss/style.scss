@@ -23,4 +23,18 @@
 	p {
 		font-size: 2.5rem;
 	}
+
+
+}
+
+@media all and (max-width: 55em) {
+	.intro {
+		padding: 2em; 
+	}		
+}
+
+
+// how it works
+.steps h2 {
+	margin-top: 0;
 }

@@ -416,8 +416,9 @@ header {
   header .title {
     font-size: 2rem;
     line-height: 3rem;
-    margin: 0;
-    padding: 0; }
+    margin: 0 1em 0 0;
+    padding: 0;
+    white-space: nowrap; }
     header .title a {
       color: #fff;
       border: none; }
@@ -443,61 +444,78 @@ header {
   display: flex;
   flex-direction: column; }
 
+@media all and (max-width: 55em) {
+  .theMeat > aside {
+    margin-top: 1em;
+    border-top: 6px double #888;
+    width: 100%;
+    background: #f2f3f4; }
+    .theMeat > aside li {
+      padding: .5em 2em 1em;
+      border-bottom: 1px solid #ccc; } }
 @media all and (min-width: 55em) {
   .theMeat {
     flex-direction: row; }
 
+  /* left-hand navigation */
   .theMeat > aside {
     width: 20%;
-    order: 1;
-    border-right: 1px solid #ccc; }
+    order: 1; }
     .theMeat > aside ul {
-      margin: 0 1em 0 0; }
+      margin: 0 1em 0 0;
+      border-right: 1px solid #ccc; }
     .theMeat > aside li {
       list-style: none;
       margin-left: 0;
-      padding: 0 0 .5em 0; }
+      padding: 0 0 1em 0;
+      line-height: 1.2; }
     .theMeat > aside li strong {
       padding-top: 1em; }
 
+  /* main content */
   .theMeat main {
     width: 80%;
     order: 2;
     padding-left: 1em; } }
-nav span {
-  /* not used right now, useful to select current page on the left-hand nav */
-  font-weight: bold;
-  margin: 1.5em 0 .4em;
-  display: block; }
-
+/* styles to visualise the responsive grid page */
 .theGrid .col {
   text-align: center;
   padding: 1em 0;
   color: #fff; }
 
 .modulesList {
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
 
 .modulesList div {
   padding: 1em;
   border: 1px solid #f2f3f4;
   border-radius: 2px;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16);
-  margin: 1%; }
+  margin: 1%;
+  flex-grow: 1; }
   .modulesList div h2 {
     margin-top: 0; }
 
+@media all and (max-width: 40em) {
+  .modulesList {
+    flex-direction: column; } }
+/* displaying code correctly */
 pre code {
   white-space: pre-wrap;
   box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 3px inset; }
 pre code.hljs {
   padding: 0 1em; }
 
+/* FOOTER */
 footer {
   margin-top: 2em;
   padding-top: 1em;
   border-top: 1px solid #ccc; }
 
+@media all and (max-width: 55em) {
+  footer .right {
+    float: none; } }
 /* don't change this one */
 .intro {
   padding: 5em;
@@ -507,3 +525,9 @@ footer {
     color: tomato; }
   .intro p {
     font-size: 2.5rem; }
+
+@media all and (max-width: 55em) {
+  .intro {
+    padding: 2em; } }
+.steps h2 {
+  margin-top: 0; }

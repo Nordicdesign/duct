@@ -3,6 +3,7 @@
     <head>
         <!-- Title block allowing child pages to override -->
         <title>{% block title %}Your cool style guide{% endblock %}</title>
+        <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
         <!-- you should need the following style guides and javascript files -->
         {{ "style.css" | asset_url | stylesheet_tag }}

@@ -15,11 +15,13 @@ slug: /forms
 </pre>
 
 <h2>Buttons</h2>
+
 <div class="row">
-	<div class="large5 col">
+	<div class="small4 large5 col">
+		<h3>Normal button</h3>
 		<p><input class="button" value="Normal Button"></p>
 	</div>
-	<div class="large3 col">
+	<div class="small4 large3 col">
 		<pre>
 			<code>
 &lt;input class=&quot;button&quot; value=&quot;Normal Button&quot;&gt;
@@ -27,11 +29,14 @@ slug: /forms
 		</pre>
 	</div>
 </div>
+
+
 <div class="row">
-	<div class="large5 col">
+	<div class="small4 large5 col">
+		<h3>Primary action button</h3>
 		<p><input class="button primary" value="Primary action"></p>
 	</div>
-	<div class="large3 col">
+	<div class="small4 large3 col">
 		<pre>
 			<code>
 &lt;input class=&quot;button primary&quot; value=&quot;Primary action&quot;&gt;
@@ -40,10 +45,11 @@ slug: /forms
 	</div>
 </div>
 <div class="row">
-	<div class="large5 col">
+	<div class="small4 large5 col">
+		<h3>Disabled button</h3>
 		<p><input class="button disabled" disabled value="Disabled"></p>
 	</div>
-	<div class="large3 col">
+	<div class="small4 large3 col">
 		<pre>
 			<code>
 &lt;input class=&quot;button disabled&quot; disabled value=&quot;Disabled&quot;&gt;
@@ -53,12 +59,13 @@ slug: /forms
 </div>
 
 <div class="row">
-	<div class="large5 col">
+	<div class="small4 large5 col">
+		<h3>Submit button</h3>
 			<fieldset>
 				<p><input type="submit" value="Submit button"></p>
 			</fieldset>
 	</div>
-	<div class="large3 col">
+	<div class="small4 large3 col">
 		<pre>
 			<code>
 &lt;input type=&quot;submit&quot; value=&quot;Submit button&quot;&gt;
@@ -67,9 +74,10 @@ slug: /forms
 	</div>
 </div>
 
-<h2>Elements</h2>
+<h2>Fields</h2>
 <div class="row">
-	<div class="large5 col">
+	<div class="small4 large5 col">
+		<h3>A standard text input field, with label</h3>
 		<fieldset>
 				<p>
 					<label>Normal text input field</label>
@@ -78,7 +86,7 @@ slug: /forms
 				</p>
 			</fieldset>
 	</div>
-	<div class="large3 col">
+	<div class="small4 large3 col">
 		<pre>
 			<code>
 &lt;label&gt;Normal text input field&lt;/label&gt;<br/>&lt;input type=&quot;text&quot; placeholder=&quot;Some predefined text here&quot;&gt;<br/>&lt;p class=&quot;form-help&quot;&gt;This is help text under the form field.&lt;/p&gt;
@@ -88,13 +96,14 @@ slug: /forms
 </div>
 
 <div class="row">
-	<div class="large5 col">
+	<div class="small4 large5 col">
+		<h3>An input field meant for URLs, with label</h3>
 			<fieldset>
 				<label for="url">URL</label>
 				<input type="url" class="form-text" placeholder="http://yourdomain.com" />
 			</fieldset>
 	</div>
-	<div class="large3 col">
+	<div class="small4 large3 col">
 		<pre>
 			<code>
 &lt;label for=&quot;url&quot;&gt;URL&lt;/label&gt;<br/>&lt;input type=&quot;url&quot; id=&quot;url&quot; class=&quot;form-text&quot; placeholder=&quot;http://yourdomain.com&quot; /&gt;
@@ -105,7 +114,8 @@ slug: /forms
 
 
 <div class="row">
-	<div class="large5 col">
+	<div class="small4 large5 col">
+		<h3>Some radio buttons, with label</h3>
 			<fieldset class="radio">
 				<label for="notifications">Radio buttons</label>
 				<ul>
@@ -115,7 +125,7 @@ slug: /forms
 				</ul>
 			</fieldset>
 	</div>
-	<div class="large3 col">
+	<div class="small4 large3 col">
 		<pre>
 			<code>
 &lt;label&gt;Normal text input field&lt;/label&gt;<br/>&lt;input type=&quot;text&quot; value=&quot;Some predefined text here&quot;&gt;
@@ -126,13 +136,14 @@ slug: /forms
 
 
 <div class="row">
-	<div class="large5 col">
+	<div class="small4 large5 col">
+		<h3>A textarea, with label</h3>
 		<fieldset>
 			<label for="bio">Bio</label>
 			<textarea id="bio"></textarea>
 		</fieldset>
 	</div>
-	<div class="large3 col">
+	<div class="small4 large3 col">
 		<pre>
 			<code>
 &lt;fieldset&gt;<br/>  &lt;label for=&quot;bio&quot;&gt;Bio&lt;/label&gt;<br/>  &lt;textarea id=&quot;bio&quot;&gt;&lt;/textarea&gt;<br/>&lt;/fieldset&gt;
@@ -142,12 +153,13 @@ slug: /forms
 </div>
 
 <div class="row">
-	<div class="large5 col">
+	<div class="small4 large5 col">
+		<h3>The classic T&amp;Cs checkbox that nobody reads</h3>
 		<fieldset class="check">
 			<label><input type="checkbox" /> I accept the terms of service and lorem ipsum.</label>
 		</fieldset>
 	</div>
-	<div class="large3 col">
+	<div class="small4 large3 col">
 		<pre>
 			<code>
 &lt;fieldset class=&quot;check&quot;&gt;<br/>  &lt;label&gt;&lt;input type=&quot;checkbox&quot; /&gt; I accept the terms of service and lorem ipsum.&lt;/label&gt;<br/>&lt;/fieldset&gt;
@@ -162,8 +174,10 @@ slug: /forms
 
 
 <h2>Form errors</h2>
+<p>Add how your form displays errors here.</p>
 
 <h2>Search form</h2>
+<p>Add how the search form looks like, if different than a normal input field.</p>
 
 
 

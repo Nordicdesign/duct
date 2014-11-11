@@ -19,6 +19,12 @@
   },
   {
     "directory": false,
+    "key": "how-it-works",
+    "name": "How It Works",
+    "url": "/how-it-works"
+  },
+  {
+    "directory": false,
     "key": "strategy",
     "name": "Strategy",
     "url": "/strategy"

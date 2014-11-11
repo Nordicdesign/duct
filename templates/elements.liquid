@@ -3,6 +3,15 @@
 <h1>Elements</h1>
 
 <p>Not sure about what to include here? Check this <a href="http://daverupert.com/2013/04/responsive-deliverables/">post about responsive deliverables</a> by Dave Rupert for some inspiration.</p>	
-{{ 5 | lorem_ipsum:'p' }}
+<div class="modulesList">
+	{% collection "elements" %}
+	  {% for post in collection.items %}
+	  <div>
+	  	<h2><a href="{{ post.slug }}">{{ post.title }}</a></h2>
+	  	<p>I need a description here</p>
+	  </div>
+	  {% endfor %}
+	{% endcollection %}
+</div>
 	
 {% endblock %}

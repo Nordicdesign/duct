@@ -36,8 +36,9 @@ header {
   .title {
     font-size: 2rem;
     line-height: 3rem;
-    margin: 0;
+    margin: 0 1em 0 0;
     padding:0;
+    white-space: nowrap;
 
     a {
       color: #fff;
@@ -78,29 +79,50 @@ header {
   flex-direction: column;
 }
 
+@media all and (max-width: 55em) {
+
+.theMeat > aside {
+  margin-top: 1em;
+  border-top: 6px double #888;
+  width: 100%;
+  background: #f2f3f4;
+
+  li {
+    padding: .5em 2em 1em;
+    border-bottom: 1px solid #ccc;  
+  }
+  
+}
+
+} //media query ends 
 
 @media all and (min-width: 55em) {
   .theMeat {
     flex-direction: row;
   }
+
+  /* left-hand navigation */
   .theMeat > aside {
     width: 20%;
     order: 1;
-    border-right: 1px solid #ccc;
+    
 
     ul {
       margin: 0 1em 0 0;
+      border-right: 1px solid #ccc;
     }
 
     li {
       list-style: none;
       margin-left: 0;
-      padding: 0 0 .5em 0;
+      padding: 0 0 1em 0;
+      line-height: 1.2;
 
     }
     li strong {padding-top: 1em;}
   }
 
+  /* main content */
   .theMeat main {
     width: 80%;
     order: 2;
@@ -109,16 +131,10 @@ header {
 
 }
 
-// MAIN NAVIGATION
 
 
-nav span {  /* not used right now, useful to select current page on the left-hand nav */
-  font-weight: bold;
-  margin: 1.5em 0 .4em;
-  display: block;
-}
 
-// grid
+/* styles to visualise the responsive grid page */
 .theGrid {
   .col {
     text-align: center;
@@ -130,6 +146,7 @@ nav span {  /* not used right now, useful to select current page on the left-han
 // GRID LIST
 .modulesList {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .modulesList div {
@@ -138,11 +155,21 @@ nav span {  /* not used right now, useful to select current page on the left-han
   border-radius: 2px;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16);
   margin: 1%;
+  flex-grow: 1;
 
   h2 {
     margin-top: 0;
   }
 }
+
+@media all and (max-width: 40em) {
+  .modulesList  {
+    flex-direction: column;
+  }
+}
+
+
+/* displaying code correctly */
 
 pre {
   code {
@@ -159,10 +186,16 @@ pre {
 
 
 
-// FOOTER
+/* FOOTER */
 
 footer {
   margin-top: 2em;
   padding-top: 1em;
   border-top: 1px solid #ccc;
+}
+
+@media all and (max-width: 55em) {
+  footer .right {
+    float: none;
+  }
 }
