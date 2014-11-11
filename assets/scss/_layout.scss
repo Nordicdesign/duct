@@ -1,11 +1,5 @@
 /*grid setup*/
 
-.container {
-  width: 96%;
-    max-width: $max-width;
-    margin: 0 auto;
-}
-
 .row:after {
   content: "";
   display: table;
@@ -68,11 +62,5 @@
 .col {
   padding-right: 0;
 }
-
-// generates X number of SMALL classes, each one with 100% width //
-@for $i from 1 through $small-column-number {
-  .small#{$i} { width: 100% }
-}
-
 
 }

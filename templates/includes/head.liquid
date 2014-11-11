@@ -16,7 +16,8 @@
         <script>hljs.initHighlightingOnLoad();</script>
         <script>
             $( document ).ready(function() {
-               $("#top, #navigation").stick_in_parent();
+                $("#top").stick_in_parent();
+                $("#navigation").stick_in_parent({offset_top: 75});
             });
         </script>
     </head>

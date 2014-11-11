@@ -17,27 +17,6 @@
   box-sizing: border-box; }
 
 /*****STYLE GUIDE STARTS HERE*****/
-/*COLOURS*/
-/*  random colours and spacing for prototyping */
-.color1 {
-  background-color: #3A8EE2; }
-
-.color2 {
-  background-color: #ddd; }
-
-.color3 {
-  background-color: #f2f3f4; }
-
-.space1 {
-  padding: 6em 0; }
-
-.space2 {
-  padding: 4em 0; }
-
-.space3 {
-  padding: 2em 0; }
-
-/*IMAGES*/
 /*BASIC TYPOGRAPHY*/
 html {
   font-size: 62.5%; }
@@ -70,17 +49,17 @@ h1, h2, h3, h4 {
   font-weight: inherit;
   line-height: 1.2; }
 
-h2 {
+h1 {
   margin-top: 0;
   font-size: 3.157rem; }
 
-h3 {
+h2 {
   font-size: 2.369rem; }
 
-h4 {
+h3 {
   font-size: 1.777rem; }
 
-h5 {
+h4 {
   font-size: 1.333rem; }
 
 small, .font_small {
@@ -90,10 +69,136 @@ small, .font_small {
 blockquote {
   padding: 10px 15px;
   font-style: italic;
-  border-left: 5px solid #222; }
+  border-left: 5px solid #222;
+  width: 70%; }
 
-/*TABS*/
-/*MAIN NAV*/
+/*LISTS*/
+ul.list,
+ul.list > li {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 20px; }
+
+ol.list,
+ol.list > li {
+  list-style-type: decimal;
+  list-style-position: outside;
+  margin-left: 20px; }
+
+/*FORMS*/
+form fieldset {
+  margin: 0 0 25px 0;
+  font-size: inherit; }
+
+fieldset.form-actions {
+  margin: 0; }
+
+fieldset label {
+  display: block;
+  margin: 0 0 5px 0;
+  font-weight: bold; }
+
+fieldset.check label {
+  display: inline;
+  font-weight: normal; }
+
+fieldset.radio ul li label {
+  display: inline;
+  font-weight: normal; }
+
+fieldset input,
+fieldset textarea,
+fieldset select {
+  display: block;
+  width: 100%;
+  max-width: 30em;
+  padding: 10px;
+  font-size: 1.6rem;
+  border: 2px solid #ddd;
+  background: #FFF;
+  border-radius: 0; }
+
+fieldset input:focus,
+fieldset textarea:focus {
+  border: 2px solid #3A8EE2;
+  background: #fff;
+  outline: none; }
+
+fieldset textarea {
+  height: 20em;
+  resize: vertical; }
+
+fieldset.radio ul {
+  margin-top: 5px; }
+
+fieldset.radio ul li {
+  margin: 0 0 5px 0; }
+
+fieldset.radio ul li:last-child {
+  margin: 0; }
+
+fieldset p.form-help {
+  margin: 5px 0 0 0;
+  font-size: 1.2rem;
+  color: #aaa; }
+
+/*ERROR*/
+fieldset input.error,
+fieldset select.error {
+  border: 2px solid tomato; }
+
+fieldset p.form-help.error {
+  color: tomato; }
+
+/*SEARCH*/
+fieldset input.search {
+  border: 2px solid #222;
+  display: inline-block; }
+
+fieldset input[type="submit"] {
+  display: inline-block;
+  color: #fff;
+  background-color: #222;
+  padding: 11px 13px 12px;
+  font-weight: bold;
+  margin-left: -4px; }
+
+fieldset input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #3A8EE2; }
+
+/*BUTTONS*/
+.button {
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 25px;
+  background-color: #ddd; }
+
+.button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #3A8EE2; }
+
+.button:active,
+.button:focus {
+  outline: none; }
+
+.button:active {
+  background-color: #225587; }
+
+.primary {
+  color: #fff;
+  background-color: #222; }
+
+.disabled {
+  opacity: 0.4; }
+
+.disabled:hover {
+  background-color: #ddd;
+  color: #222;
+  cursor: default; }
+
 /*BREADCRUMB*/
 nav.breadcrumb {
   font-size: 14px;
@@ -158,7 +263,6 @@ nav.page ul li a:active {
 .generic {
   background-color: #ffdf9f; }
 
-/*DIALOG BOX*/
 /*TOOLTIP*/
 a.tooltips {
   position: relative;
@@ -208,11 +312,6 @@ a:hover.tooltips span {
   z-index: 999; }
 
 /*grid setup*/
-.container {
-  width: 96%;
-  max-width: 1100px;
-  margin: 0 auto; }
-
 .row:after {
   content: "";
   display: table;
@@ -276,146 +375,37 @@ a:hover.tooltips span {
 /*480px and below*/
 @media (max-width: 480px) {
   .col {
-    padding-right: 0; }
+    padding-right: 0; } }
+/*  LAYOUT  */
+.container {
+  width: 96%;
+  max-width: 1100px;
+  margin: 0 auto; }
 
-  .small1 {
-    width: 100%; }
+/*  random colours and spacing for prototyping */
+.color1 {
+  background-color: #3A8EE2; }
 
-  .small2 {
-    width: 100%; }
+.color2 {
+  background-color: #ddd; }
 
-  .small3 {
-    width: 100%; }
+.color3 {
+  background-color: #f2f3f4; }
 
-  .small4 {
-    width: 100%; } }
-.client {
-  font-family: georgia,times,serif;
-  color: #111;
-  padding-left: 3em;
-  /*HEADINGS*/
-  /*QUOTES*/
-  /*LISTS*/
-  /*FORMS*/
-  /*ERROR*/
-  /*SEARCH*/
-  /*BUTTONS*/ }
-  .client h1, .client h2, .client h3, .client h4 {
-    margin: 1.414em 0 0.5em;
-    font-weight: inherit;
-    line-height: 1.2; }
-  .client h1 {
-    margin-top: 0;
-    font-size: 3.157em; }
-  .client h2 {
-    font-size: 2.369em; }
-  .client h3 {
-    font-size: 1.777em; }
-  .client h4 {
-    font-size: 1.333em; }
-  .client small, .client .font_small {
-    font-size: 0.75em; }
-  .client blockquote {
-    padding: 10px 15px;
-    font-style: italic;
-    border-left: 5px solid #222;
-    width: 70%; }
-  .client ul.list,
-  .client ul.list > li {
-    list-style-type: disc;
-    list-style-position: outside;
-    margin-left: 20px; }
-  .client ol.list,
-  .client ol.list > li {
-    list-style-type: decimal;
-    list-style-position: outside;
-    margin-left: 20px; }
-  .client form fieldset {
-    margin: 0 0 25px 0;
-    font-size: inherit; }
-  .client fieldset.form-actions {
-    margin: 0; }
-  .client fieldset label {
-    display: block;
-    margin: 0 0 5px 0;
-    font-weight: bold; }
-  .client fieldset.check label {
-    display: inline;
-    font-weight: normal; }
-  .client fieldset.radio ul li label {
-    display: inline;
-    font-weight: normal; }
-  .client fieldset input,
-  .client fieldset textarea,
-  .client fieldset select {
-    display: block;
-    width: 100%;
-    max-width: 30em;
-    padding: 10px;
-    font-size: 1.6rem;
-    border: 2px solid #ddd;
-    background: #FFF;
-    border-radius: 0; }
-  .client fieldset input:focus,
-  .client fieldset textarea:focus {
-    border: 2px solid #3A8EE2;
-    background: #fff;
-    outline: none; }
-  .client fieldset textarea {
-    height: 20em;
-    resize: vertical; }
-  .client fieldset.radio ul {
-    margin-top: 5px; }
-  .client fieldset.radio ul li {
-    margin: 0 0 5px 0; }
-  .client fieldset.radio ul li:last-child {
-    margin: 0; }
-  .client fieldset p.form-help {
-    margin: 5px 0 0 0;
-    font-size: 1.2rem;
-    color: #aaa; }
-  .client fieldset input.error,
-  .client fieldset select.error {
-    border: 2px solid tomato; }
-  .client fieldset p.form-help.error {
-    color: tomato; }
-  .client fieldset input.search {
-    border: 2px solid #222;
-    display: inline-block; }
-  .client fieldset input[type="submit"] {
-    display: inline-block;
-    color: #fff;
-    background-color: #222;
-    padding: 11px 13px 12px;
-    font-weight: bold;
-    margin-left: -4px; }
-  .client fieldset input[type="submit"]:hover {
-    cursor: pointer;
-    background-color: #3A8EE2; }
-  .client .button {
-    font-family: inherit;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 15px 25px;
-    background-color: #ddd; }
-  .client .button:hover {
-    cursor: pointer;
-    color: #fff;
-    background-color: #3A8EE2; }
-  .client .button:active,
-  .client .button:focus {
-    outline: none; }
-  .client .button:active {
-    background-color: #225587; }
-  .client .primary {
-    color: #fff;
-    background-color: #222; }
-  .client .disabled {
-    opacity: 0.4; }
-  .client .disabled:hover {
-    background-color: #ddd;
-    color: #222;
-    cursor: default; }
+.tomato {
+  background-color: tomato; }
+
+.sandybrown {
+  background-color: sandybrown; }
+
+.space1 {
+  padding: 6em 0; }
+
+.space2 {
+  padding: 4em 0; }
+
+.space3 {
+  padding: 2em 0; }
 
 /* HEADER */
 header {
@@ -455,30 +445,30 @@ header {
   .theMeat {
     flex-direction: row; }
 
-  .theMeat nav {
+  .theMeat > aside {
     width: 20%;
     order: 1;
     border-right: 1px solid #ccc; }
-    .theMeat nav ul {
+    .theMeat > aside ul {
       margin: 0 1em 0 0; }
-    .theMeat nav li {
+    .theMeat > aside li {
       list-style: none;
       margin-left: 0;
       padding: 0 0 .5em 0; }
-    .theMeat nav li strong {
+    .theMeat > aside li strong {
       padding-top: 1em; }
 
   .theMeat main {
     width: 80%;
     order: 2;
     padding-left: 1em; } }
-.theMeat nav li.nav-category, nav span {
+nav span {
+  /* not used right now, useful to select current page on the left-hand nav */
   font-weight: bold;
   margin: 1.5em 0 .4em;
   display: block; }
 
 .theGrid .col {
-  background: tomato;
   text-align: center;
   padding: 1em 0;
   color: #fff; }
@@ -492,7 +482,7 @@ header {
   border-radius: 2px;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16);
   margin: 1%; }
-  .modulesList div h3 {
+  .modulesList div h2 {
     margin-top: 0; }
 
 pre code {

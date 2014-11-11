@@ -6,19 +6,16 @@ date: 2014-11-09 00:00
 slug: /typography
 ---
 {% block content %} 
-<h2>Typography</h2>
+<h1>Typography</h1>
 
-<h3>Headings</h3>
-<div class="client">
-	<h1>Level 1 heading</h1>
-	<h2>Level 2 heading</h2>
-	<h3>Level 3 heading</h3>
-	<h4>Level 4 heading</h4>
-	<h5>Level 5 heading</h5>	
-</div>
+<h1>Level 1 heading</h1>
+<h2>Level 2 heading</h2>
+<h3>Level 3 heading</h3>
+<h4>Level 4 heading</h4>
+<h5>Level 5 heading</h5>	
 
-<h3>Lists</h3>
-<div class="client">
+
+<h2>Lists</h2>
 	<ul class="list">
 		<li>This is an unordered list</li>
 		<li>With some elements</li>
@@ -32,16 +29,12 @@ slug: /typography
 		<li class="selected">This is selected</li>
 		<li><a href="#">And this is a link in a list</a></li>
 	</ol>
-</div>
 
-<h3>Paragraphs</h3>
-<div class="client">
+<h2>Paragraphs</h2>
 {{ 2 | lorem_ipsum:'p' }}
-</div>
 
-<h3>A quote</h3>
-<div class="client">
-	<blockquote>{{ 1 | lorem_ipsum:'p' }}</blockquote>
-</div>
+<h2>A quote</h2>
+<blockquote>{{ 1 | lorem_ipsum:'p' }}</blockquote>
+
 {% endblock %}
 

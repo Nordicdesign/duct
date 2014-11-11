@@ -7,33 +7,34 @@ slug: /grid
 ---
 {% block content %} 
 	
-<h2>Responsive grid</h2>
+<h1>Responsive grid</h1>
+<p>Last updated: {{ model.date | date: %d %B %Y }}</p>
 	{{ 1 | lorem_ipsum:'p' }}
 
 <div class="theGrid">
 
 <p>HTML</p>
-	<pre>
-		<code>
+<pre>
+	<code>
 &lt;div class=&quot;row&quot;&gt;<br/>	&lt;div class=&quot;large8 col&quot;&gt;8&lt;/div&gt;<br/>&lt;/div&gt;<br/>&lt;div class=&quot;row&quot;&gt;<br/>	&lt;div class=&quot;large1 col&quot;&gt;1&lt;/div&gt;<br/>	&lt;div class=&quot;large7 col&quot;&gt;7&lt;/div&gt;<br/>&lt;/div&gt;<br/>&lt;div class=&quot;row&quot;&gt;<br/>	&lt;div class=&quot;large2 col&quot;&gt;2&lt;/div&gt;<br/>	&lt;div class=&quot;large5 col&quot;&gt;5&lt;/div&gt;<br/>	&lt;div class=&quot;large1 col&quot;&gt;1&lt;/div&gt;<br/>&lt;/div&gt;<br/>
-		</code>
-	</pre>
+	</code>
+</pre>
 
-<p>How this looks like</p>
+<h2>How this looks like</h2>
 	<div class="row">
-		<div class="large8 col">8</div>
+		<div class="large8 tomato col">8</div>
 	</div>
 	<br>
 
 	<div class="row">
-		<div class="large1 col">1</div>
-		<div class="large7 col">7</div>
+		<div class="large1 tomato col">1</div>
+		<div class="large7 sandybrown col">7</div>
 	</div>
 	<br>
 	<div class="row">
-		<div class="large2 col">2</div>
-		<div class="large5 col">5</div>
-		<div class="large1 col">1</div>
+		<div class="large2 tomato col">2</div>
+		<div class="large5 sandybrown col">5</div>
+		<div class="large1 tomato col">1</div>
 	</div>
 	<br>
 

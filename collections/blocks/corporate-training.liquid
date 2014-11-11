@@ -6,25 +6,18 @@ date: 2014-11-02 00:00
 slug: /corporate-training
 ---
 
+<h1>Corporate training</h1>
 
- <div class="row">
-    <div class="small4 large8 col">
-    	<h2>Corporate training</h2>
-    	{{ mixture.url }}
+{{ 1 | lorem_ipsum | "p" }}
 
-		<h3>Module</h3>
-		{{ 1 | lorem_ipsum | "p" }}
-		<h4>How it looks like</h4>
-    	{{ "corporate-training.png" | asset_url | image_tag }}
+<h2>How it looks like</h2>
 
-    </div>
-</div>
+{{ "corporate-training.png" | asset_url | image_tag }}
 
-<div class="row">
-	<div class="small4 large4 col">
-	<h4>HTML</h4>
-    	<pre>
-        	<code class="html">
+
+<h2>HTML</h2>
+<pre>
+   	<code class="html">
 <!-- code starts here, use this to encode it http://www.htmlescape.net/htmlescape_tool.html -->
 &lt;div id=&quot;privateheader&quot;&gt;
 	&lt;h2&gt;Corporate training&lt;/h2&gt;
@@ -35,13 +28,12 @@ slug: /corporate-training
 &lt;p class=&quot;more&quot;&gt;&lt;a href=&quot;/training/corporate-training.shtml&quot;&gt;about corporate training&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 <!-- code ends here -->
-        	</code>
-        </pre>	
-    </div>
-    <div class="small4 large4 col">
-    	<h4>CSS</h4>
-    	<pre>
-        	<code class="css">
+   	</code>
+</pre>	
+
+<h2>CSS</h2>
+<pre>
+	<code class="css">
 <!-- code starts here -->
 #privateheader h2 {
 	font:3.1em gil,"trebuchet MS",helvetica,sans-serif;
@@ -61,10 +53,7 @@ slug: /corporate-training
 	margin-bottom:10px
 }
 <!-- code ends here -->
-        	</code>
-        </pre>
-                            
-    </div>
-</div>
-
+	</code>
+</pre>
+    
 
