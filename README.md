@@ -3,7 +3,7 @@ Front-end styleguide boilerplate
 
 This is a simple boilerplate to create front-end style guides using [Mixture](http://mixture.io/). You should be able to import your styles, and quickly document how your website is built.
 
-It's formed by four main elements:
+It has four main elements:
 
 * **Strategy** - Document here things like browser support, performance budget, etc. It's mainly a wiki area for you to write anything you want, so make it as brief or long-winded as you wish
 * **Elements** - Typography, forms, grid, etc. 
