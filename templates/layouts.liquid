@@ -1,5 +1,15 @@
+{% layout "listing" %}
 {% block content %} 
 <h1>Layouts</h1>
-	{{ 5 | lorem_ipsum:'p' }}
-	
+<p>Here should go a grid of all the different layouts (aka. templates)</p>
+<div class="modulesList">
+	{% collection "layouts" %}
+	  {% for post in collection.items %}
+	  <div>
+	  	<h2><a href="{{ post.slug }}">{{ post.title }}</a></h2>
+	  	<p>I need a description here</p>
+	  </div>
+	  {% endfor %}
+	{% endcollection %}
+</div>
 {% endblock %}

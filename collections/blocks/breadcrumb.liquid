@@ -1,0 +1,71 @@
+---
+title: Breadcrumb
+layout: blocks
+published: true
+date: 2014-11-13 00:00
+slug: /breadcrumb
+---
+
+<h1>{{ model.title }}</h1>
+<p>Last updated: {{ model.date }}
+<p>With the exception of the homepage, the <em>breadcrumb</em> block should be on every page to help visitors navigate the page, and understand the content's hierarchy. </p>
+<h2>How it looks like</h2>
+<div class="row">
+	<nav class="breadcrumb">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Category</a></li>
+    <li><strong>Current page</strong></li>
+  </ul>
+</nav>
+		
+</div>
+
+
+<h2>HTML</h2>
+<pre>
+   	<code class="html">
+<!-- code starts here, use this to encode it http://www.htmlescape.net/htmlescape_tool.html -->
+&lt;nav class=&quot;breadcrumb&quot;&gt;<br/>  &lt;ul&gt;<br/>    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;<br/>    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Category&lt;/a&gt;&lt;/li&gt;<br/>    &lt;li&gt;&lt;strong&gt;Current page&lt;/strong&gt;&lt;/li&gt;<br/>  &lt;/ul&gt;<br/>&lt;/nav&gt;
+<!-- code ends here -->
+   	</code>
+</pre>	
+
+<h2>SCSS</h2>
+<pre>
+	<code class="css">
+<!-- code starts here -->
+/*BREADCRUMB*/
+nav.breadcrumb {
+	font-size: 1.4rem;
+	color: #3A8EE2;
+	margin-bottom: 2em;
+
+	ul li {
+		float: left;
+		list-style: none;
+	}
+
+	a {
+		margin: 0 5px;
+		text-decoration: none;
+	}
+	a:first-child {
+		margin-left: 0;
+	}
+
+	a:hover, a:focus {
+		color: $primary-color;
+	}
+
+	strong {
+		font-weight: bold;
+		color: $primary-color;
+	}		
+
+}
+<!-- code ends here -->
+	</code>
+</pre>
+    
+

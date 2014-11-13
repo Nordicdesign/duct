@@ -64,15 +64,15 @@ blockquote {
 
 /*LISTS*/
 
-ul.list,
-ul.list > li {
+ul,
+ul > li {
 	list-style-type: disc;
 	list-style-position: outside;
 	margin-left: 20px;
 }
 
-ol.list,
-ol.list > li {
+ol,
+ol > li {
 	list-style-type: decimal;
 	list-style-position: outside;
 	margin-left: 20px;
@@ -223,35 +223,36 @@ fieldset input[type="submit"]:hover {
 
 
 /*BREADCRUMB*/
-
 nav.breadcrumb {
-	font-size: 14px;
+	font-size: 1.4rem;
 	color: #3A8EE2;
+	margin-bottom: 2em;
+
+	ul li {
+		float: left;
+		list-style: none;
 	}
 
-nav.breadcrumb a {
-	margin: 0 5px;
-	text-decoration: none;
+	a {
+		margin: 0 5px;
+		text-decoration: none;
+	}
+	a:first-child {
+		margin-left: 0;
 	}
 
-nav.breadcrumb a:first-child {
-	margin-left: 0;
+	a:hover, a:focus {
+		color: $primary-color;
 	}
 
-nav.breadcrumb a:hover,
-nav.breadcrumb a:focus {
-	color: #222;
-	}
+	strong {
+		font-weight: bold;
+		color: $primary-color;
+	}		
 
-nav.breadcrumb a:active {
-	color: #666;
-	}
+}
 
-nav.breadcrumb strong {
-	margin-left: 5px;
-	font-weight: bold;
-	color: #222;
-	}				
+		
 
 /*PAGINATION*/
 

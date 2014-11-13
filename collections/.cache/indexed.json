@@ -44,6 +44,19 @@
         "ticks": 1414886400.0,
         "mixture_month_year": "11/2014",
         "mixture_date": "2014-11-02T00:00:00Z"
+      },
+      "/blocks/breadcrumb": {
+        "title": "Breadcrumb",
+        "layout": "blocks",
+        "published": true,
+        "date": "2014-11-13 00:00:00 UTC",
+        "slug": "/blocks/breadcrumb",
+        "body": "\n\n<h1>Breadcrumb</h1>\n<p>Last updated: 2014-11-13T00:00:00Z\n<p>With the exception of the homepage, the <em>breadcrumb</em> block should be on every page to help visitors navigate the page, and understand the content's hierarchy. </p>\n<h2>How it looks like</h2>\n<div class=\"row\">\n\t<nav class=\"breadcrumb\">\n  <ul>\n    <li><a href=\"#\">Home</a></li>\n    <li><a href=\"#\">Category</a></li>\n    <li><strong>Current page</strong></li>\n  </ul>\n</nav>\n\t\t\n</div>\n\n\n<h2>HTML</h2>\n<pre>\n   \t<code class=\"html\">\n<!-- code starts here, use this to encode it http://www.htmlescape.net/htmlescape_tool.html -->\n&lt;nav class=&quot;breadcrumb&quot;&gt;<br/>  &lt;ul&gt;<br/>    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;<br/>    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Category&lt;/a&gt;&lt;/li&gt;<br/>    &lt;li&gt;&lt;strong&gt;Current page&lt;/strong&gt;&lt;/li&gt;<br/>  &lt;/ul&gt;<br/>&lt;/nav&gt;\n<!-- code ends here -->\n   \t</code>\n</pre>\t\n\n<h2>SCSS</h2>\n<pre>\n\t<code class=\"css\">\n<!-- code starts here -->\n/*BREADCRUMB*/\nnav.breadcrumb {\n\tfont-size: 1.4rem;\n\tcolor: #3A8EE2;\n\tmargin-bottom: 2em;\n\n\tul li {\n\t\tfloat: left;\n\t\tlist-style: none;\n\t}\n\n\ta {\n\t\tmargin: 0 5px;\n\t\ttext-decoration: none;\n\t}\n\ta:first-child {\n\t\tmargin-left: 0;\n\t}\n\n\ta:hover, a:focus {\n\t\tcolor: $primary-color;\n\t}\n\n\tstrong {\n\t\tfont-weight: bold;\n\t\tcolor: $primary-color;\n\t}\t\t\n\n}\n<!-- code ends here -->\n\t</code>\n</pre>\n    \n\n",
+        "month": "11",
+        "year": "2014",
+        "ticks": 1415836800.0,
+        "mixture_month_year": "11/2014",
+        "mixture_date": "2014-11-13T00:00:00Z"
       }
     },
     "index": {
@@ -56,6 +69,9 @@
         ],
         "social media": [
           "/blocks/social-media"
+        ],
+        "breadcrumb": [
+          "/blocks/breadcrumb"
         ]
       },
       "transliterated-title": {
@@ -67,20 +83,25 @@
         ],
         "social-media": [
           "/blocks/social-media"
+        ],
+        "breadcrumb": [
+          "/blocks/breadcrumb"
         ]
       },
       "layout": {
         "blocks": [
           "/blocks/corporate-training",
           "/blocks/block-example",
-          "/blocks/social-media"
+          "/blocks/social-media",
+          "/blocks/breadcrumb"
         ]
       },
       "transliterated-layout": {
         "blocks": [
           "/blocks/corporate-training",
           "/blocks/block-example",
-          "/blocks/social-media"
+          "/blocks/social-media",
+          "/blocks/breadcrumb"
         ]
       },
       "slug": {
@@ -92,6 +113,9 @@
         ],
         "/blocks/social-media": [
           "/blocks/social-media"
+        ],
+        "/blocks/breadcrumb": [
+          "/blocks/breadcrumb"
         ]
       },
       "transliterated-slug": {
@@ -103,20 +127,25 @@
         ],
         "/blocks/social-media": [
           "/blocks/social-media"
+        ],
+        "/blocks/breadcrumb": [
+          "/blocks/breadcrumb"
         ]
       },
       "month": {
         "11": [
           "/blocks/corporate-training",
           "/blocks/block-example",
-          "/blocks/social-media"
+          "/blocks/social-media",
+          "/blocks/breadcrumb"
         ]
       },
       "year": {
         "2014": [
           "/blocks/corporate-training",
           "/blocks/block-example",
-          "/blocks/social-media"
+          "/blocks/social-media",
+          "/blocks/breadcrumb"
         ]
       },
       "ticks": {
@@ -126,13 +155,17 @@
         ],
         "1415491200.0": [
           "/blocks/block-example"
+        ],
+        "1415836800.0": [
+          "/blocks/breadcrumb"
         ]
       },
       "mixture_month_year": {
         "11/2014": [
           "/blocks/corporate-training",
           "/blocks/block-example",
-          "/blocks/social-media"
+          "/blocks/social-media",
+          "/blocks/breadcrumb"
         ]
       },
       "mixture_date": {
@@ -142,6 +175,9 @@
         ],
         "2014-11-09t00:00:00z": [
           "/blocks/block-example"
+        ],
+        "2014-11-13t00:00:00z": [
+          "/blocks/breadcrumb"
         ]
       },
       "tags": {
@@ -576,6 +612,91 @@
         "2014-11-11t00:00:00z": [
           "/strategy/responsive-typography",
           "/strategy/responsive-budget"
+        ]
+      }
+    }
+  },
+  "layouts": {
+    "collection": {
+      "/layouts/article": {
+        "title": "Article",
+        "layout": "blocks",
+        "published": true,
+        "date": "2014-11-13 00:00:00 UTC",
+        "slug": "/layouts/article",
+        "category": "Layouts",
+        "body": "\n \n\n<p class=\"norCategory\"><a href=\"/layouts\">Layouts</a></p>\n<h1>Article</h1>\n<p>Document how this template works here.</p>\n\n<div class=\"row\">\n\t<div class=\"small4 large4 theGrid col\">\n\t\t<!-- layout example here -->\n\n\t\t<p class=\"tomato space1\">Header</p>\n\t\t<p class=\"sandybrown\">Breadcrumb</p>\n\t\t\n\t\t<div class=\"row\">\n\t\t\t<div class=\"large8\">\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"row\">\n\t\t\t<div class=\"large2 col\">\n\t\t\t\t<p class=\"space2 tomato\">Local nav</p>\n\t\t\t\t<p class=\"space2 wheat\">Most read</p>\n\n\t\t\t</div>\n\t\t\t<div class=\"large6 col\">\n\t\t\t\t<p class=\"space6 violet\">Article content</p>\n\t\t\t\t<p class=\"space3 sandybrown\">Comments</p>\n\t\t\t\t<p class=\"space3 tomato\">Related articles</p>\n\t\t\t</div>\n\t\t</div>\n\t\t<p class=\"space5 yellowgreen\">Footer</p>\n\n\t\t<!-- layout example ends -->\n\t</div>\n\t<div class=\"large1 col\">&nbsp;</div>\n\n\t<!-- description goes here -->\n\t<div class=\"small4 large3 col\">\n\t\t<ul>\n\t\t\t<li><strong>Header</strong></li>\n\t\t\t<li><a href=\"/blocks/breadcrumb\">Breadcrumb</a>. Should display the name of the article as the last child, selected and not linked</li>\n\t\t\t<li><strong>Local navigation</strong>. Links to the different sub-categories, with the current one selected.</li>\n\t\t\t<li><strong>Most read</strong>. List of the most read articles of the last 48 hours</li>\n\t\t\t<li><strong>Article</strong></li>\n\t\t\t<li><strong>Comments</strong>. If enabled in the CMS, visitors can read and add comments</li>\n\t\t\t<li><strong>Related articles</strong></li>\n\t\t\t<li><strong>Footer</strong></li>\n\t\t</ul>\n\t\t\n\n\t</div>\n</div>\n",
+        "month": "11",
+        "year": "2014",
+        "ticks": 1415836800.0,
+        "mixture_month_year": "11/2014",
+        "mixture_date": "2014-11-13T00:00:00Z"
+      }
+    },
+    "index": {
+      "title": {
+        "article": [
+          "/layouts/article"
+        ]
+      },
+      "transliterated-title": {
+        "article": [
+          "/layouts/article"
+        ]
+      },
+      "layout": {
+        "blocks": [
+          "/layouts/article"
+        ]
+      },
+      "transliterated-layout": {
+        "blocks": [
+          "/layouts/article"
+        ]
+      },
+      "slug": {
+        "/layouts/article": [
+          "/layouts/article"
+        ]
+      },
+      "transliterated-slug": {
+        "/layouts/article": [
+          "/layouts/article"
+        ]
+      },
+      "category": {
+        "layouts": [
+          "/layouts/article"
+        ]
+      },
+      "transliterated-category": {
+        "layouts": [
+          "/layouts/article"
+        ]
+      },
+      "month": {
+        "11": [
+          "/layouts/article"
+        ]
+      },
+      "year": {
+        "2014": [
+          "/layouts/article"
+        ]
+      },
+      "ticks": {
+        "1415836800.0": [
+          "/layouts/article"
+        ]
+      },
+      "mixture_month_year": {
+        "11/2014": [
+          "/layouts/article"
+        ]
+      },
+      "mixture_date": {
+        "2014-11-13t00:00:00z": [
+          "/layouts/article"
         ]
       }
     }

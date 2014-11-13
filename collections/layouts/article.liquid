@@ -1,0 +1,61 @@
+---
+title: Article
+layout: blocks
+published: true
+date: 2014-11-13 00:00
+slug: /article
+category: Layouts
+---
+{% block content %} 
+
+<p class="norCategory"><a href="/layouts">{{ model.category }}</a></p>
+<h1>Article</h1>
+<p>Document how this template works here.</p>
+
+<div class="row">
+	<div class="small4 large4 theGrid col">
+		<!-- layout example here -->
+
+		<p class="tomato space1">Header</p>
+		<p class="sandybrown">Breadcrumb</p>
+		
+		<div class="row">
+			<div class="large8">
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="large2 col">
+				<p class="space2 tomato">Local nav</p>
+				<p class="space2 wheat">Most read</p>
+
+			</div>
+			<div class="large6 col">
+				<p class="space6 violet">Article content</p>
+				<p class="space3 sandybrown">Comments</p>
+				<p class="space3 tomato">Related articles</p>
+			</div>
+		</div>
+		<p class="space5 yellowgreen">Footer</p>
+
+		<!-- layout example ends -->
+	</div>
+	<div class="large1 col">&nbsp;</div>
+
+	<!-- description goes here -->
+	<div class="small4 large3 col">
+		<ul>
+			<li><strong>Header</strong></li>
+			<li><a href="/blocks/breadcrumb">Breadcrumb</a>. Should display the name of the article as the last child, selected and not linked</li>
+			<li><strong>Local navigation</strong>. Links to the different sub-categories, with the current one selected.</li>
+			<li><strong>Most read</strong>. List of the most read articles of the last 48 hours</li>
+			<li><strong>Article</strong></li>
+			<li><strong>Comments</strong>. If enabled in the CMS, visitors can read and add comments</li>
+			<li><strong>Related articles</strong></li>
+			<li><strong>Footer</strong></li>
+		</ul>
+		
+
+	</div>
+</div>
+{% endblock %}

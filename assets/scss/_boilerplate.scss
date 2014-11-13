@@ -12,11 +12,20 @@
 .color1 {background-color: #3A8EE2;}
 .color2 {background-color: #ddd;}
 .color3 {background-color: #f2f3f4;}
+
 .tomato {background-color: tomato;}
 .sandybrown {background-color: sandybrown;}
-.space1 {padding: 6em 0;}
-.space2 {padding: 4em 0;}
-.space3 {padding: 2em 0;}
+.turquoise {background-color: turquoise}
+.violet {background-color: violet}
+.wheat {background-color: wheat}
+.yellowgreen {background-color: yellowgreen}
+
+.space1 {padding: 1em 0;}
+.space2 {padding: 2em 0;}
+.space3 {padding: 3em 0;}
+.space4 {padding: 4em 0;}
+.space5 {padding: 5em 0;}
+.space6 {padding: 6em 0;}
 
 .right {
   float:right;
@@ -29,9 +38,10 @@
 header {
   display: flex;
   color: #fff;
-  background: #222;
+  background: lightslategray;
   padding:0.5em 1em;
   margin-bottom: 2em;
+  border-bottom: 2px solid lightsteelblue;
 
   .title {
     font-size: 2rem;
@@ -61,13 +71,12 @@ header {
     
   }
   nav a:hover {
-    color: tomato;
+    color: #222;
   }
 
   .selected {
-    color: tomato;
+    color: #222;
     border: none;
-    font-weight: bold;
   }
 }
 
@@ -132,15 +141,42 @@ header {
 }
 
 
+.norCategory {
+  font-size: 1.4rem;
+  margin: 0 0 .4em 0;
+
+  :after {
+    content: "\002F";
+    color: #666;
+    margin-left: 10px;
+  }
+
+  a {
+    border: none;
+  }
+}
+
+
 
 
 /* styles to visualise the responsive grid page */
 .theGrid {
   .col {
     text-align: center;
-    padding: 1em 0;
+    padding: 0;
     color: #fff;
   }
+
+  p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: .2em;
+  }
+
+  .col > p {
+    margin-right: 0.2em;
+  }
+
 }
 
 // GRID LIST
