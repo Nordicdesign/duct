@@ -4,10 +4,11 @@ layout: blocks
 published: true
 date: 2014-11-09 00:00
 slug: /block-example
-tags: [example,news,story]
+category: blocks
 ---
-
 {% block content %} 
+
+<p class="norCategory"><a href="/{{ model.category }}">{{ model.category }}</a></p>
 <h1>Example block</h1>
 <p>Last modified: {{ post.date }}</p>
 <p>This is a description of what it is and how it should be used.</p>

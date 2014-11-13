@@ -4,8 +4,11 @@ layout: blocks
 published: true
 date: 2014-11-13 00:00
 slug: /breadcrumb
+category: blocks
 ---
+{% block content %} 
 
+<p class="norCategory"><a href="/{{ model.category }}">{{ model.category }}</a></p>
 <h1>{{ model.title }}</h1>
 <p>Last updated: {{ model.date }}
 <p>With the exception of the homepage, the <em>breadcrumb</em> block should be on every page to help visitors navigate the page, and understand the content's hierarchy. </p>
@@ -68,4 +71,4 @@ nav.breadcrumb {
 	</code>
 </pre>
     
-
+{% endblock %} 

@@ -4,9 +4,11 @@ layout: blocks
 published: true
 date: 2014-11-09 00:00
 slug: /tables
+category: elements
 ---
 {% block content %} 
-	
+
+<p class="norCategory"><a href="/{{ model.category }}">{{ model.category }}</a></p>	
 <h1>Tables</h1>
 <p>Document how your tables work here.</p>
 {% endblock %}

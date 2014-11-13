@@ -4,8 +4,11 @@ layout: blocks
 published: true
 date: 2014-11-10 00:00
 slug: /forms
+category: elements
 ---
 {% block content %} 
+
+<p class="norCategory"><a href="/{{ model.category }}">{{ model.category }}</a></p>
 <h1>Form elements</h1>
 <p>Every element must be part of a <span>fieldset</span>, otherwise the styles won't be rendered appropriately (accessiblity considerations aside).</p>
 <pre>
