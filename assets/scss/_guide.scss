@@ -96,15 +96,16 @@ fieldset label {
 	font-weight: bold;
 	}
 
-fieldset.check label {
-	display: inline;
-	font-weight: normal;
-	}
+fieldset.check {
 
-fieldset.radio ul li label {
-	display: inline;
-	font-weight: normal;
+	label {
+		font-weight: normal;
 	}
+	input[type=checkbox] {
+		display: inline-block;
+		width: 25px;
+	}
+}
 
 fieldset input,
 fieldset textarea,
@@ -131,17 +132,27 @@ fieldset textarea {
 	resize: vertical;
 	}
 
-fieldset.radio ul {
-	margin-top: 5px;
+fieldset.radio {
+	ul {margin-top: 5px;}
+	ul li {
+		list-style: none;
+		margin: 0 0 5px 0;
+	}
+	ul li:last-child {
+		margin: 0;
 	}
 
-fieldset.radio ul li {
-	margin: 0 0 5px 0;
+	ul li label {
+		font-weight: normal;
 	}
 
-fieldset.radio ul li:last-child {
-	margin: 0;
+	input[type=radio] {
+		width: 25px;
+		display: inline-block;
 	}
+
+
+}
 
 fieldset p.form-help {
 	margin: 5px 0 0 0;

@@ -7,6 +7,9 @@
             <!-- Content block, child page inject content -->
             <div class="theMeat">
                 <main>
+                    <p class="ductCategory"><a href="/{{ model.category }}">{{ model.category }}</a></p>
+                    <h1>{{ model.title }}</h1>
+                    <p class="ductModified">Last modified: {{ model.date | date: "%d/%m/%Y" }}</p>
                     {% block content %}{% endblock %}
                 </main>
                 <aside>
