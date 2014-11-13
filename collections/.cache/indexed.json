@@ -5,15 +5,17 @@
         "title": "Corporate training",
         "layout": "blocks",
         "published": true,
-        "date": "2014-11-02 00:00:00 UTC",
+        "date": "2014-11-12 00:00:00 UTC",
         "slug": "/blocks/corporate-training",
         "category": "blocks",
-        "body": "\n \n\nLorem ipsum eu turpis fermentum nibh. Purus donec sed at felis augue potenti hymenaeos posuere. Vestibulum scelerisque eros sociosqu sit auctor praesent nulla curabitur duis litora nam. Magna ut ultricies donec aenean ante tellus aliquam et aenean. Nec ac pellentesque laoreet nisi accumsan mi pede malesuada tempor. Venenatis et nec magna ad. \n\n\n\n<h2>How it looks like</h2>\n\n<img src=\"/assets/img/corporate-training.png\" alt=\"\" />\n\n\n<h2>HTML</h2>\n<pre>\n   \t<code class=\"html\">\n<!-- code starts here, use this to encode it http://www.htmlescape.net/htmlescape_tool.html -->\n&lt;div id=&quot;privateheader&quot;&gt;\n\t&lt;h2&gt;Corporate training&lt;/h2&gt;\n&lt;/div&gt;       \t\t\n&lt;div id=&quot;privatecourses&quot;&gt;\n&lt;h3&gt;Digital skills development&lt;/h3&gt;\n&lt;p&gt;We work within your organisation to guide your team's skill development, providing benefits above and beyond our regular training services&lt;/p&gt;\n&lt;p class=&quot;more&quot;&gt;&lt;a href=&quot;/training/corporate-training.shtml&quot;&gt;about corporate training&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;\n<!-- code ends here -->\n   \t</code>\n</pre>\t\n\n<h2>CSS</h2>\n<pre>\n\t<code class=\"css\">\n<!-- code starts here -->\n#privateheader h2 {\n\tfont:3.1em gil,\"trebuchet MS\",helvetica,sans-serif;\n\tline-height:.9em;\n\tbackground: url(../i-2012/private.gif) no-repeat 0 0;\n\tmin-height:95px;\n\tpadding-left:115px;\n\tpadding-bottom:25px;\n\ttext-transform: lowercase;\n\tpadding-top:20px;\n\tmargin-bottom:0;\n\tmargin-top:0\n}\n#privatecourses {\n\tpadding-bottom:5px;\n\tbackground: url(../i-2012/stars-high.gif) no-repeat 50% 100%;\n\tmargin-bottom:10px\n}\n<!-- code ends here -->\n\t</code>\n</pre>\n    \n\n",
+        "description": "Promotional element, used on every training page",
+        "thumb": "corporate-training.png",
+        "body": "\n \n\nLorem ipsum mi nullam in magna praesent vel. Dapibus inceptos sapien sociosqu arcu morbi est neque at porta morbi. Est velit ornare dolor torquent. Mattis lacus justo at leo praesent ut nunc a iaculis. Pharetra tincidunt augue. Condimentum feugiat purus id sapien. Mi ut tincidunt tincidunt turpis amet tincidunt ac imperdiet id. \n\n\n\n<h2>How it looks like</h2>\n\n<img src=\"/assets/img/blocks/corporate-training.png\" alt=\"\" />\n\n\n<h2>HTML</h2>\n<pre>\n   \t<code class=\"html\">\n<!-- code starts here, use this to encode it http://www.htmlescape.net/htmlescape_tool.html -->\n&lt;div id=&quot;privateheader&quot;&gt;\n\t&lt;h2&gt;Corporate training&lt;/h2&gt;\n&lt;/div&gt;       \t\t\n&lt;div id=&quot;privatecourses&quot;&gt;\n&lt;h3&gt;Digital skills development&lt;/h3&gt;\n&lt;p&gt;We work within your organisation to guide your team's skill development, providing benefits above and beyond our regular training services&lt;/p&gt;\n&lt;p class=&quot;more&quot;&gt;&lt;a href=&quot;/training/corporate-training.shtml&quot;&gt;about corporate training&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;\n<!-- code ends here -->\n   \t</code>\n</pre>\t\n\n<h2>CSS</h2>\n<pre>\n\t<code class=\"css\">\n<!-- code starts here -->\n#privateheader h2 {\n\tfont:3.1em gil,\"trebuchet MS\",helvetica,sans-serif;\n\tline-height:.9em;\n\tbackground: url(../i-2012/private.gif) no-repeat 0 0;\n\tmin-height:95px;\n\tpadding-left:115px;\n\tpadding-bottom:25px;\n\ttext-transform: lowercase;\n\tpadding-top:20px;\n\tmargin-bottom:0;\n\tmargin-top:0\n}\n#privatecourses {\n\tpadding-bottom:5px;\n\tbackground: url(../i-2012/stars-high.gif) no-repeat 50% 100%;\n\tmargin-bottom:10px\n}\n<!-- code ends here -->\n\t</code>\n</pre>\n    \n\n",
         "month": "11",
         "year": "2014",
-        "ticks": 1414886400.0,
+        "ticks": 1415750400.0,
         "mixture_month_year": "11/2014",
-        "mixture_date": "2014-11-02T00:00:00Z"
+        "mixture_date": "2014-11-12T00:00:00Z"
       },
       "/blocks/block-example": {
         "title": "Example block",
@@ -50,7 +52,8 @@
         "date": "2014-11-13 00:00:00 UTC",
         "slug": "/blocks/breadcrumb",
         "category": "blocks",
-        "body": "\n \n\n<p class=\"norCategory\"><a href=\"/blocks\">blocks</a></p>\n<h1>Breadcrumb</h1>\n<p>Last updated: 2014-11-13T00:00:00Z\n<p>With the exception of the homepage, the <em>breadcrumb</em> block should be on every page to help visitors navigate the page, and understand the content's hierarchy. </p>\n<h2>How it looks like</h2>\n<div class=\"row\">\n\t<nav class=\"breadcrumb\">\n  <ul>\n    <li><a href=\"#\">Home</a></li>\n    <li><a href=\"#\">Category</a></li>\n    <li><strong>Current page</strong></li>\n  </ul>\n</nav>\n\t\t\n</div>\n\n\n<h2>HTML</h2>\n<pre>\n   \t<code class=\"html\">\n<!-- code starts here, use this to encode it http://www.htmlescape.net/htmlescape_tool.html -->\n&lt;nav class=&quot;breadcrumb&quot;&gt;<br/>  &lt;ul&gt;<br/>    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;<br/>    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Category&lt;/a&gt;&lt;/li&gt;<br/>    &lt;li&gt;&lt;strong&gt;Current page&lt;/strong&gt;&lt;/li&gt;<br/>  &lt;/ul&gt;<br/>&lt;/nav&gt;\n<!-- code ends here -->\n   \t</code>\n</pre>\t\n\n<h2>SCSS</h2>\n<pre>\n\t<code class=\"css\">\n<!-- code starts here -->\n/*BREADCRUMB*/\nnav.breadcrumb {\n\tfont-size: 1.4rem;\n\tcolor: #3A8EE2;\n\tmargin-bottom: 2em;\n\n\tul li {\n\t\tfloat: left;\n\t\tlist-style: none;\n\t}\n\n\ta {\n\t\tmargin: 0 5px;\n\t\ttext-decoration: none;\n\t}\n\ta:first-child {\n\t\tmargin-left: 0;\n\t}\n\n\ta:hover, a:focus {\n\t\tcolor: $primary-color;\n\t}\n\n\tstrong {\n\t\tfont-weight: bold;\n\t\tcolor: $primary-color;\n\t}\t\t\n\n}\n<!-- code ends here -->\n\t</code>\n</pre>\n    \n \n",
+        "thumb": "blocks-breadcrumb.png",
+        "body": "\n \n<p>With the exception of the homepage, the <em>breadcrumb</em> block should be on every page to help visitors navigate the page, and understand the content's hierarchy. </p>\n<h2>How it looks like</h2>\n<div class=\"row\">\n\t<nav class=\"breadcrumb\">\n  <ul>\n    <li><a href=\"#\">Home</a></li>\n    <li><a href=\"#\">Category</a></li>\n    <li><strong>Current page</strong></li>\n  </ul>\n</nav>\n\t\t\n</div>\n\n\n<h2>HTML</h2>\n<pre>\n   \t<code class=\"html\">\n<!-- code starts here, use this to encode it http://www.htmlescape.net/htmlescape_tool.html -->\n&lt;nav class=&quot;breadcrumb&quot;&gt;<br/>  &lt;ul&gt;<br/>    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;<br/>    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Category&lt;/a&gt;&lt;/li&gt;<br/>    &lt;li&gt;&lt;strong&gt;Current page&lt;/strong&gt;&lt;/li&gt;<br/>  &lt;/ul&gt;<br/>&lt;/nav&gt;\n<!-- code ends here -->\n   \t</code>\n</pre>\t\n\n<h2>SCSS</h2>\n<pre>\n\t<code class=\"css\">\n<!-- code starts here -->\n/*BREADCRUMB*/\nnav.breadcrumb {\n\tfont-size: 1.4rem;\n\tcolor: #3A8EE2;\n\tmargin-bottom: 2em;\n\n\tul li {\n\t\tfloat: left;\n\t\tlist-style: none;\n\t}\n\n\ta {\n\t\tmargin: 0 5px;\n\t\ttext-decoration: none;\n\t}\n\ta:first-child {\n\t\tmargin-left: 0;\n\t}\n\n\ta:hover, a:focus {\n\t\tcolor: $primary-color;\n\t}\n\n\tstrong {\n\t\tfont-weight: bold;\n\t\tcolor: $primary-color;\n\t}\t\t\n\n}\n<!-- code ends here -->\n\t</code>\n</pre>\n    \n \n",
         "month": "11",
         "year": "2014",
         "ticks": 1415836800.0,
@@ -147,6 +150,32 @@
           "/blocks/breadcrumb"
         ]
       },
+      "description": {
+        "promotional element, used on every training page": [
+          "/blocks/corporate-training"
+        ]
+      },
+      "transliterated-description": {
+        "promotional-element-used-on-every-training-page": [
+          "/blocks/corporate-training"
+        ]
+      },
+      "thumb": {
+        "corporate-training.png": [
+          "/blocks/corporate-training"
+        ],
+        "blocks-breadcrumb.png": [
+          "/blocks/breadcrumb"
+        ]
+      },
+      "transliterated-thumb": {
+        "corporate-trainingpng": [
+          "/blocks/corporate-training"
+        ],
+        "blocks-breadcrumbpng": [
+          "/blocks/breadcrumb"
+        ]
+      },
       "month": {
         "11": [
           "/blocks/corporate-training",
@@ -164,12 +193,14 @@
         ]
       },
       "ticks": {
-        "1414886400.0": [
-          "/blocks/corporate-training",
-          "/blocks/social-media"
+        "1415750400.0": [
+          "/blocks/corporate-training"
         ],
         "1415491200.0": [
           "/blocks/block-example"
+        ],
+        "1414886400.0": [
+          "/blocks/social-media"
         ],
         "1415836800.0": [
           "/blocks/breadcrumb"
@@ -184,12 +215,14 @@
         ]
       },
       "mixture_date": {
-        "2014-11-02t00:00:00z": [
-          "/blocks/corporate-training",
-          "/blocks/social-media"
+        "2014-11-12t00:00:00z": [
+          "/blocks/corporate-training"
         ],
         "2014-11-09t00:00:00z": [
           "/blocks/block-example"
+        ],
+        "2014-11-02t00:00:00z": [
+          "/blocks/social-media"
         ],
         "2014-11-13t00:00:00z": [
           "/blocks/breadcrumb"
@@ -217,43 +250,46 @@
         "title": "Responsive grid",
         "layout": "blocks",
         "published": true,
-        "date": "2014-11-09 00:00:00 UTC",
+        "date": "2014-11-13 16:10:00 UTC",
         "slug": "/elements/grid",
         "category": "elements",
-        "body": "\n \n\n<p class=\"norCategory\"><a href=\"/elements\">elements</a></p>\t\n<h1>Responsive grid</h1>\n<p>Last updated: 2014-11-09T00:00:00Z</p>\n\t<p>Lorem ipsum eget et mauris. Magna dolor blandit amet lorem ac fusce elementum purus. Tellus nibh vitae placerat vitae orci quis ante aliquet eros. Mattis non in phasellus nullam non et sit dapibus aenean tellus. Integer neque sed conubia quis metus. Urna morbi fusce lorem mollis a eget et aliquam. Aliquet iaculis. \n\n</p>\n\n<div class=\"theGrid\">\n\n<p>HTML</p>\n<pre>\n\t<code>\n&lt;div class=&quot;row&quot;&gt;<br/>\t&lt;div class=&quot;large8 col&quot;&gt;8&lt;/div&gt;<br/>&lt;/div&gt;<br/>&lt;div class=&quot;row&quot;&gt;<br/>\t&lt;div class=&quot;large1 col&quot;&gt;1&lt;/div&gt;<br/>\t&lt;div class=&quot;large7 col&quot;&gt;7&lt;/div&gt;<br/>&lt;/div&gt;<br/>&lt;div class=&quot;row&quot;&gt;<br/>\t&lt;div class=&quot;large2 col&quot;&gt;2&lt;/div&gt;<br/>\t&lt;div class=&quot;large5 col&quot;&gt;5&lt;/div&gt;<br/>\t&lt;div class=&quot;large1 col&quot;&gt;1&lt;/div&gt;<br/>&lt;/div&gt;<br/>\n\t</code>\n</pre>\n\n<h2>How this looks like</h2>\n\t<div class=\"row\">\n\t\t<div class=\"large8 tomato col\">8</div>\n\t</div>\n\t<br>\n\n\t<div class=\"row\">\n\t\t<div class=\"large1 tomato col\">1</div>\n\t\t<div class=\"large7 sandybrown col\">7</div>\n\t</div>\n\t<br>\n\t<div class=\"row\">\n\t\t<div class=\"large2 tomato col\">2</div>\n\t\t<div class=\"large5 sandybrown col\">5</div>\n\t\t<div class=\"large1 tomato col\">1</div>\n\t</div>\n\t<br>\n\n</div>\n",
+        "thumb": "elements-grid-thumb.png",
+        "body": "\n \n<p>The responsive grid is key in the creation of a responsive website. We use <strong>8 columns in large screens</strong>, and <strong>4 columns in small devices</strong>, with a gutter of 10px. This can be configured in the <em>_config.scss</em> file.</p>\n\n<p>The site has only <strong>one breakpoint at 55em</strong> (550px).</p>\nClasses <em>largeN</em> will be active at screens bigger than 550px, and the <em>smallN</em> below that figure, allowing you to have different layouts for the same page, on large and small devices.</p>\n\n<h2>Example of grid for a large device only</h2>\n<pre>\n\t<code>\n&lt;div class=&quot;row&quot;&gt;<br/>  &lt;div class=&quot;large8 col&quot;&gt;8&lt;/div&gt;<br/>&lt;/div&gt;<br/>&lt;div class=&quot;row&quot;&gt;<br/>  &lt;div class=&quot;large1 col&quot;&gt;1&lt;/div&gt;<br/>  &lt;div class=&quot;large7 col&quot;&gt;7&lt;/div&gt;<br/>&lt;/div&gt;<br/>&lt;div class=&quot;row&quot;&gt;<br/>  &lt;div class=&quot;large2 col&quot;&gt;2&lt;/div&gt;<br/>  &lt;div class=&quot;large5 col&quot;&gt;5&lt;/div&gt;<br/>  &lt;div class=&quot;large1 col&quot;&gt;1&lt;/div&gt;<br/>&lt;/div&gt;\n\t</code>\n</pre>\n\n<div class=\"ductGrid\">\n<h3>How it looks like</h3>\n\t<div class=\"row\">\n\t\t<div class=\"large8 col\">\n\t\t\t<p class=\"space1 tomato\">8</p>\n\t\t</div>\n\t</div>\n\n\t<div class=\"row\">\n\t\t<div class=\"large1 col\">\n\t\t\t<p class=\"space1 tomato\">1</p>\n\t\t</div>\n\t\t<div class=\"large7 col\">\n\t\t\t<p class=\"space1 tomato\">7</p>\n\t\t</div>\n\t</div>\n\t<div class=\"row\">\n\t\t<div class=\"large2 col\">\n\t\t\t<p class=\"space1 tomato\">2</p>\n\t\t</div>\n\t\t<div class=\"large5 col\">\n\t\t\t<p class=\"space1 tomato\">5</p>\n\t\t</div>\n\t\t<div class=\"large1 col\">\n\t\t\t<p class=\"space1 tomato\">1</p>\n\t\t</div>\n\t</div>\n</div>\n<p>Note: Additional code added to help visualise the grid.</p>\n\n\n<h2>Example of variable grid for small and large devices</h2>\n<p>Resize your browser to see how the layouts changes.</p>\n<pre>\n\t<code>\n&lt;div class=&quot;row&quot;&gt;<br/>  &lt;div class=&quot;small4 large8 col&quot;&gt;8&lt;/div&gt;<br/>&lt;/div&gt;<br/>&lt;div class=&quot;row&quot;&gt;<br/>  &lt;div class=&quot;small1 large1 col&quot;&gt;1&lt;/div&gt;<br/>  &lt;div class=&quot;small3 large7 col&quot;&gt;7&lt;/div&gt;<br/>&lt;/div&gt;<br/>&lt;div class=&quot;row&quot;&gt;<br/>  &lt;div class=&quot;small4 large4 col&quot;&gt;4&lt;/div&gt;<br/>  &lt;div class=&quot;small4 large4 col&quot;&gt;4&lt;/div&gt;<br/>&lt;/div&gt;\n\t</code>\n</pre>\n\n<div class=\"ductGrid\">\n<h3>How it looks like</h3>\n\t<div class=\"row\">\n\t\t<div class=\"small4 large8 col\">\n\t\t\t<p class=\"space1 tomato\">8 (4 in small devices)</p>\n\t\t</div>\n\t</div>\n\n\t<div class=\"row\">\n\t\t<div class=\"small1 large1 col\">\n\t\t\t<p class=\"space1 tomato\">1</p>\n\t\t</div>\n\t\t<div class=\"small3 large7 col\">\n\t\t\t<p class=\"space1 tomato\">7 (3 in small devices)</p>\n\t\t</div>\n\t</div>\n\t<div class=\"row\">\n\t\t<div class=\"small4 large4 col\">\n\t\t\t<p class=\"space1 tomato\">4</p>\n\t\t</div>\n\t\t<div class=\"small4 large4 col\">\n\t\t\t<p class=\"space1 tomato\">4</p>\n\t\t</div>\n\t</div>\n</div>\n<p>Note: Additional code added to help visualise the grid.</p>\n\n",
         "month": "11",
         "year": "2014",
-        "ticks": 1415491200.0,
+        "ticks": 1415895000.0,
         "mixture_month_year": "11/2014",
-        "mixture_date": "2014-11-09T00:00:00Z"
+        "mixture_date": "2014-11-13T16:10:00Z"
       },
       "/elements/forms": {
         "title": "Form elements",
         "layout": "blocks",
         "published": true,
-        "date": "2014-11-10 00:00:00 UTC",
+        "date": "2014-11-12 00:00:00 UTC",
         "slug": "/elements/forms",
         "category": "elements",
+        "thumb": "elements-forms-thumb.png",
         "body": "\n \n<p>Every element must be part of a <span>fieldset</span>, otherwise the styles won't be rendered appropriately (accessiblity considerations aside).</p>\n<pre>\n\t<code>\n&lt;form&gt;<br/>  &lt;fieldset&gt;<br/>    &lt;p&gt;<br/>      &lt;label&gt;This is the label&lt;/label&gt;<br/>      &lt;input type=&quot;text&quot; value=&quot;Some predefined text here&quot;&gt;<br/>    &lt;/p&gt;<br/>  &lt;/fieldset&gt;<br/>&lt;/form&gt;\n\t</code>\n</pre>\n\n<h2>Buttons</h2>\n\n<div class=\"row\">\n\t<div class=\"small4 large5 col\">\n\t\t<h3>Normal button</h3>\n\t\t<p><input class=\"button\" value=\"Normal Button\"></p>\n\t</div>\n\t<div class=\"small4 large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;input class=&quot;button&quot; value=&quot;Normal Button&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n\n<div class=\"row\">\n\t<div class=\"small4 large5 col\">\n\t\t<h3>Primary action button</h3>\n\t\t<p><input class=\"button primary\" value=\"Primary action\"></p>\n\t</div>\n\t<div class=\"small4 large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;input class=&quot;button primary&quot; value=&quot;Primary action&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n<div class=\"row\">\n\t<div class=\"small4 large5 col\">\n\t\t<h3>Disabled button</h3>\n\t\t<p><input class=\"button disabled\" disabled value=\"Disabled\"></p>\n\t</div>\n\t<div class=\"small4 large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;input class=&quot;button disabled&quot; disabled value=&quot;Disabled&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n<div class=\"row\">\n\t<div class=\"small4 large5 col\">\n\t\t<h3>Submit button</h3>\n\t\t\t<fieldset>\n\t\t\t\t<p><input type=\"submit\" value=\"Submit button\"></p>\n\t\t\t</fieldset>\n\t</div>\n\t<div class=\"small4 large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;input type=&quot;submit&quot; value=&quot;Submit button&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n<h2>Fields</h2>\n<div class=\"row\">\n\t<div class=\"small4 large5 col\">\n\t\t<h3>A standard text input field, with label</h3>\n\t\t<fieldset>\n\t\t\t\t<p>\n\t\t\t\t\t<label>Normal text input field</label>\n\t\t\t\t\t<input type=\"text\" placeholder=\"Some predefined text here\">\n\t\t\t\t\t<p class=\"form-help\">This is help text under the form field.</p>\n\t\t\t\t</p>\n\t\t\t</fieldset>\n\t</div>\n\t<div class=\"small4 large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;label&gt;Normal text input field&lt;/label&gt;<br/>&lt;input type=&quot;text&quot; placeholder=&quot;Some predefined text here&quot;&gt;<br/>&lt;p class=&quot;form-help&quot;&gt;This is help text under the form field.&lt;/p&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n<div class=\"row\">\n\t<div class=\"small4 large5 col\">\n\t\t<h3>An input field meant for URLs, with label</h3>\n\t\t\t<fieldset>\n\t\t\t\t<label for=\"url\">URL</label>\n\t\t\t\t<input type=\"url\" class=\"form-text\" placeholder=\"http://yourdomain.com\" />\n\t\t\t</fieldset>\n\t</div>\n\t<div class=\"small4 large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;label for=&quot;url&quot;&gt;URL&lt;/label&gt;<br/>&lt;input type=&quot;url&quot; id=&quot;url&quot; class=&quot;form-text&quot; placeholder=&quot;http://yourdomain.com&quot; /&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n\n<div class=\"row\">\n\t<div class=\"small4 large5 col\">\n\t\t<h3>Some radio buttons, with label</h3>\n\t\t\t<fieldset class=\"radio\">\n\t\t\t\t<label for=\"notifications\">Radio buttons</label>\n\t\t\t\t<ul>\n\t\t\t\t\t<li><label><input type=\"radio\" name=\"notifications\"> Send me email</label></li>\n\t\t\t\t\t<li><label><input type=\"radio\" name=\"notifications\"> Don't send me email</label></li>\n\t\t\t\t\t<li><label><input type=\"radio\" name=\"notifications\"> Send me flowers</label></li>\n\t\t\t\t</ul>\n\t\t\t</fieldset>\n\t</div>\n\t<div class=\"small4 large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;label&gt;Normal text input field&lt;/label&gt;<br/>&lt;input type=&quot;text&quot; value=&quot;Some predefined text here&quot;&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n\n<div class=\"row\">\n\t<div class=\"small4 large5 col\">\n\t\t<h3>A textarea, with label</h3>\n\t\t<fieldset>\n\t\t\t<label for=\"bio\">Bio</label>\n\t\t\t<textarea id=\"bio\"></textarea>\n\t\t</fieldset>\n\t</div>\n\t<div class=\"small4 large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;fieldset&gt;<br/>  &lt;label for=&quot;bio&quot;&gt;Bio&lt;/label&gt;<br/>  &lt;textarea id=&quot;bio&quot;&gt;&lt;/textarea&gt;<br/>&lt;/fieldset&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\n<div class=\"row\">\n\t<div class=\"small4 large5 col\">\n\t\t<h3>The classic T&amp;Cs checkbox that nobody reads</h3>\n\t\t<fieldset class=\"check\">\n\t\t\t<label><input type=\"checkbox\" /> I accept the terms of service and lorem ipsum.</label>\n\t\t</fieldset>\n\t</div>\n\t<div class=\"small4 large3 col\">\n\t\t<pre>\n\t\t\t<code>\n&lt;fieldset class=&quot;check&quot;&gt;<br/>  &lt;label&gt;&lt;input type=&quot;checkbox&quot; /&gt; I accept the terms of service and lorem ipsum.&lt;/label&gt;<br/>&lt;/fieldset&gt;\n\t\t\t</code>\n\t\t</pre>\n\t</div>\n</div>\n\t\t\t\t\t\t\t\n\n\n<h2>Form errors</h2>\n<p>Add how your form displays errors here.</p>\n\n<h2>Search form</h2>\n<p>Add how the search form looks like, if different than a normal input field.</p>\n\n\n\n\n\n",
         "month": "11",
         "year": "2014",
-        "ticks": 1415577600.0,
+        "ticks": 1415750400.0,
         "mixture_month_year": "11/2014",
-        "mixture_date": "2014-11-10T00:00:00Z"
+        "mixture_date": "2014-11-12T00:00:00Z"
       },
       "/elements/typography": {
         "title": "Typography",
         "layout": "blocks",
         "published": true,
-        "date": "2014-11-09 00:00:00 UTC",
+        "date": "2014-11-13 00:00:00 UTC",
         "slug": "/elements/typography",
         "category": "elements",
-        "body": "\n \n\n<h1>Level 1 heading</h1>\n<h2>Level 2 heading</h2>\n<h3>Level 3 heading</h3>\n<h4>Level 4 heading</h4>\n<h5>Level 5 heading</h5>\t\n\n\n<h2>Lists</h2>\n\t<ul>\n\t\t<li>This is an unordered list</li>\n\t\t<li>With some elements</li>\n\t\t<li class=\"selected\">This is selected</li>\n\t\t<li><a href=\"#\">And this is a link in a list</a></li>\n\t</ul>\n\t<br><br>\n\t<ol>\n\t\t<li>This is an ordered list</li>\n\t\t<li>With some elements</li>\n\t\t<li class=\"selected\">This is selected</li>\n\t\t<li><a href=\"#\">And this is a link in a list</a></li>\n\t</ol>\n\n<h2>Paragraphs</h2>\n<p>Lorem ipsum duis orci sed orci mi magna sociosqu leo bibendum orci lorem. Mi amet morbi per nulla molestie venenatis platea. Sed convallis scelerisque sit nibh nisl nostra. Amet et velit libero sapien in nam ligula viverra est sapien. Dictum est congue vulputate amet feugiat tempor dapibus elit. Natoque quisque sagittis ullamcorper. \n\n</p><p>Suscipit velit sed ultrices at. Lectus vehicula massa dolor. Etiam praesent dictumst in orci. Pretium praesent dapibus mi. Aliquam ultrices nunc aliquet senectus enim ut velit elit ac parturient. Est enim vulputate ut duis libero convallis viverra. Scelerisque feugiat turpis nec litora turpis. Dictum in tellus. Lectus ultrices suscipit quis. \n\n</p>\n\n<h2>A quote</h2>\n<blockquote><p>Lorem ipsum ut congue congue dictum. Eu pellentesque class ut. Duis ac amet enim porttitor ante vitae vitae condimentum arcu. Nostra ornare aptent magna hymenaeos. Velit lectus non luctus a vitae aptent elit quam massa varius est. Tempor sit mattis lorem diam libero fusce lorem molestie. Est tortor ad est nisl et. \n\n</p></blockquote>\n\n\n\n",
+        "thumb": "element-typo-thumb.png",
+        "body": "\n \n\n<h1>Level 1 heading</h1>\n<h2>Level 2 heading</h2>\n<h3>Level 3 heading</h3>\n<h4>Level 4 heading</h4>\n<h5>Level 5 heading</h5>\t\n\n\n<h2>Lists</h2>\n\t<ul>\n\t\t<li>This is an unordered list</li>\n\t\t<li>With some elements</li>\n\t\t<li class=\"selected\">This is selected</li>\n\t\t<li><a href=\"#\">And this is a link in a list</a></li>\n\t</ul>\n\t<br><br>\n\t<ol>\n\t\t<li>This is an ordered list</li>\n\t\t<li>With some elements</li>\n\t\t<li class=\"selected\">This is selected</li>\n\t\t<li><a href=\"#\">And this is a link in a list</a></li>\n\t</ol>\n\n<h2>Paragraphs</h2>\n<p>Lorem ipsum pretium ante quisque cum justo hac. Consectetuer phasellus orci feugiat molestie facilisis velit nibh purus. Vitae non elit libero turpis malesuada purus nonummy viverra. Pellentesque lorem tortor suspendisse mauris ante mi at torquent. Ac commodo donec in aliquet per per taciti posuere. Donec pretium vel vitae velit nunc fames. Condimentum. \n\n</p><p>Elementum nunc accumsan tincidunt sagittis integer sed. Ornare luctus turpis velit tempor neque ac nulla litora adipiscing donec nulla. Sociosqu inceptos ipsum nisi viverra lacus magna aenean. Nibh varius hac interdum ac pellentesque fames imperdiet amet metus congue. Imperdiet adipiscing porttitor nunc mollis congue orci aliquam. Consectetuer consequat suspendisse lacinia. \n\n</p>\n\n<h2>A quote</h2>\n<blockquote><p>Lorem ipsum id sem posuere vitae duis platea. Iaculis et turpis. Tellus primis lacus nunc inceptos fames congue pretium et nonummy. Tempor egestas elit sit scelerisque suspendisse. Nulla sapien natoque accumsan vitae massa. Dignissim donec et consectetuer est porta nulla magna sit imperdiet porttitor lectus. A sapien nibh mi aliquet magna vestibulum. \n\n</p></blockquote>\n\n\n\n",
         "month": "11",
         "year": "2014",
-        "ticks": 1415491200.0,
+        "ticks": 1415836800.0,
         "mixture_month_year": "11/2014",
-        "mixture_date": "2014-11-09T00:00:00Z"
+        "mixture_date": "2014-11-13T00:00:00Z"
       },
       "/elements/tables": {
         "title": "Tables",
@@ -460,13 +496,19 @@
       "ticks": {
         "1415491200.0": [
           "/elements/navigation",
-          "/elements/grid",
-          "/elements/typography",
           "/elements/tables",
           "/elements/icon-fonts"
         ],
+        "1415895000.0": [
+          "/elements/grid"
+        ],
+        "1415750400.0": [
+          "/elements/forms"
+        ],
+        "1415836800.0": [
+          "/elements/typography"
+        ],
         "1415577600.0": [
-          "/elements/forms",
           "/elements/pagination"
         ]
       },
@@ -484,14 +526,42 @@
       "mixture_date": {
         "2014-11-09t00:00:00z": [
           "/elements/navigation",
-          "/elements/grid",
-          "/elements/typography",
           "/elements/tables",
           "/elements/icon-fonts"
         ],
+        "2014-11-13t16:10:00z": [
+          "/elements/grid"
+        ],
+        "2014-11-12t00:00:00z": [
+          "/elements/forms"
+        ],
+        "2014-11-13t00:00:00z": [
+          "/elements/typography"
+        ],
         "2014-11-10t00:00:00z": [
-          "/elements/forms",
           "/elements/pagination"
+        ]
+      },
+      "thumb": {
+        "elements-grid-thumb.png": [
+          "/elements/grid"
+        ],
+        "elements-forms-thumb.png": [
+          "/elements/forms"
+        ],
+        "element-typo-thumb.png": [
+          "/elements/typography"
+        ]
+      },
+      "transliterated-thumb": {
+        "elements-grid-thumbpng": [
+          "/elements/grid"
+        ],
+        "elements-forms-thumbpng": [
+          "/elements/forms"
+        ],
+        "element-typo-thumbpng": [
+          "/elements/typography"
         ]
       }
     }
@@ -647,7 +717,9 @@
         "date": "2014-11-13 00:00:00 UTC",
         "slug": "/layouts/article",
         "category": "layouts",
-        "body": "\n \n<p>Document how this template works here.</p>\n\n<div class=\"row\">\n\t<div class=\"ductLayout ductGrid\">\n\t\t<!-- layout example here -->\n\n\t\t<p class=\"tomato space1\">Header</p>\n\t\t<p class=\"sandybrown\">Breadcrumb</p>\n\t\t\n\t\t<div class=\"row\">\n\t\t\t<div class=\"large8\">\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"row\">\n\t\t\t<div class=\"large2 col\">\n\t\t\t\t<p class=\"space2 tomato\">Local nav</p>\n\t\t\t\t<p class=\"space2 wheat\">Most read</p>\n\n\t\t\t</div>\n\t\t\t<div class=\"large6 col\">\n\t\t\t\t<p class=\"space6 violet\">Article content</p>\n\t\t\t\t<p class=\"space3 sandybrown\">Comments</p>\n\t\t\t\t<p class=\"space3 tomato\">Related articles</p>\n\t\t\t</div>\n\t\t</div>\n\t\t<p class=\"space5 yellowgreen\">Footer</p>\n\n\t\t<!-- layout example ends -->\n\t</div>\n\n\t<!-- description goes here -->\n\t<div class=\"ductLayout-desc\">\n\t\t<ul>\n\t\t\t<li><strong>Header</strong></li>\n\t\t\t<li><a href=\"/blocks/breadcrumb\">Breadcrumb</a>. Should display the name of the article as the last child, selected and not linked</li>\n\t\t\t<li><strong>Local navigation</strong>. Links to the different sub-categories, with the current one selected.</li>\n\t\t\t<li><strong>Most read</strong>. List of the most read articles of the last 48 hours</li>\n\t\t\t<li><strong>Article</strong></li>\n\t\t\t<li><strong>Comments</strong>. If enabled in the CMS, visitors can read and add comments</li>\n\t\t\t<li><strong>Related articles</strong></li>\n\t\t\t<li><strong>Footer</strong></li>\n\t\t</ul>\n\t\t\n\n\t</div>\n</div>\n",
+        "description": "Basic layout for articles",
+        "thumb": "layout-article-thumb.png",
+        "body": "\n \n<p>Document how this template works here.</p>\n\n<div class=\"row\">\n\t<div class=\"ductLayout ductGrid\">\n\t\t<!-- layout example here -->\n\n\t\t<p class=\"tomato space1\">Header</p>\n\t\t<p class=\"sandybrown\">Breadcrumb</p>\n\n\t\t<div class=\"row\">\n\t\t\t<div class=\"large2 col\">\n\t\t\t\t<p class=\"space2 tomato\">Local nav</p>\n\t\t\t\t<p class=\"space2 wheat\">Most read</p>\n\n\t\t\t</div>\n\t\t\t<div class=\"large6 col\">\n\t\t\t\t<p class=\"space6 violet\">Article content</p>\n\t\t\t\t<p class=\"space3 sandybrown\">Comments</p>\n\t\t\t\t<p class=\"space3 tomato\">Related articles</p>\n\t\t\t</div>\n\t\t</div>\n\t\t<p class=\"space5 yellowgreen\">Footer</p>\n\n\t\t<!-- layout example ends -->\n\t</div>\n\n\t<!-- description goes here -->\n\t<div class=\"ductLayout-desc\">\n\t\t<ul>\n\t\t\t<li><strong>Header</strong></li>\n\t\t\t<li><a href=\"/blocks/breadcrumb\">Breadcrumb</a>. Should display the name of the article as the last child, selected and not linked</li>\n\t\t\t<li><strong>Local navigation</strong>. Links to the different sub-categories, with the current one selected.</li>\n\t\t\t<li><strong>Most read</strong>. List of the most read articles of the last 48 hours</li>\n\t\t\t<li><strong>Article</strong></li>\n\t\t\t<li><strong>Comments</strong>. If enabled in the CMS, visitors can read and add comments</li>\n\t\t\t<li><strong>Related articles</strong></li>\n\t\t\t<li><strong>Footer</strong></li>\n\t\t</ul>\n\t\t\n\n\t</div>\n</div>\n",
         "month": "11",
         "year": "2014",
         "ticks": 1415836800.0,
@@ -693,6 +765,26 @@
       },
       "transliterated-category": {
         "layouts": [
+          "/layouts/article"
+        ]
+      },
+      "description": {
+        "basic layout for articles": [
+          "/layouts/article"
+        ]
+      },
+      "transliterated-description": {
+        "basic-layout-for-articles": [
+          "/layouts/article"
+        ]
+      },
+      "thumb": {
+        "layout-article-thumb.png": [
+          "/layouts/article"
+        ]
+      },
+      "transliterated-thumb": {
+        "layout-article-thumbpng": [
           "/layouts/article"
         ]
       },

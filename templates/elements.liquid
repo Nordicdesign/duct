@@ -3,12 +3,13 @@
 <h1>Elements</h1>
 
 <p>Not sure about what to include here? Check this <a href="http://daverupert.com/2013/04/responsive-deliverables/">post about responsive deliverables</a> by Dave Rupert for some inspiration.</p>	
-<div class="modulesList">
+<div class="duct-modulesList">
 	{% collection "elements" %}
 	  {% for post in collection.items %}
 	  <div>
 	  	<h2><a href="{{ post.slug }}">{{ post.title }}</a></h2>
-	  	<p>I need a description here</p>
+	  	<p>{{ post.description }}</p>
+	  	<p><img src="{{ post.thumb | asset_url }}" alt="{{ post.title }}"></p>
 	  </div>
 	  {% endfor %}
 	{% endcollection %}

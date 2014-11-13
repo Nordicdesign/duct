@@ -61,6 +61,11 @@ header {
     line-height: 3rem;
     padding-right: 1.5em;
   }
+
+  @media all and (max-width: 40em) {
+    nav li {padding-right: 0.5em;}
+  }
+  
   nav ul {
     list-style: none;
     margin-left: 2em;
@@ -96,8 +101,11 @@ header {
   width: 100%;
   background: #f2f3f4;
 
+  ul {
+    margin: 0;
+  }
   li {
-    padding: .5em 2em 1em;
+    padding: .5em 2em .7em;
     border-bottom: 1px solid #ccc;  
     list-style: none;
     margin-left: 0;
@@ -145,7 +153,7 @@ header {
 /* breadcrumb */
 .ductCategory {
   font-size: 1.4rem;
-  margin: 0 0 .4em 0;
+  margin: 0;
 
   :after {
     content: "\002F";
@@ -161,7 +169,7 @@ header {
 .ductModified {
   font-size: 1.4rem;
   color: #666;
-  margin: 0 0 1em 0;
+  margin: 0 0 2em 0;
   padding-left: 1em;
   border-left: 5px solid #ccc;
 }
@@ -172,10 +180,12 @@ header {
 /* styles to visualise the responsive grid page */
 .ductGrid {
   .col {
-    text-align: center;
-    padding: 0;
+    padding-right: 0;
+    padding-left: 0;
     color: #fff;
   }
+
+
 
   p {
     color: #fff;
@@ -212,18 +222,26 @@ header {
 }
 
 // GRID LIST
-.modulesList {
+.duct-modulesList {
   display: flex;
   flex-wrap: wrap;
-}
 
-.modulesList div {
-  padding: 1em;
-  border: 1px solid #f2f3f4;
-  border-radius: 2px;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16);
-  margin: 1%;
-  flex-grow: 1;
+  p {
+    margin: 0;
+  }
+
+  img {
+    max-width: 12em;
+  }
+  
+  div {
+    padding: 1em;
+    border: 1px solid #f2f3f4;
+    border-radius: 2px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16);
+    margin: 1%;
+    flex-grow: 1;
+  }
 
   h2 {
     margin-top: 0;
@@ -231,7 +249,7 @@ header {
 }
 
 @media all and (max-width: 40em) {
-  .modulesList  {
+  .duct-modulesList  {
     flex-direction: column;
   }
 }

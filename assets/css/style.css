@@ -446,6 +446,9 @@ header {
     list-style-type: none;
     line-height: 3rem;
     padding-right: 1.5em; }
+  @media all and (max-width: 40em) {
+    header nav li {
+      padding-right: 0.5em; } }
   header nav ul {
     list-style: none;
     margin-left: 2em; }
@@ -468,8 +471,10 @@ header {
     border-top: 6px double #888;
     width: 100%;
     background: #f2f3f4; }
+    .theMeat > aside ul {
+      margin: 0; }
     .theMeat > aside li {
-      padding: .5em 2em 1em;
+      padding: .5em 2em .7em;
       border-bottom: 1px solid #ccc;
       list-style: none;
       margin-left: 0; } }
@@ -500,7 +505,7 @@ header {
 /* breadcrumb */
 .ductCategory {
   font-size: 1.4rem;
-  margin: 0 0 .4em 0; }
+  margin: 0; }
   .ductCategory :after {
     content: "\002F";
     color: #666;
@@ -511,14 +516,14 @@ header {
 .ductModified {
   font-size: 1.4rem;
   color: #666;
-  margin: 0 0 1em 0;
+  margin: 0 0 2em 0;
   padding-left: 1em;
   border-left: 5px solid #ccc; }
 
 /* styles to visualise the responsive grid page */
 .ductGrid .col {
-  text-align: center;
-  padding: 0;
+  padding-right: 0;
+  padding-left: 0;
   color: #fff; }
 .ductGrid p {
   color: #fff;
@@ -544,22 +549,25 @@ header {
 
   .ductLayout-desc {
     margin: 1.5em 0; } }
-.modulesList {
+.duct-modulesList {
   display: flex;
   flex-wrap: wrap; }
-
-.modulesList div {
-  padding: 1em;
-  border: 1px solid #f2f3f4;
-  border-radius: 2px;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16);
-  margin: 1%;
-  flex-grow: 1; }
-  .modulesList div h2 {
+  .duct-modulesList p {
+    margin: 0; }
+  .duct-modulesList img {
+    max-width: 12em; }
+  .duct-modulesList div {
+    padding: 1em;
+    border: 1px solid #f2f3f4;
+    border-radius: 2px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16);
+    margin: 1%;
+    flex-grow: 1; }
+  .duct-modulesList h2 {
     margin-top: 0; }
 
 @media all and (max-width: 40em) {
-  .modulesList {
+  .duct-modulesList {
     flex-direction: column; } }
 /* displaying code correctly */
 pre code {
