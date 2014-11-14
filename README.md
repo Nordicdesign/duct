@@ -1,6 +1,8 @@
 Front-end styleguide boilerplate
 ================================
 
+[See an example](http://nordicdesign.github.io/duct/).
+
 This is a simple boilerplate to create front-end style guides using [Mixture](http://mixture.io/). You should be able to import your styles, and quickly document how your website is built.
 
 It has four main elements:
