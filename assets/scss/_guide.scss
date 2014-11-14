@@ -363,3 +363,23 @@ a:hover.tooltips span {
   margin-left: -150px;
   z-index: 999;
 }
+
+/* TABLES */
+
+table {
+	border-collapse: collapse;
+
+	th,
+	td {	
+		padding: 4px 10px;
+
+	}
+	th {
+		border: 1px solid tomato;
+		background-color: tomato;
+		color: #fff;
+	}
+	td {
+		border: 1px solid #ccc;
+	}
+}

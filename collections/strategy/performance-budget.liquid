@@ -4,9 +4,38 @@ layout: blocks
 published: true
 date: 2014-11-11 00:00
 slug: /responsive-budget
+category: strategy
+description: Defines the time and size budget for each page type
 ---
 {% block content %} 
-	
-<h1>Responsive budget</h1>
 <p>If you have one (lucky you!), document your performance budget here.</p>
+<table>
+	<thead>
+		<tr>
+			<th>Page</th>
+			<th>Time target (ms)</th>
+			<th>Size (Kb)</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				Homepage
+			</td>
+			<td>1000</td>
+			<td></td>
+		</tr>	
+		<tr>
+			<td>Landing pages</td>
+			<td>1000</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Detail pages</td>
+			<td>2000</td>
+			<td></td>
+		</tr>
+	</tbody>
+	
+</table>
 {% endblock %}

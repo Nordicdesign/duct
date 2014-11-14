@@ -574,7 +574,9 @@
         "published": true,
         "date": "2014-11-10 00:00:00 UTC",
         "slug": "/strategy/device-browser-support",
-        "body": "\n \n\t\n<h1>Device and browser support</h1>\n<p>Document what devices and browsers do you support.</p>\n",
+        "category": "strategy",
+        "description": "What browsers and devices are we supporting",
+        "body": "\n \n<p>Document what devices and browsers do you support.</p>\n",
         "month": "11",
         "year": "2014",
         "ticks": 1415577600.0,
@@ -587,7 +589,9 @@
         "published": true,
         "date": "2014-11-11 00:00:00 UTC",
         "slug": "/strategy/responsive-typography",
-        "body": "\n \n\t\n<h1>Responsive typography</h1>\n<p>Document how are you going to manage your responsive typoegraphy here.</p>\n",
+        "category": "strategy",
+        "description": "How typography responds to different screen sizes",
+        "body": "\n \n\t\n<p>Document how are you going to manage your responsive typoegraphy here.</p>\n",
         "month": "11",
         "year": "2014",
         "ticks": 1415664000.0,
@@ -600,7 +604,9 @@
         "published": true,
         "date": "2014-11-11 00:00:00 UTC",
         "slug": "/strategy/responsive-budget",
-        "body": "\n \n\t\n<h1>Responsive budget</h1>\n<p>If you have one (lucky you!), document your performance budget here.</p>\n",
+        "category": "strategy",
+        "description": "Defines the time and size budget for each page type",
+        "body": "\n \n<p>If you have one (lucky you!), document your performance budget here.</p>\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Page</th>\n\t\t\t<th>Time target (ms)</th>\n\t\t\t<th>Size (Kb)</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t\tHomepage\n\t\t\t</td>\n\t\t\t<td>1000</td>\n\t\t\t<td></td>\n\t\t</tr>\t\n\t\t<tr>\n\t\t\t<td>Landing pages</td>\n\t\t\t<td>1000</td>\n\t\t\t<td></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Detail pages</td>\n\t\t\t<td>2000</td>\n\t\t\t<td></td>\n\t\t</tr>\n\t</tbody>\n\t\n</table>\n",
         "month": "11",
         "year": "2014",
         "ticks": 1415664000.0,
@@ -664,6 +670,42 @@
           "/strategy/responsive-typography"
         ],
         "/strategy/responsive-budget": [
+          "/strategy/responsive-budget"
+        ]
+      },
+      "category": {
+        "strategy": [
+          "/strategy/device-browser-support",
+          "/strategy/responsive-typography",
+          "/strategy/responsive-budget"
+        ]
+      },
+      "transliterated-category": {
+        "strategy": [
+          "/strategy/device-browser-support",
+          "/strategy/responsive-typography",
+          "/strategy/responsive-budget"
+        ]
+      },
+      "description": {
+        "what browsers and devices are we supporting": [
+          "/strategy/device-browser-support"
+        ],
+        "how typography responds to different screen sizes": [
+          "/strategy/responsive-typography"
+        ],
+        "defines the time and size budget for each page type": [
+          "/strategy/responsive-budget"
+        ]
+      },
+      "transliterated-description": {
+        "what-browsers-and-devices-are-we-supporting": [
+          "/strategy/device-browser-support"
+        ],
+        "how-typography-responds-to-different-screen-sizes": [
+          "/strategy/responsive-typography"
+        ],
+        "defines-the-time-and-size-budget-for-each-page-type": [
           "/strategy/responsive-budget"
         ]
       },

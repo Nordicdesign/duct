@@ -7,7 +7,7 @@
 	  {% for post in collection.items %}
 	  <div>
 	  	<h2><a href="{{ post.slug }}">{{ post.title }}</a></h2>
-	  	<p>I need a description here</p>
+	  	<p>{{ post.description }}</p>
 	  </div>
 	  {% endfor %}
 	{% endcollection %}
