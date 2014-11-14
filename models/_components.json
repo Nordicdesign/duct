@@ -1,0 +1,48 @@
+[
+  {
+    "directory": false,
+    "key": "index",
+    "name": "Index",
+    "url": "/index"
+  },
+  {
+    "children": [
+      {
+        "directory": false,
+        "key": "navigation",
+        "name": "Navigation",
+        "url": "/components/navigation"
+      },
+      {
+        "directory": false,
+        "key": "responsive-grid",
+        "name": "Responsive Grid",
+        "url": "/components/responsive-grid"
+      },
+      {
+        "directory": false,
+        "key": "typography",
+        "name": "Typography",
+        "url": "/components/typography"
+      }
+    ],
+    "directory": false,
+    "key": "components",
+    "name": "Components",
+    "url": "/components"
+  },
+  {
+    "children": [
+      {
+        "directory": false,
+        "key": "corporate-training",
+        "name": "Corporate Training",
+        "url": "/modules/corporate-training"
+      }
+    ],
+    "directory": true,
+    "key": "modules",
+    "name": "Modules",
+    "url": "/modules"
+  }
+]

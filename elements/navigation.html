@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Title block allowing child pages to override -->
+        <title>Duct - A boilerplate to create front-end styleguides</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" type="image/ico" href="../favicon.ico" />
+        <!-- you should need the following style guides and javascript files -->
+        <link href="../assets/css/style.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../assets/css/default.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <script src="../assets/scripts/jquery-1.11.1.min.js"></script>
+        <script src="../assets/scripts/highlight.pack.min.js"></script>
+        <script src="../assets/scripts/jquery.sticky-kit.min.js"></script>
+        <!-- Style block allowing child pages to inject their own styles -->
+        
+
+        <!-- insert your required javascript files and web fonts here -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            $( document ).ready(function() {
+                $("#top").stick_in_parent();
+                $("#navigation").stick_in_parent({offset_top: 75});
+            });
+        </script>
+    </head>
+    <body>
+        <header id="top">
+	<p class="title" id="theNorth"><a href="../index.html">Duct</a></p>
+	<nav>
+		<ul>
+			<li><a href="../index.html" >Home</a></li>
+			<li><a href="../strategy.html" >Strategy</a></li>
+			<li><a href="../elements.html" >Elements</a></li>
+			<li><a href="../blocks.html" >Blocks</a></li>
+			<li><a href="../layouts.html" >Layouts</a></li>
+		</ul>
+	</nav>
+</header>
+        <div class="container">
+            <!-- Include -->
+            
+            <!-- Content block, child page inject content -->
+            <div class="theMeat">
+                <main>
+                    <p class="ductCategory"><a href="../elements.html">elements</a></p>
+                    <h1>Navigation</h1>
+                    <p class="ductModified">Last modified: 09/11/2014</p>
+                    
+ 
+
+<p class="ductCategory"><a href="../elements.html">elements</a></p>	
+<h1>Navigation</h1>
+<p>Document how your navigation works here.</p>
+
+                </main>
+                <aside>
+                <nav id="navigation">
+
+
+
+
+
+  <ul>
+  
+    <li><a href="grid.html">Responsive grid</a></li>
+  
+    <li><a href="typography.html">Typography</a></li>
+  
+    <li><a href="forms.html">Form elements</a></li>
+  
+    <li><a href="pagination.html">Pagination</a></li>
+  
+    <li><a href="icon-fonts.html">Icon fonts</a></li>
+  
+    <li><a href="tables.html">Tables</a></li>
+  
+    <li><a href="navigation.html">Navigation</a></li>
+  
+  </ul>
+
+
+
+
+
+
+
+</nav>
+                </aside>
+            </div>
+            <footer>
+	<p class="right"><a href="#theNorth">Back to top</a></p>
+	<p>A front-end style guide by <a href="http://www.nordic-design.net">Alex Lillo</a>, based on the <a href="http://mixture.io/">Mixture</a> framework. <a href="https://github.com/Nordicdesign/duct">Fork it on Github</a>.</p>
+	<p>Questions? Find me on <a href="https://twitter.com/nordic">Twitter</a>.</p>
+
+</footer>
+        </div>
+        <!-- Script block allowing child pages to inject their own scripts -->
+        
+        <script src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Title block allowing child pages to override -->
+        <title>Duct - A boilerplate to create front-end styleguides</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" type="image/ico" href="../favicon.ico" />
+        <!-- you should need the following style guides and javascript files -->
+        <link href="../assets/css/style.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../assets/css/default.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <script src="../assets/scripts/jquery-1.11.1.min.js"></script>
+        <script src="../assets/scripts/highlight.pack.min.js"></script>
+        <script src="../assets/scripts/jquery.sticky-kit.min.js"></script>
+        <!-- Style block allowing child pages to inject their own styles -->
+        
+
+        <!-- insert your required javascript files and web fonts here -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            $( document ).ready(function() {
+                $("#top").stick_in_parent();
+                $("#navigation").stick_in_parent({offset_top: 75});
+            });
+        </script>
+    </head>
+    <body>
+        <header id="top">
+	<p class="title" id="theNorth"><a href="../index.html">Duct</a></p>
+	<nav>
+		<ul>
+			<li><a href="../index.html" >Home</a></li>
+			<li><a href="../strategy.html" >Strategy</a></li>
+			<li><a href="../elements.html" >Elements</a></li>
+			<li><a href="../blocks.html" >Blocks</a></li>
+			<li><a href="../layouts.html" >Layouts</a></li>
+		</ul>
+	</nav>
+</header>
+        <div class="container">
+            <!-- Include -->
+            
+            <!-- Content block, child page inject content -->
+            <div class="theMeat">
+                <main>
+                    <p class="ductCategory"><a href="../blocks.html">blocks</a></p>
+                    <h1>Example block</h1>
+                    <p class="ductModified">Last modified: 09/11/2014</p>
+                    
+ 
+<p>This is a description of what it is and how it should be used.</p>
+<p>Lorem ipsum dictum cras consectetuer. Rutrum mi vestibulum diam senectus ridiculus platea lacinia tortor sed. Tellus eu ligula duis quis elit placerat. Iaculis sed ac. Magna adipiscing est non. In eu vel per quisque nec posuere id torquent. Elit facilisis erat potenti id. Fusce sed velit sed proin. In velit velit pharetra. 
+
+</p>
+
+<h2>HTML</h2>
+<pre>
+    <code class="html">
+<!-- code starts here, use this to encode it http://www.htmlescape.net/htmlescape_tool.html -->
+&lt;div id=&quot;privateheader&quot;&gt;
+	&lt;h2&gt;Corporate training&lt;/h2&gt;
+&lt;/div&gt;       		
+&lt;div id=&quot;privatecourses&quot;&gt;
+&lt;h3&gt;Digital skills development&lt;/h3&gt;
+&lt;p&gt;We work within your organisation to guide your team's skill development, providing benefits above and beyond our regular training services&lt;/p&gt;
+&lt;p class=&quot;more&quot;&gt;&lt;a href=&quot;/training/corporate-training.shtml&quot;&gt;about corporate training&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+<!-- code ends here -->
+    </code>
+</pre>	
+<h2>How it looks like</h2>
+<img src="../assets/img/corporate-training.png" alt="" />
+  	<h2>CSS used in the module</h2>
+    	<pre>
+        	<code class="css">
+<!-- code starts here -->
+#privateheader h2 {
+	font:3.1em gil,"trebuchet MS",helvetica,sans-serif;
+	line-height:.9em;
+	background: url(../i-2012/private.gif) no-repeat 0 0;
+	min-height:95px;
+	padding-left:115px;
+	padding-bottom:25px;
+	text-transform: lowercase;
+	padding-top:20px;
+	margin-bottom:0;
+	margin-top:0
+}
+#privatecourses {
+	padding-bottom:5px;
+	background: url(../i-2012/stars-high.gif) no-repeat 50% 100%;
+	margin-bottom:10px
+}
+<!-- code ends here -->
+        	</code>
+        </pre>
+<h2>Where has been used</h2>
+<p>[Optional] List of sections or layouts where this element is used.</p>
+	
+
+                </main>
+                <aside>
+                <nav id="navigation">
+
+
+
+  <ul>
+  
+    <li><a href="breadcrumb.html">Breadcrumb</a></li>
+  
+    <li><a href="corporate-training.html">Corporate training</a></li>
+  
+    <li><a href="block-example.html">Example block</a></li>
+  
+    <li><a href="social-media.html">Social media</a></li>
+  
+  </ul>
+
+
+
+
+
+
+
+
+
+</nav>
+                </aside>
+            </div>
+            <footer>
+	<p class="right"><a href="#theNorth">Back to top</a></p>
+	<p>A front-end style guide by <a href="http://www.nordic-design.net">Alex Lillo</a>, based on the <a href="http://mixture.io/">Mixture</a> framework. <a href="https://github.com/Nordicdesign/duct">Fork it on Github</a>.</p>
+	<p>Questions? Find me on <a href="https://twitter.com/nordic">Twitter</a>.</p>
+
+</footer>
+        </div>
+        <!-- Script block allowing child pages to inject their own scripts -->
+        
+        <script src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Title block allowing child pages to override -->
+        <title>Duct - A boilerplate to create front-end styleguides</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" type="image/ico" href="../favicon.ico" />
+        <!-- you should need the following style guides and javascript files -->
+        <link href="../assets/css/style.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../assets/css/default.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <script src="../assets/scripts/jquery-1.11.1.min.js"></script>
+        <script src="../assets/scripts/highlight.pack.min.js"></script>
+        <script src="../assets/scripts/jquery.sticky-kit.min.js"></script>
+        <!-- Style block allowing child pages to inject their own styles -->
+        
+
+        <!-- insert your required javascript files and web fonts here -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            $( document ).ready(function() {
+                $("#top").stick_in_parent();
+                $("#navigation").stick_in_parent({offset_top: 75});
+            });
+        </script>
+    </head>
+    <body>
+        <header id="top">
+	<p class="title" id="theNorth"><a href="../index.html">Duct</a></p>
+	<nav>
+		<ul>
+			<li><a href="../index.html" >Home</a></li>
+			<li><a href="../strategy.html" >Strategy</a></li>
+			<li><a href="../elements.html" >Elements</a></li>
+			<li><a href="../blocks.html" >Blocks</a></li>
+			<li><a href="../layouts.html" >Layouts</a></li>
+		</ul>
+	</nav>
+</header>
+        <div class="container">
+            <!-- Include -->
+            
+            <!-- Content block, child page inject content -->
+            <div class="theMeat">
+                <main>
+                    <p class="ductCategory"><a href="../layouts.html">layouts</a></p>
+                    <h1>Article</h1>
+                    <p class="ductModified">Last modified: 13/11/2014</p>
+                    
+ 
+<p>Document how this template works here.</p>
+
+<div class="row">
+	<div class="ductLayout ductGrid">
+		<!-- layout example here -->
+
+		<p class="tomato space1">Header</p>
+		<p class="sandybrown">Breadcrumb</p>
+
+		<div class="row">
+			<div class="large2 col">
+				<p class="space2 tomato">Local nav</p>
+				<p class="space2 wheat">Most read</p>
+
+			</div>
+			<div class="large6 col">
+				<p class="space6 violet">Article content</p>
+				<p class="space3 sandybrown">Comments</p>
+				<p class="space3 tomato">Related articles</p>
+			</div>
+		</div>
+		<p class="space5 yellowgreen">Footer</p>
+
+		<!-- layout example ends -->
+	</div>
+
+	<!-- description goes here -->
+	<div class="ductLayout-desc">
+		<ul>
+			<li><strong>Header</strong></li>
+			<li><a href="../blocks/breadcrumb.html">Breadcrumb</a>. Should display the name of the article as the last child, selected and not linked</li>
+			<li><strong>Local navigation</strong>. Links to the different sub-categories, with the current one selected.</li>
+			<li><strong>Most read</strong>. List of the most read articles of the last 48 hours</li>
+			<li><strong>Article</strong></li>
+			<li><strong>Comments</strong>. If enabled in the CMS, visitors can read and add comments</li>
+			<li><strong>Related articles</strong></li>
+			<li><strong>Footer</strong></li>
+		</ul>
+		
+
+	</div>
+</div>
+
+                </main>
+                <aside>
+                <nav id="navigation">
+
+
+
+
+
+
+
+
+
+  <ul>
+  
+    <li><a href="article.html">Article</a></li>
+  
+  </ul>
+
+
+
+</nav>
+                </aside>
+            </div>
+            <footer>
+	<p class="right"><a href="#theNorth">Back to top</a></p>
+	<p>A front-end style guide by <a href="http://www.nordic-design.net">Alex Lillo</a>, based on the <a href="http://mixture.io/">Mixture</a> framework. <a href="https://github.com/Nordicdesign/duct">Fork it on Github</a>.</p>
+	<p>Questions? Find me on <a href="https://twitter.com/nordic">Twitter</a>.</p>
+
+</footer>
+        </div>
+        <!-- Script block allowing child pages to inject their own scripts -->
+        
+        <script src="app.js"></script>
+    </body>
+</html>

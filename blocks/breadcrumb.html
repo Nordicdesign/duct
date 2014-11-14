@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Title block allowing child pages to override -->
+        <title>Duct - A boilerplate to create front-end styleguides</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" type="image/ico" href="../favicon.ico" />
+        <!-- you should need the following style guides and javascript files -->
+        <link href="../assets/css/style.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../assets/css/default.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <script src="../assets/scripts/jquery-1.11.1.min.js"></script>
+        <script src="../assets/scripts/highlight.pack.min.js"></script>
+        <script src="../assets/scripts/jquery.sticky-kit.min.js"></script>
+        <!-- Style block allowing child pages to inject their own styles -->
+        
+
+        <!-- insert your required javascript files and web fonts here -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            $( document ).ready(function() {
+                $("#top").stick_in_parent();
+                $("#navigation").stick_in_parent({offset_top: 75});
+            });
+        </script>
+    </head>
+    <body>
+        <header id="top">
+	<p class="title" id="theNorth"><a href="../index.html">Duct</a></p>
+	<nav>
+		<ul>
+			<li><a href="../index.html" >Home</a></li>
+			<li><a href="../strategy.html" >Strategy</a></li>
+			<li><a href="../elements.html" >Elements</a></li>
+			<li><a href="../blocks.html" >Blocks</a></li>
+			<li><a href="../layouts.html" >Layouts</a></li>
+		</ul>
+	</nav>
+</header>
+        <div class="container">
+            <!-- Include -->
+            
+            <!-- Content block, child page inject content -->
+            <div class="theMeat">
+                <main>
+                    <p class="ductCategory"><a href="../blocks.html">blocks</a></p>
+                    <h1>Breadcrumb</h1>
+                    <p class="ductModified">Last modified: 13/11/2014</p>
+                    
+ 
+<p>With the exception of the homepage, the <em>breadcrumb</em> block should be on every page to help visitors navigate the page, and understand the content's hierarchy. </p>
+<h2>How it looks like</h2>
+<div class="row">
+	<nav class="breadcrumb">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Category</a></li>
+    <li><strong>Current page</strong></li>
+  </ul>
+</nav>
+		
+</div>
+
+
+<h2>HTML</h2>
+<pre>
+   	<code class="html">
+<!-- code starts here, use this to encode it http://www.htmlescape.net/htmlescape_tool.html -->
+&lt;nav class=&quot;breadcrumb&quot;&gt;<br/>  &lt;ul&gt;<br/>    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;<br/>    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Category&lt;/a&gt;&lt;/li&gt;<br/>    &lt;li&gt;&lt;strong&gt;Current page&lt;/strong&gt;&lt;/li&gt;<br/>  &lt;/ul&gt;<br/>&lt;/nav&gt;
+<!-- code ends here -->
+   	</code>
+</pre>	
+
+<h2>SCSS</h2>
+<pre>
+	<code class="css">
+<!-- code starts here -->
+/*BREADCRUMB*/
+nav.breadcrumb {
+	font-size: 1.4rem;
+	color: #3A8EE2;
+	margin-bottom: 2em;
+
+	ul li {
+		float: left;
+		list-style: none;
+	}
+
+	a {
+		margin: 0 5px;
+		text-decoration: none;
+	}
+	a:first-child {
+		margin-left: 0;
+	}
+
+	a:hover, a:focus {
+		color: $primary-color;
+	}
+
+	strong {
+		font-weight: bold;
+		color: $primary-color;
+	}		
+
+}
+<!-- code ends here -->
+	</code>
+</pre>
+    
+ 
+
+                </main>
+                <aside>
+                <nav id="navigation">
+
+
+
+  <ul>
+  
+    <li><a href="breadcrumb.html">Breadcrumb</a></li>
+  
+    <li><a href="corporate-training.html">Corporate training</a></li>
+  
+    <li><a href="block-example.html">Example block</a></li>
+  
+    <li><a href="social-media.html">Social media</a></li>
+  
+  </ul>
+
+
+
+
+
+
+
+
+
+</nav>
+                </aside>
+            </div>
+            <footer>
+	<p class="right"><a href="#theNorth">Back to top</a></p>
+	<p>A front-end style guide by <a href="http://www.nordic-design.net">Alex Lillo</a>, based on the <a href="http://mixture.io/">Mixture</a> framework. <a href="https://github.com/Nordicdesign/duct">Fork it on Github</a>.</p>
+	<p>Questions? Find me on <a href="https://twitter.com/nordic">Twitter</a>.</p>
+
+</footer>
+        </div>
+        <!-- Script block allowing child pages to inject their own scripts -->
+        
+        <script src="app.js"></script>
+    </body>
+</html>

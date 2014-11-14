@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Title block allowing child pages to override -->
+        <title>Duct - A boilerplate to create front-end styleguides</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+        <!-- you should need the following style guides and javascript files -->
+        <link href="assets/css/style.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="assets/css/default.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <script src="assets/scripts/jquery-1.11.1.min.js"></script>
+        <script src="assets/scripts/highlight.pack.min.js"></script>
+        <script src="assets/scripts/jquery.sticky-kit.min.js"></script>
+        <!-- Style block allowing child pages to inject their own styles -->
+        
+
+        <!-- insert your required javascript files and web fonts here -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+            $( document ).ready(function() {
+                $("#top").stick_in_parent();
+                $("#navigation").stick_in_parent({offset_top: 75});
+            });
+        </script>
+    </head>
+    <body>
+        <header id="top">
+	<p class="title" id="theNorth"><a href="index.html">Duct</a></p>
+	<nav>
+		<ul>
+			<li><a href="index.html" >Home</a></li>
+			<li><a href="strategy.html" >Strategy</a></li>
+			<li><a href="elements.html" >Elements</a></li>
+			<li><a href="blocks.html" >Blocks</a></li>
+			<li><a href="layouts.html" >Layouts</a></li>
+		</ul>
+	</nav>
+</header>
+        <div class="container">
+            <!-- Include -->
+             
+
+<h1>How it works</h1>
+
+<div class="row steps">
+	<div class="small4 large2 col">
+		<h2>1. Install <a href="http://mixture.io">Mixture</a></h2>
+	</div>
+	<div class="small4 large6 col">
+		<p>Mixture it's a Mac/Win development framework that makes your life <em>quite</em> easy. Useful if you want to prototype stuff, or build a simple website. If you're familiar with <a href="http://jekyllrb.com/">Jekyll</a>, you'll find it similar as it's also based on <a href="https://github.com/Shopify/liquid/wiki">Liquid</a>.</p>
+		<p>(I know, Mixture it's not free, but for £25 is quite handy)</p>
+	</div>
+</div>
+
+<div class="filler">&nbsp;</div>
+
+<div class="row steps">
+	<div class="small4 large2 col">
+		<h2>2. <a href="https://github.com/Nordicdesign/styleguide-boilerplate">Fork it on github</a></h2>
+	</div>
+	<div class="small4 large6 col">
+		<p>Or clone it, or download it. Whatever the right terminology is. Basically get the files in your computer, give the folder your favourite name, and open it using Mixture.</p>
+		<p>If you plan to use git, you know what you have to do better than me.</p>
+	</div>
+</div>
+
+
+<div class="filler">&nbsp;</div>
+
+<div class="row steps">
+	<div class="small4 large2 col">
+		<h2>3. Add your styles</h2>
+	</div>
+	<div class="small4 large6 col">
+		<h3>Do not touch</h3>
+		<ul>
+			<li>_boilerplate.scss</li>
+		</ul>
+		<h3>Do touch</h3>
+		<p>Any other scss file. Basically do whatever you want, add custom styles on the <em>style.scss</em>, <em>_guide.scss</em> (this should where your live site styles are), <em>_layout.scss</em> (this is where your live site layout styles should be).</p>
+
+		<p>But this is just how I've organised my SCSS. Do whatever you want with your files. It's your site. Just remember to import the SCSS partials into <em>style.scss</em>.</p>
+	</div>
+</div>
+
+<div class="filler">&nbsp;</div>
+
+<div class="row steps">
+	<div class="small4 large2 col">
+		<h2>4. Add your webfonts/javascript</h2>
+	</div>
+	<div class="small4 large6 col">
+		<p>If you don't need additional javascript (jQuery 1.x goes by default) or webfonts, move to the next point.</p>
+		<p>If you do need to add stuff, edit the file <em>templates > includes > head.liquid</em>.</p>
+	</div>
+</div>
+
+<div class="filler">&nbsp;</div>
+
+<div class="row steps">
+	<div class="small4 large2 col">
+		<h2>5. Check your site looks fine</h2>
+	</div>
+	<div class="small4 large6 col">
+		<p>By now the site should look like quite like you intented. Unless something is broken. Which is quite likely as this is purely an experiment. If that happens, open an issue on github, or <a href="https://twitter.com/nordic">get in touch via Twitter</a>.</p>
+	</div>
+</div>
+
+<div class="filler">&nbsp;</div>
+
+<div class="row steps">
+	<div class="small4 large2 col">
+		<h2>6. Let your content shine</h2>
+	</div>
+	<div class="small4 large6 col">
+		<p>Now that everything works fine, it's time to add your content. <strong>You'll be mainly editing, adding and deleting files under the **collections** folder</strong>.</p>
+		<p>There are four folders (blocks, elements, layouts, strategy). As you can imagine, adding or deleting <em>.liquid</em> files will change the content of those categories. Navigation will be generated on the fly by Mixture.</p>
+		<p>So start editing files, creating new ones (just follow the <a href="http://docs.mixture.io/collections">Mixture documentation</a>), and deleting what you don't need.</p>
+		<p>At some point you will like to explore the <em>templates</em> folder, where you could edit the homepage (index.liquid) and other stuff. Hopefully by now you won't need this guide anymore.</p>
+	</div>
+</div>
+
+<p>Have fun using this boilerplate! For comments, complaints or suggestions simply <a href="https://twitter.com/nordic">drop me a line</a>.</p>
+
+
+            
+            <footer>
+	<p class="right"><a href="#theNorth">Back to top</a></p>
+	<p>A front-end style guide by <a href="http://www.nordic-design.net">Alex Lillo</a>, based on the <a href="http://mixture.io/">Mixture</a> framework. <a href="https://github.com/Nordicdesign/duct">Fork it on Github</a>.</p>
+	<p>Questions? Find me on <a href="https://twitter.com/nordic">Twitter</a>.</p>
+
+</footer>
+        </div>
+        <!-- Script block allowing child pages to inject their own scripts -->
+        
+        <script src="app.js"></script>
+    </body>
+</html>
