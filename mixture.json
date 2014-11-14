@@ -1,6 +1,6 @@
 {
   "convertHtml": {
-    "relativePaths": false
+    "relativePaths": true
   },
   "debug": false,
   "domain": null,
@@ -11,7 +11,7 @@
   ],
   "preprocessorScriptOutput": "assets/scripts",
   "preprocessorStyleOutput": "assets/css",
-  "projectDescription": "A boilerplate to create a front-end style guide",
+  "projectDescription": "A boilerplate to create front-end style guides",
   "projectName": "Duct",
   "publishedId": null,
   "serverHostname": null,
