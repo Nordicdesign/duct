@@ -18,6 +18,20 @@
     "url": "/elements"
   },
   {
+    "children": [
+      {
+        "directory": false,
+        "key": "index",
+        "name": "Index",
+        "url": "/examples/index"
+      }
+    ],
+    "directory": true,
+    "key": "examples",
+    "name": "Examples",
+    "url": "/examples"
+  },
+  {
     "directory": false,
     "key": "how-it-works",
     "name": "How It Works",

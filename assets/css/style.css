@@ -454,6 +454,10 @@ header {
     header .title a {
       color: #fff;
       border: none; }
+  header .primaryNav {
+    position: fixed;
+    right: 10px;
+    line-height: 3rem; }
   header nav li {
     float: left;
     list-style-type: none;
